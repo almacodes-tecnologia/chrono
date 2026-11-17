@@ -1,0 +1,41 @@
+{
+  "id": "license_e",
+  "nombre": "Licencia E",
+  "rango": "E",
+  "descripcion": "Solo los conductores más experimentados pueden sobrevivir a las condiciones extremas de circulación.",
+
+  "requisitos_desbloqueo": {
+    "licencia_id": "license_d"
+  },
+
+  "pruebas": [
+    {
+      "id": "e_traffic_survival",
+      "nombre": "Supervivencia en carretera",
+      "descripcion": "Recorre una enorme distancia entre tráfico extremadamente denso y vehículos a gran velocidad.",
+
+      "objetivo": {
+        "tipo": "distancia",
+        "valor": 10000
+      },
+
+      "configuracion": {
+        "numero_carriles": 4,
+        "velocidad_inicial": 165,
+        "velocidad_maxima": 200,
+        "densidad_trafico": 5,
+        "velocidad_trafico_min": 85,
+        "velocidad_trafico_max": 150,
+        "frecuencia_generacion": 0.7
+      }
+    }
+  ],
+
+  "recompensa_monedas": 7000,
+
+  "desbloqueos": {
+    "licencias": [
+      "license_s"
+    ]
+  }
+}

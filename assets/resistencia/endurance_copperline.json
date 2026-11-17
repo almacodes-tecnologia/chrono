@@ -1,0 +1,16 @@
+{
+  "id": "endurance_copperline",
+  "nombre": "Copperline Endurance",
+  "descripcion": "Una prueba de resistencia en la que tendrás que completar una larga distancia sin abandonar.",
+
+  "circuito_id": "copperline_park",
+  "vueltas": 80,
+
+  "precio": 0,
+  "requisitos_desbloqueo": {
+    "licencia_id": "license_b"
+  },
+
+  "recompensa_monedas": 500,
+  "nivel": 3
+}

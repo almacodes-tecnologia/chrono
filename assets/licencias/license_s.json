@@ -2,37 +2,38 @@
   "id": "license_s",
   "nombre": "Licencia S",
   "rango": "S",
-  "descripcion": "La máxima categoría. Supera el puerto helado sin perder tiempo ni control.",
+  "descripcion": "La licencia definitiva. Una prueba extrema reservada a quienes dominan completamente la conducción entre tráfico.",
+
   "requisitos_desbloqueo": {
-    "license_ids": [
-      "license_a"
-    ],
-    "campeonatos_ids": []
+    "licencia_id": "license_e"
   },
+
   "pruebas": [
     {
-      "id": "s_frostbite_trial",
-      "nombre": "El último descenso",
-      "descripcion": "Completa Frostbite Pass, una ruta punto a punto con nieve, hielo y roca.",
-      "circuito_id": "frostbite_pass",
-      "modalidad": "contrarreloj",
-      "categorias_vehiculos_permitidas": [
-        "rally",
-        "todoterreno",
-        "camion",
-        "autobus",
-        "tractor"
-      ],
-      "tiempos_medallas_ms": {
-        "bronce": 315000,
-        "plata": 288000,
-        "oro": 264000
+      "id": "s_ultimate_survival",
+      "nombre": "El desafío definitivo",
+      "descripcion": "Sobrevive a una circulación extrema durante un recorrido de larga distancia. No hay margen para cometer errores.",
+
+      "objetivo": {
+        "tipo": "distancia",
+        "valor": 15000
       },
-      "tiempo_max_fuera_pista_ms": 30000
+
+      "configuracion": {
+        "numero_carriles": 4,
+        "velocidad_inicial": 190,
+        "velocidad_maxima": 230,
+        "densidad_trafico": 6,
+        "velocidad_trafico_min": 100,
+        "velocidad_trafico_max": 180,
+        "frecuencia_generacion": 0.55
+      }
     }
   ],
-  "recompensas": {
-    "monedas": 15000,
-    "desbloqueos": []
+
+  "recompensa_monedas": 10000,
+
+  "desbloqueos": {
+    "licencias": []
   }
 }

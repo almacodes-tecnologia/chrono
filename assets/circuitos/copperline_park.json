@@ -4,102 +4,112 @@
   "descripcion": "Circuito de iniciación rápido y legible, con curvas amplias y asfalto uniforme.",
   "categoria": "circuito",
   "modalidad": "vueltas",
+"recompensa_monedas": 100
   "precio": 0,
   "requisitos_desbloqueo": {
-    "licencia_id": null,
-    "circuitos_completados_ids": [],
-    "campeonato_id": null
+    "licencia_id": null
   },
-  "dificultad": 1,
+  "nivel": 1,
   "ruta": {
-    "cerrado": true,
-    "anchura_pista_m": 18,
-    "vueltas_por_defecto": 3,
-    "indice_salida": 0,
-    "indice_meta": 0,
     "puntos_ruta": [
       {
         "x": 0,
         "y": 0,
+        "anchura_m": 18,
         "superficie_id": "asfalto"
       },
       {
         "x": 180,
         "y": -8,
+        "anchura_m": 18,
         "superficie_id": "asfalto"
       },
       {
         "x": 330,
         "y": 18,
+        "anchura_m": 18,
         "superficie_id": "asfalto"
       },
       {
         "x": 430,
         "y": 100,
+        "anchura_m": 17,
         "superficie_id": "asfalto"
       },
       {
         "x": 448,
         "y": 220,
+        "anchura_m": 17,
         "superficie_id": "asfalto"
       },
       {
         "x": 390,
         "y": 330,
+        "anchura_m": 17,
         "superficie_id": "asfalto"
       },
       {
         "x": 250,
         "y": 380,
+        "anchura_m": 18,
         "superficie_id": "asfalto"
       },
       {
         "x": 95,
         "y": 370,
+        "anchura_m": 18,
         "superficie_id": "asfalto"
       },
       {
         "x": -30,
         "y": 300,
+        "anchura_m": 17,
         "superficie_id": "asfalto"
       },
       {
         "x": -72,
         "y": 190,
+        "anchura_m": 17,
         "superficie_id": "asfalto"
       },
       {
         "x": -55,
         "y": 75,
+        "anchura_m": 18,
         "superficie_id": "asfalto"
       },
       {
         "x": -5,
         "y": 18,
+        "anchura_m": 18,
         "superficie_id": "asfalto"
       }
-    ],
-    "indices_puntos_control": [
-      3,
-      6,
-      9
     ]
   },
-  "barreras": {
-    "activadas": true,
-    "estilo": "valla_pintada",
-    "desplazamiento_m": 2.0
+
+  "vueltas_por_defecto": 3,
+
+  "zona_escape": {
+    "anchura_m": 3.0,
+    "superficie_id": "hierba",
+    "penalizacion_adicional": 0.35,
+    "permite_circular": true,
+    "limite_exterior": true
   },
+
   "entorno": {
     "tematica": "parque_costero",
     "color_terreno": "#477A4A",
+    "clima": "despejado",
+    "iluminacion": "dia",
+    "densidad_decoracion": 3,
     "elementos_decorativos": [
       "pinos",
       "arbustos_bajos",
       "gradas"
-    ],
-    "clima": "despejado"
+    ]
   },
+
   "categorias_vehiculos_recomendadas": [
     "compacto",
     "deportivo",

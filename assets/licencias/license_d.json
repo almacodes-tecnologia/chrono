@@ -2,34 +2,40 @@
   "id": "license_d",
   "nombre": "Licencia D",
   "rango": "D",
-  "descripcion": "Primera licencia. Demuestra que puedes completar un circuito y controlar el vehículo.",
+  "descripcion": "Conducción avanzada. El tráfico intenso y las altas velocidades pondrán a prueba tus reflejos.",
+
   "requisitos_desbloqueo": {
-    "license_ids": [],
-    "campeonatos_ids": []
+    "licencia_id": "license_c"
   },
+
   "pruebas": [
     {
-      "id": "d_copperline_trial",
-      "nombre": "Vuelta de iniciación",
-      "descripcion": "Completa dos vueltas en Copperline Park dentro del tiempo objetivo.",
-      "circuito_id": "copperline_park",
-      "modalidad": "contrarreloj",
-      "vueltas": 2,
-      "categorias_vehiculos_permitidas": [
-        "compacto"
-      ],
-      "tiempos_medallas_ms": {
-        "bronce": 150000,
-        "plata": 138000,
-        "oro": 128000
+      "id": "d_highway_expert",
+      "nombre": "Autopista extrema",
+      "descripcion": "Atraviesa una autopista congestionada a gran velocidad sin perder el control.",
+
+      "objetivo": {
+        "tipo": "distancia",
+        "valor": 7000
       },
-      "tiempo_max_fuera_pista_ms": 18000
+
+      "configuracion": {
+        "numero_carriles": 4,
+        "velocidad_inicial": 145,
+        "velocidad_maxima": 175,
+        "densidad_trafico": 4,
+        "velocidad_trafico_min": 70,
+        "velocidad_trafico_max": 130,
+        "frecuencia_generacion": 0.8
+      }
     }
   ],
-  "recompensas": {
-    "monedas": 2500,
-    "desbloqueos": [
-      "license_c"
+
+  "recompensa_monedas": 5000,
+
+  "desbloqueos": {
+    "licencias": [
+      "license_e"
     ]
   }
 }

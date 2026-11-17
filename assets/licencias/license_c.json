@@ -2,40 +2,40 @@
   "id": "license_c",
   "nombre": "Licencia C",
   "rango": "C",
-  "descripcion": "Prueba de rally de nivel intermedio. Se valora la regularidad sobre superficies sueltas.",
+  "descripcion": "La circulación se vuelve exigente. Necesitarás anticiparte a los movimientos del tráfico y reaccionar rápidamente.",
+
   "requisitos_desbloqueo": {
-    "license_ids": [
-      "license_d"
-    ],
-    "campeonatos_ids": []
+    "licencia_id": "license_b"
   },
+
   "pruebas": [
     {
-      "id": "c_dust_canyon_trial",
-      "nombre": "Polvo y grava",
-      "descripcion": "Completa dos vueltas en Dust Canyon Rally manteniendo el control fuera del asfalto.",
-      "circuito_id": "dust_canyon",
-      "modalidad": "contrarreloj",
-      "vueltas": 2,
-      "categorias_vehiculos_permitidas": [
-        "compacto",
-        "deportivo",
-        "rally",
-        "todoterreno",
-        "kart"
-      ],
-      "tiempos_medallas_ms": {
-        "bronce": 210000,
-        "plata": 192000,
-        "oro": 176000
+      "id": "c_traffic_mastery",
+      "nombre": "Carretera saturada",
+      "descripcion": "Supera un recorrido exigente entre vehículos rápidos y tráfico denso.",
+
+      "objetivo": {
+        "tipo": "distancia",
+        "valor": 5000
       },
-      "tiempo_max_fuera_pista_ms": 22000
+
+      "configuracion": {
+        "numero_carriles": 4,
+        "velocidad_inicial": 120,
+        "velocidad_maxima": 150,
+        "densidad_trafico": 3,
+        "velocidad_trafico_min": 60,
+        "velocidad_trafico_max": 110,
+        "frecuencia_generacion": 0.95
+      }
     }
   ],
-  "recompensas": {
-    "monedas": 4000,
-    "desbloqueos": [
-      "license_b"
+
+  "recompensa_monedas": 3500,
+
+  "desbloqueos": {
+    "licencias": [
+      "license_d"
     ]
   }
 }

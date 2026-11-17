@@ -2,39 +2,40 @@
   "id": "license_a",
   "nombre": "Licencia A",
   "rango": "A",
-  "descripcion": "Licencia experta. Exige adaptarse a un recorrido largo con cambios constantes de superficie.",
+  "descripcion": "Primeros pasos en la conducción entre tráfico.",
+
   "requisitos_desbloqueo": {
-    "license_ids": [
-      "license_b"
-    ],
-    "campeonatos_ids": []
+    "licencia_id": null
   },
+
   "pruebas": [
     {
-      "id": "a_red_dune_trial",
-      "nombre": "A través de las dunas",
-      "descripcion": "Completa Red Dune Sprint, una prueba punto a punto de arena, grava y roca.",
-      "circuito_id": "red_dune_sprint",
-      "modalidad": "contrarreloj",
-      "categorias_vehiculos_permitidas": [
-        "rally",
-        "todoterreno",
-        "camion",
-        "motocicleta",
-        "tractor"
-      ],
-      "tiempos_medallas_ms": {
-        "bronce": 260000,
-        "plata": 238000,
-        "oro": 218000
+      "id": "d_traffic_basics",
+      "nombre": "Tráfico urbano",
+      "descripcion": "Aprende a circular y esquivar vehículos en una carretera de varios carriles.",
+
+      "objetivo": {
+        "tipo": "distancia",
+        "valor": 1500
       },
-      "tiempo_max_fuera_pista_ms": 26000
+
+      "configuracion": {
+        "numero_carriles": 3,
+        "velocidad_inicial": 80,
+        "velocidad_maxima": 100,
+        "densidad_trafico": 1,
+        "velocidad_trafico_min": 40,
+        "velocidad_trafico_max": 75,
+        "frecuencia_generacion": 1.5
+      }
     }
   ],
-  "recompensas": {
-    "monedas": 9000,
-    "desbloqueos": [
-      "license_s"
+
+  "recompensa_monedas": 1000,
+
+  "desbloqueos": {
+    "licencias": [
+      "license_c"
     ]
   }
 }
