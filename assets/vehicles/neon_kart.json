@@ -1,0 +1,54 @@
+{
+  "id": "neon_kart",
+  "name": "Neon Kart",
+  "description": "Kart muy ligero y ágil. Excelente respuesta en trazados compactos, pero poco adecuado para terrenos difíciles.",
+  "category": "kart",
+  "manufacturer": "Neon Circuit",
+  "price": 12000,
+  "starter_vehicle": false,
+  "unlock_requirements": {
+    "license_id": "license_d",
+    "completed_track_ids": [],
+    "championship_id": null
+  },
+  "performance": {
+    "power_kw": 42,
+    "weight_kg": 165,
+    "aerodynamics": 42,
+    "surface_resistance": {
+      "asphalt": 0.82,
+      "rough_asphalt": 0.94,
+      "gravel": 1.38,
+      "dirt": 1.48,
+      "sand": 1.68,
+      "grass": 1.56,
+      "mud": 1.82,
+      "snow": 1.7,
+      "ice": 1.84,
+      "rock": 1.9
+    },
+    "offroad_penalty": 0.58
+  },
+  "handling": {
+    "steering_response": 96,
+    "turn_rate_multiplier": 1.3
+  },
+  "dimensions": {
+    "length_m": 1.82,
+    "width_m": 1.34,
+    "height_m": 0.78,
+    "visual_scale": 0.82
+  },
+  "visual": {
+    "renderer": "car",
+    "body_style": "kart",
+    "primary_color": "#A64DFF",
+    "secondary_color": "#171923",
+    "accent_color": "#43F0D0",
+    "details": [
+      "chasis tubular visible",
+      "alerón trasero pequeño",
+      "ruedas expuestas"
+    ]
+  }
+}

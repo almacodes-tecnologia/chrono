@@ -1,0 +1,55 @@
+{
+  "id": "terra_4x4",
+  "name": "Terra 4x4",
+  "description": "Todoterreno pesado con gran rendimiento sobre tierra, barro y superficies irregulares.",
+  "category": "offroad",
+  "manufacturer": "Irontrail",
+  "price": 28000,
+  "starter_vehicle": false,
+  "unlock_requirements": {
+    "license_id": "license_c",
+    "completed_track_ids": [],
+    "championship_id": null
+  },
+  "performance": {
+    "power_kw": 168,
+    "weight_kg": 1840,
+    "aerodynamics": 38,
+    "surface_resistance": {
+      "asphalt": 1.18,
+      "rough_asphalt": 1.12,
+      "gravel": 0.88,
+      "dirt": 0.82,
+      "sand": 0.96,
+      "grass": 0.94,
+      "mud": 0.86,
+      "snow": 0.9,
+      "ice": 1.18,
+      "rock": 0.84
+    },
+    "offroad_penalty": 0.1
+  },
+  "handling": {
+    "steering_response": 62,
+    "turn_rate_multiplier": 0.82
+  },
+  "dimensions": {
+    "length_m": 4.48,
+    "width_m": 1.98,
+    "height_m": 1.92,
+    "visual_scale": 1.1
+  },
+  "visual": {
+    "renderer": "car",
+    "body_style": "offroad_4x4",
+    "primary_color": "#6D8B45",
+    "secondary_color": "#242A25",
+    "accent_color": "#D8C9A3",
+    "details": [
+      "ruedas todoterreno grandes",
+      "protección frontal",
+      "rueda de repuesto trasera",
+      "baca superior"
+    ]
+  }
+}

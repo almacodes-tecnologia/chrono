@@ -1,0 +1,41 @@
+{
+  "id": "license_b",
+  "name": "Licencia B",
+  "rank": "B",
+  "description": "Licencia avanzada para pilotos capaces de mantener ritmo en trazados rápidos y técnicos.",
+  "unlock_requirements": {
+    "license_ids": [
+      "license_c"
+    ],
+    "championship_ids": []
+  },
+  "tests": [
+    {
+      "id": "b_green_valley_trial",
+      "name": "Ritmo de competición",
+      "description": "Completa tres vueltas en Green Valley Raceway con un tiempo competitivo.",
+      "track_id": "green_valley",
+      "mode": "time_trial",
+      "laps": 3,
+      "allowed_vehicle_categories": [
+        "sport",
+        "rally",
+        "offroad",
+        "kart",
+        "motorcycle"
+      ],
+      "medal_times_ms": {
+        "bronze": 235000,
+        "silver": 215000,
+        "gold": 198000
+      },
+      "max_off_track_time_ms": 20000
+    }
+  ],
+  "rewards": {
+    "coins": 6000,
+    "unlocks": [
+      "license_a"
+    ]
+  }
+}

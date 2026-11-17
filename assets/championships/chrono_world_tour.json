@@ -1,0 +1,43 @@
+{
+  "id": "chrono_world_tour",
+  "name": "Chrono World Tour",
+  "description": "La competición principal. Tres escenarios muy distintos en un mismo intento de campeonato.",
+  "category": "elite",
+  "unlock_requirements": {
+    "license_id": "license_a",
+    "championship_ids": [
+      "dirt_masters"
+    ]
+  },
+  "rules": {
+    "scoring": "cumulative_elapsed_time",
+    "same_vehicle_required": true,
+    "drop_worst_result": false
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "track_id": "green_valley",
+      "laps": 3
+    },
+    {
+      "round": 2,
+      "track_id": "red_dune_sprint"
+    },
+    {
+      "round": 3,
+      "track_id": "frostbite_pass"
+    }
+  ],
+  "medal_times_ms": {
+    "bronze": 790000,
+    "silver": 735000,
+    "gold": 680000
+  },
+  "rewards": {
+    "completion_coins": 8000,
+    "bronze_bonus_coins": 2000,
+    "silver_bonus_coins": 3500,
+    "gold_bonus_coins": 5500
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "agro_tractor",
+  "name": "Fieldmaster 80",
+  "description": "Tractor agrícola adaptado a carreras de exhibición. Lento, estable y especialmente competente sobre barro.",
+  "category": "tractor",
+  "manufacturer": "Fieldmaster",
+  "price": 30000,
+  "starter_vehicle": false,
+  "unlock_requirements": {
+    "license_id": "license_a",
+    "completed_track_ids": [],
+    "championship_id": null
+  },
+  "performance": {
+    "power_kw": 92,
+    "weight_kg": 4100,
+    "aerodynamics": 18,
+    "surface_resistance": {
+      "asphalt": 1.36,
+      "rough_asphalt": 1.28,
+      "gravel": 1.04,
+      "dirt": 0.94,
+      "sand": 1.12,
+      "grass": 0.92,
+      "mud": 0.82,
+      "snow": 1.12,
+      "ice": 1.48,
+      "rock": 1.2
+    },
+    "offroad_penalty": 0.12
+  },
+  "handling": {
+    "steering_response": 38,
+    "turn_rate_multiplier": 0.58
+  },
+  "dimensions": {
+    "length_m": 4.05,
+    "width_m": 2.12,
+    "height_m": 2.65,
+    "visual_scale": 1.18
+  },
+  "visual": {
+    "renderer": "tractor",
+    "body_style": "agricultural_tractor",
+    "primary_color": "#D94B3D",
+    "secondary_color": "#24282D",
+    "accent_color": "#E6D8A7",
+    "details": [
+      "ruedas traseras sobredimensionadas",
+      "escape vertical",
+      "capó corto"
+    ]
+  }
+}

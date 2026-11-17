@@ -1,0 +1,54 @@
+{
+  "id": "starter_comet",
+  "name": "Comet S",
+  "description": "Compacto ligero y equilibrado, pensado para aprender los fundamentos de Chrono.",
+  "category": "compact",
+  "manufacturer": "Northstar Works",
+  "price": 0,
+  "starter_vehicle": true,
+  "unlock_requirements": {
+    "license_id": null,
+    "completed_track_ids": [],
+    "championship_id": null
+  },
+  "performance": {
+    "power_kw": 78,
+    "weight_kg": 940,
+    "aerodynamics": 54,
+    "surface_resistance": {
+      "asphalt": 1.0,
+      "rough_asphalt": 1.08,
+      "gravel": 1.22,
+      "dirt": 1.28,
+      "sand": 1.42,
+      "grass": 1.35,
+      "mud": 1.48,
+      "snow": 1.4,
+      "ice": 1.52,
+      "rock": 1.55
+    },
+    "offroad_penalty": 0.34
+  },
+  "handling": {
+    "steering_response": 72,
+    "turn_rate_multiplier": 1.0
+  },
+  "dimensions": {
+    "length_m": 3.85,
+    "width_m": 1.72,
+    "height_m": 1.48,
+    "visual_scale": 1.0
+  },
+  "visual": {
+    "renderer": "car",
+    "body_style": "compact_hatchback",
+    "primary_color": "#28B7E8",
+    "secondary_color": "#E8F4FA",
+    "accent_color": "#102B3A",
+    "details": [
+      "faros delanteros cuadrados",
+      "alerón trasero pequeño",
+      "llantas de cinco radios"
+    ]
+  }
+}

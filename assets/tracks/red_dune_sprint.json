@@ -1,0 +1,119 @@
+{
+  "id": "red_dune_sprint",
+  "name": "Red Dune Sprint",
+  "description": "Prueba punto a punto que atraviesa dunas y lechos de grava. La arena penaliza especialmente a los vehículos de carretera.",
+  "category": "point_to_point",
+  "mode": "point_to_point",
+  "price": 18000,
+  "unlock_requirements": {
+    "license_id": "license_b",
+    "completed_track_ids": [],
+    "championship_id": null
+  },
+  "difficulty": 4,
+  "route": {
+    "closed": false,
+    "track_width_m": 17,
+    "start_waypoint_index": 0,
+    "finish_waypoint_index": 13,
+    "waypoints": [
+      {
+        "x": 0,
+        "y": 0,
+        "surface_id": "gravel"
+      },
+      {
+        "x": 120,
+        "y": -30,
+        "surface_id": "gravel"
+      },
+      {
+        "x": 240,
+        "y": -5,
+        "surface_id": "sand"
+      },
+      {
+        "x": 350,
+        "y": 65,
+        "surface_id": "sand"
+      },
+      {
+        "x": 440,
+        "y": 155,
+        "surface_id": "sand"
+      },
+      {
+        "x": 520,
+        "y": 245,
+        "surface_id": "rock"
+      },
+      {
+        "x": 640,
+        "y": 285,
+        "surface_id": "gravel"
+      },
+      {
+        "x": 760,
+        "y": 250,
+        "surface_id": "sand"
+      },
+      {
+        "x": 850,
+        "y": 170,
+        "surface_id": "sand"
+      },
+      {
+        "x": 940,
+        "y": 95,
+        "surface_id": "gravel"
+      },
+      {
+        "x": 1060,
+        "y": 80,
+        "surface_id": "rock"
+      },
+      {
+        "x": 1170,
+        "y": 135,
+        "surface_id": "sand"
+      },
+      {
+        "x": 1280,
+        "y": 225,
+        "surface_id": "gravel"
+      },
+      {
+        "x": 1400,
+        "y": 250,
+        "surface_id": "gravel"
+      }
+    ],
+    "checkpoint_indices": [
+      3,
+      6,
+      9,
+      11
+    ]
+  },
+  "barriers": {
+    "enabled": false,
+    "style": "none",
+    "offset_m": 0
+  },
+  "environment": {
+    "theme": "red_dunes",
+    "ground_color": "#B87945",
+    "decoration_set": [
+      "sand_dunes",
+      "desert_rocks",
+      "dry_grass"
+    ],
+    "weather": "hot"
+  },
+  "recommended_vehicle_categories": [
+    "rally",
+    "offroad",
+    "truck",
+    "tractor"
+  ]
+}

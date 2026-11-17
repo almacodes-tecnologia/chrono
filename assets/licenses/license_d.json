@@ -1,0 +1,35 @@
+{
+  "id": "license_d",
+  "name": "Licencia D",
+  "rank": "D",
+  "description": "Primera licencia. Demuestra que puedes completar un circuito y controlar el vehículo.",
+  "unlock_requirements": {
+    "license_ids": [],
+    "championship_ids": []
+  },
+  "tests": [
+    {
+      "id": "d_copperline_trial",
+      "name": "Vuelta de iniciación",
+      "description": "Completa dos vueltas en Copperline Park dentro del tiempo objetivo.",
+      "track_id": "copperline_park",
+      "mode": "time_trial",
+      "laps": 2,
+      "allowed_vehicle_categories": [
+        "compact"
+      ],
+      "medal_times_ms": {
+        "bronze": 150000,
+        "silver": 138000,
+        "gold": 128000
+      },
+      "max_off_track_time_ms": 18000
+    }
+  ],
+  "rewards": {
+    "coins": 2500,
+    "unlocks": [
+      "license_c"
+    ]
+  }
+}

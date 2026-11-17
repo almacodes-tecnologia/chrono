@@ -1,0 +1,41 @@
+{
+  "id": "license_c",
+  "name": "Licencia C",
+  "rank": "C",
+  "description": "Prueba de rally de nivel intermedio. Se valora la regularidad sobre superficies sueltas.",
+  "unlock_requirements": {
+    "license_ids": [
+      "license_d"
+    ],
+    "championship_ids": []
+  },
+  "tests": [
+    {
+      "id": "c_dust_canyon_trial",
+      "name": "Polvo y grava",
+      "description": "Completa dos vueltas en Dust Canyon Rally manteniendo el control fuera del asfalto.",
+      "track_id": "dust_canyon",
+      "mode": "time_trial",
+      "laps": 2,
+      "allowed_vehicle_categories": [
+        "compact",
+        "sport",
+        "rally",
+        "offroad",
+        "kart"
+      ],
+      "medal_times_ms": {
+        "bronze": 210000,
+        "silver": 192000,
+        "gold": 176000
+      },
+      "max_off_track_time_ms": 22000
+    }
+  ],
+  "rewards": {
+    "coins": 4000,
+    "unlocks": [
+      "license_b"
+    ]
+  }
+}

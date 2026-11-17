@@ -1,0 +1,55 @@
+{
+  "id": "rally_wolf",
+  "name": "Wolf R5",
+  "description": "Coche de rally compacto, preparado para enlazar curvas y cambiar de superficie con rapidez.",
+  "category": "rally",
+  "manufacturer": "Gravelock Motorsport",
+  "price": 24000,
+  "starter_vehicle": false,
+  "unlock_requirements": {
+    "license_id": "license_c",
+    "completed_track_ids": [],
+    "championship_id": null
+  },
+  "performance": {
+    "power_kw": 158,
+    "weight_kg": 1090,
+    "aerodynamics": 68,
+    "surface_resistance": {
+      "asphalt": 0.96,
+      "rough_asphalt": 0.94,
+      "gravel": 0.91,
+      "dirt": 0.88,
+      "sand": 1.08,
+      "grass": 1.1,
+      "mud": 1.14,
+      "snow": 1.02,
+      "ice": 1.2,
+      "rock": 1.16
+    },
+    "offroad_penalty": 0.2
+  },
+  "handling": {
+    "steering_response": 88,
+    "turn_rate_multiplier": 1.15
+  },
+  "dimensions": {
+    "length_m": 4.05,
+    "width_m": 1.82,
+    "height_m": 1.46,
+    "visual_scale": 1.02
+  },
+  "visual": {
+    "renderer": "rally",
+    "body_style": "rally_hatchback",
+    "primary_color": "#F4D03F",
+    "secondary_color": "#1E3557",
+    "accent_color": "#F7F7F7",
+    "details": [
+      "guardabarros ensanchados",
+      "faldones de rally",
+      "focos auxiliares delanteros",
+      "alerón elevado"
+    ]
+  }
+}
