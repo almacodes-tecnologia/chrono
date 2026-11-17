@@ -1,54 +1,102 @@
 {
   "id": "falcon_gt",
   "nombre": "Falcon GT",
-  "descripcion": "Deportivo de carretera con buena aceleración y una carrocería estable en curvas rápidas.",
+  "descripcion": "Deportivo de altas prestaciones con gran potencia y excelente comportamiento sobre asfalto. Su menor versatilidad lo hace menos adecuado para terrenos irregulares.",
   "categoria": "deportivo",
-  "fabricante": "Apex Automotive",
-  "precio": 18000,
+  "fabricante": "Northstar Works",
+
+  "precio": 100,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
-    "licencia_id": "license_d",
-    "circuitos_completados_ids": [],
-    "campeonato_id": null
+    "licencia_id": null
   },
+
   "rendimiento": {
-    "potencia_kw": 176,
-    "peso_kg": 1180,
-    "aerodinamica": 88,
+    "potencia_kw": 165,
+    "peso_kg": 1120,
+    "aerodinamica": 82,
     "resistencia_superficies": {
-      "asfalto": 0.88,
-      "asfalto_rugoso": 0.98,
+      "asfalto": 1.0,
+      "asfalto_rugoso": 1.06,
       "grava": 1.32,
       "tierra": 1.42,
       "arena": 1.62,
-      "hierba": 1.48,
+      "hierba": 1.5,
       "barro": 1.72,
-      "nieve": 1.62,
+      "nieve": 1.65,
       "hielo": 1.78,
       "roca": 1.8
     },
     "penalizacion_fuera_pista": 0.48
   },
+
   "manejo": {
     "respuesta_direccion": 78,
-    "multiplicador_giro": 1.04
+    "multiplicador_giro": 0.92,
+    "eficacia_frenada": 82
   },
+
   "dimensiones": {
-    "longitud_m": 4.32,
+    "longitud_m": 4.42,
     "anchura_m": 1.86,
-    "altura_m": 1.22,
-    "escala_visual": 1.04
+    "altura_m": 1.24,
+    "escala_visual": 1.05
   },
+
   "visual": {
     "renderizador": "coche",
-    "estilo_carroceria": "coupé_deportivo",
-    "color_principal": "#E8493F",
-    "color_secundario": "#20242B",
-    "color_acento": "#F6C85F",
-    "detalles": [
-      "capó alargado",
-      "alerón integrado",
-      "dos escapes traseros"
+    "vista": "cenital",
+    "estilo_carroceria": "deportivo",
+
+    "proporciones": {
+      "anchura": 0.48,
+      "altura_visual": 0.31,
+      "posicion_cabina": 0.43
+    },
+
+    "carroceria": {
+      "forma": "deportiva_alargada",
+      "morro": "afilado",
+      "trasera": "ancha",
+      "aleron": "deportivo",
+      "paragolpes": "aerodinamico"
+    },
+
+    "cristales": {
+      "parabrisas": "inclinado",
+      "luneta_trasera": "estrecha",
+      "brillo": true
+    },
+
+    "ruedas": {
+      "tipo": "deportivas_multirradio",
+      "color_neumatico": "#17191D",
+      "color_llanta": "#D5D9DE",
+      "tamano": 0.17
+    },
+
+    "faros": {
+      "tipo": "alargados"
+    },
+
+    "colores": {
+      "principal": "#D83B42",
+      "secundario": "#F1F1F1",
+      "acento": "#252A32",
+      "cristales": "#263B50",
+      "faros": "#F5F4DC"
+    },
+
+    "acabado": {
+      "sombras": true,
+      "reflejos": true,
+      "contorno": true,
+      "nivel_detalle": 4
+    },
+
+    "accesorios": [
+      "escape_trasero",
+      "aleron_deportivo"
     ]
   }
 }

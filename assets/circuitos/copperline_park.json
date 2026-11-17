@@ -5,9 +5,9 @@
   "categoria": "circuito",
   "modalidad": "vueltas",
 "recompensa_monedas": 100
-  "precio": 0,
+  "precio": 1,
   "requisitos_desbloqueo": {
-    "licencia_id": null
+    "licencia_id": "A"
   },
   "nivel": 1,
   "ruta": {

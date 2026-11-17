@@ -7,7 +7,7 @@
   "recompensa_monedas": 100,
   "precio": 0,
   "requisitos_desbloqueo": {
-    "licencia_id": null
+    "licencia_id": "license_a"
   },
   "nivel": 1,
   "ruta": {
