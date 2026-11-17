@@ -1,24 +1,10 @@
 {
-  "version_esquema": 1,
-  "version_contenido": 1,
   "vehiculos": [
-    "agro_tractor",
-    "atlas_truck",
-    "cityliner_bus",
-    "falcon_gt",
-    "neon_kart",
-    "police_interceptor",
-    "rally_wolf",
     "starter_comet",
-    "terra_4x4",
-    "trail_bicycle",
-    "viper_600"
+    "falcon_gt"
   ],
   "circuitos": [
     "copperline_park",
-    "dust_canyon",
-    "frostbite_pass",
-    "green_valley",
     "red_dune_sprint"
   ],
   "licencias": [
@@ -29,8 +15,9 @@
     "license_s"
   ],
   "campeonatos": [
-    "chrono_world_tour",
-    "dirt_masters",
-    "rookie_championship"
+    "chrono_world_tour"
+  ],
+    "resistencia": [
+    "endurance_copperline"
   ]
 }
