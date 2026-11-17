@@ -4,10 +4,10 @@
   "descripcion": "Circuito de iniciación rápido y legible, con curvas amplias y asfalto uniforme.",
   "categoria": "circuito",
   "modalidad": "vueltas",
-"recompensa_monedas": 100
+"recompensa_monedas": 100,
   "precio": 1,
   "requisitos_desbloqueo": {
-    "licencia_id": "A"
+    "licencia_id": "license_a"
   },
   "nivel": 1,
   "ruta": {
