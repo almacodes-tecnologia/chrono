@@ -1,0 +1,103 @@
+{
+  "id": "dust_canyon",
+  "nombre": "Dust Canyon Rally",
+  "descripcion": "Anillo de rally entre cañones, con tierra, grava y tramos de roca.",
+  "categoria": "rally",
+  "modalidad": "vueltas",
+  "precio": 9000,
+  "requisitos_desbloqueo": {
+    "licencia_id": "license_d",
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "dificultad": 2,
+  "ruta": {
+    "cerrado": true,
+    "anchura_pista_m": 16,
+    "vueltas_por_defecto": 2,
+    "indice_salida": 0,
+    "indice_meta": 0,
+    "puntos_ruta": [
+      {
+        "x": 0,
+        "y": 0,
+        "superficie_id": "grava"
+      },
+      {
+        "x": 150,
+        "y": -35,
+        "superficie_id": "grava"
+      },
+      {
+        "x": 285,
+        "y": -10,
+        "superficie_id": "tierra"
+      },
+      {
+        "x": 385,
+        "y": 80,
+        "superficie_id": "tierra"
+      },
+      {
+        "x": 420,
+        "y": 205,
+        "superficie_id": "roca"
+      },
+      {
+        "x": 360,
+        "y": 315,
+        "superficie_id": "tierra"
+      },
+      {
+        "x": 235,
+        "y": 365,
+        "superficie_id": "grava"
+      },
+      {
+        "x": 100,
+        "y": 340,
+        "superficie_id": "tierra"
+      },
+      {
+        "x": -20,
+        "y": 270,
+        "superficie_id": "tierra"
+      },
+      {
+        "x": -75,
+        "y": 160,
+        "superficie_id": "roca"
+      },
+      {
+        "x": -45,
+        "y": 65,
+        "superficie_id": "grava"
+      }
+    ],
+    "indices_puntos_control": [
+      3,
+      6,
+      8
+    ]
+  },
+  "barreras": {
+    "activadas": true,
+    "estilo": "borde_rocoso",
+    "desplazamiento_m": 1.5
+  },
+  "entorno": {
+    "tematica": "canon_rojo",
+    "color_terreno": "#9B6845",
+    "elementos_decorativos": [
+      "paredes_del_canon",
+      "matorral_seco",
+      "montones_de_rocas"
+    ],
+    "clima": "seco"
+  },
+  "categorias_vehiculos_recomendadas": [
+    "rally",
+    "todoterreno",
+    "camion"
+  ]
+}

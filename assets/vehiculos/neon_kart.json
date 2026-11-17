@@ -1,0 +1,54 @@
+{
+  "id": "neon_kart",
+  "nombre": "Neon Kart",
+  "descripcion": "Kart muy ligero y ágil. Excelente respuesta en trazados compactos, pero poco adecuado para terrenos difíciles.",
+  "categoria": "kart",
+  "fabricante": "Neon Circuit",
+  "precio": 12000,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": "license_d",
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 42,
+    "peso_kg": 165,
+    "aerodinamica": 42,
+    "resistencia_superficies": {
+      "asfalto": 0.82,
+      "asfalto_rugoso": 0.94,
+      "grava": 1.38,
+      "tierra": 1.48,
+      "arena": 1.68,
+      "hierba": 1.56,
+      "barro": 1.82,
+      "nieve": 1.7,
+      "hielo": 1.84,
+      "roca": 1.9
+    },
+    "penalizacion_fuera_pista": 0.58
+  },
+  "manejo": {
+    "respuesta_direccion": 96,
+    "multiplicador_giro": 1.3
+  },
+  "dimensiones": {
+    "longitud_m": 1.82,
+    "anchura_m": 1.34,
+    "altura_m": 0.78,
+    "escala_visual": 0.82
+  },
+  "visual": {
+    "renderizador": "coche",
+    "estilo_carroceria": "kart",
+    "color_principal": "#A64DFF",
+    "color_secundario": "#171923",
+    "color_acento": "#43F0D0",
+    "detalles": [
+      "chasis tubular visible",
+      "alerón trasero pequeño",
+      "ruedas expuestas"
+    ]
+  }
+}

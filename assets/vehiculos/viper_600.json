@@ -1,0 +1,54 @@
+{
+  "id": "viper_600",
+  "nombre": "Viper 600",
+  "descripcion": "Motocicleta deportiva de gran aceleración y tamaño reducido. Exige precisión en las curvas.",
+  "categoria": "motocicleta",
+  "fabricante": "Redline Moto",
+  "precio": 22000,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": "license_b",
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 112,
+    "peso_kg": 205,
+    "aerodinamica": 82,
+    "resistencia_superficies": {
+      "asfalto": 0.86,
+      "asfalto_rugoso": 1.02,
+      "grava": 1.42,
+      "tierra": 1.54,
+      "arena": 1.72,
+      "hierba": 1.62,
+      "barro": 1.88,
+      "nieve": 1.82,
+      "hielo": 1.94,
+      "roca": 1.96
+    },
+    "penalizacion_fuera_pista": 0.62
+  },
+  "manejo": {
+    "respuesta_direccion": 91,
+    "multiplicador_giro": 1.24
+  },
+  "dimensiones": {
+    "longitud_m": 2.08,
+    "anchura_m": 0.76,
+    "altura_m": 1.12,
+    "escala_visual": 0.9
+  },
+  "visual": {
+    "renderizador": "motocicleta",
+    "estilo_carroceria": "moto_deportiva",
+    "color_principal": "#E33E48",
+    "color_secundario": "#191D25",
+    "color_acento": "#F2F2F2",
+    "detalles": [
+      "carenado deportivo",
+      "dos retrovisores",
+      "escape lateral"
+    ]
+  }
+}

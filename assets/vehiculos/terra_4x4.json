@@ -1,0 +1,55 @@
+{
+  "id": "terra_4x4",
+  "nombre": "Terra 4x4",
+  "descripcion": "Todoterreno pesado con gran rendimiento sobre tierra, barro y superficies irregulares.",
+  "categoria": "todoterreno",
+  "fabricante": "Irontrail",
+  "precio": 28000,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": "license_c",
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 168,
+    "peso_kg": 1840,
+    "aerodinamica": 38,
+    "resistencia_superficies": {
+      "asfalto": 1.18,
+      "asfalto_rugoso": 1.12,
+      "grava": 0.88,
+      "tierra": 0.82,
+      "arena": 0.96,
+      "hierba": 0.94,
+      "barro": 0.86,
+      "nieve": 0.9,
+      "hielo": 1.18,
+      "roca": 0.84
+    },
+    "penalizacion_fuera_pista": 0.1
+  },
+  "manejo": {
+    "respuesta_direccion": 62,
+    "multiplicador_giro": 0.82
+  },
+  "dimensiones": {
+    "longitud_m": 4.48,
+    "anchura_m": 1.98,
+    "altura_m": 1.92,
+    "escala_visual": 1.1
+  },
+  "visual": {
+    "renderizador": "coche",
+    "estilo_carroceria": "todoterreno_4x4",
+    "color_principal": "#6D8B45",
+    "color_secundario": "#242A25",
+    "color_acento": "#D8C9A3",
+    "detalles": [
+      "ruedas todoterreno grandes",
+      "protección frontal",
+      "rueda de repuesto trasera",
+      "baca superior"
+    ]
+  }
+}

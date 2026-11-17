@@ -1,0 +1,54 @@
+{
+  "id": "falcon_gt",
+  "nombre": "Falcon GT",
+  "descripcion": "Deportivo de carretera con buena aceleración y una carrocería estable en curvas rápidas.",
+  "categoria": "deportivo",
+  "fabricante": "Apex Automotive",
+  "precio": 18000,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": "license_d",
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 176,
+    "peso_kg": 1180,
+    "aerodinamica": 88,
+    "resistencia_superficies": {
+      "asfalto": 0.88,
+      "asfalto_rugoso": 0.98,
+      "grava": 1.32,
+      "tierra": 1.42,
+      "arena": 1.62,
+      "hierba": 1.48,
+      "barro": 1.72,
+      "nieve": 1.62,
+      "hielo": 1.78,
+      "roca": 1.8
+    },
+    "penalizacion_fuera_pista": 0.48
+  },
+  "manejo": {
+    "respuesta_direccion": 78,
+    "multiplicador_giro": 1.04
+  },
+  "dimensiones": {
+    "longitud_m": 4.32,
+    "anchura_m": 1.86,
+    "altura_m": 1.22,
+    "escala_visual": 1.04
+  },
+  "visual": {
+    "renderizador": "coche",
+    "estilo_carroceria": "coupé_deportivo",
+    "color_principal": "#E8493F",
+    "color_secundario": "#20242B",
+    "color_acento": "#F6C85F",
+    "detalles": [
+      "capó alargado",
+      "alerón integrado",
+      "dos escapes traseros"
+    ]
+  }
+}

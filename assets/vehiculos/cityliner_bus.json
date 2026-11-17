@@ -1,0 +1,54 @@
+{
+  "id": "cityliner_bus",
+  "nombre": "Cityliner 12",
+  "descripcion": "Autobús urbano adaptado para una prueba arcade poco convencional. Grande y lento, pero resistente.",
+  "categoria": "autobus",
+  "fabricante": "Metrovia",
+  "precio": 42000,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": "license_a",
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 285,
+    "peso_kg": 9800,
+    "aerodinamica": 24,
+    "resistencia_superficies": {
+      "asfalto": 1.22,
+      "asfalto_rugoso": 1.18,
+      "grava": 1.18,
+      "tierra": 1.22,
+      "arena": 1.42,
+      "hierba": 1.38,
+      "barro": 1.48,
+      "nieve": 1.4,
+      "hielo": 1.58,
+      "roca": 1.52
+    },
+    "penalizacion_fuera_pista": 0.32
+  },
+  "manejo": {
+    "respuesta_direccion": 34,
+    "multiplicador_giro": 0.52
+  },
+  "dimensiones": {
+    "longitud_m": 11.8,
+    "anchura_m": 2.5,
+    "altura_m": 3.15,
+    "escala_visual": 1.42
+  },
+  "visual": {
+    "renderizador": "autobus",
+    "estilo_carroceria": "autobus_urbano",
+    "color_principal": "#2B9C84",
+    "color_secundario": "#E8E8E1",
+    "color_acento": "#F4C542",
+    "detalles": [
+      "ventanas panorámicas",
+      "dos ejes",
+      "panel frontal de destino"
+    ]
+  }
+}

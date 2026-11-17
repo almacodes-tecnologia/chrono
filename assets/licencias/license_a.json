@@ -1,0 +1,40 @@
+{
+  "id": "license_a",
+  "nombre": "Licencia A",
+  "rango": "A",
+  "descripcion": "Licencia experta. Exige adaptarse a un recorrido largo con cambios constantes de superficie.",
+  "requisitos_desbloqueo": {
+    "license_ids": [
+      "license_b"
+    ],
+    "campeonatos_ids": []
+  },
+  "pruebas": [
+    {
+      "id": "a_red_dune_trial",
+      "nombre": "A través de las dunas",
+      "descripcion": "Completa Red Dune Sprint, una prueba punto a punto de arena, grava y roca.",
+      "circuito_id": "red_dune_sprint",
+      "modalidad": "contrarreloj",
+      "categorias_vehiculos_permitidas": [
+        "rally",
+        "todoterreno",
+        "camion",
+        "motocicleta",
+        "tractor"
+      ],
+      "tiempos_medallas_ms": {
+        "bronce": 260000,
+        "plata": 238000,
+        "oro": 218000
+      },
+      "tiempo_max_fuera_pista_ms": 26000
+    }
+  ],
+  "recompensas": {
+    "monedas": 9000,
+    "desbloqueos": [
+      "license_s"
+    ]
+  }
+}

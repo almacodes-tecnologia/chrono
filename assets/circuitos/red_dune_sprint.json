@@ -1,0 +1,119 @@
+{
+  "id": "red_dune_sprint",
+  "nombre": "Red Dune Sprint",
+  "descripcion": "Prueba punto a punto que atraviesa dunas y lechos de grava. La arena penaliza especialmente a los vehículos de carretera.",
+  "categoria": "punto_a_punto",
+  "modalidad": "punto_a_punto",
+  "precio": 18000,
+  "requisitos_desbloqueo": {
+    "licencia_id": "license_b",
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "dificultad": 4,
+  "ruta": {
+    "cerrado": false,
+    "anchura_pista_m": 17,
+    "indice_salida": 0,
+    "indice_meta": 13,
+    "puntos_ruta": [
+      {
+        "x": 0,
+        "y": 0,
+        "superficie_id": "grava"
+      },
+      {
+        "x": 120,
+        "y": -30,
+        "superficie_id": "grava"
+      },
+      {
+        "x": 240,
+        "y": -5,
+        "superficie_id": "arena"
+      },
+      {
+        "x": 350,
+        "y": 65,
+        "superficie_id": "arena"
+      },
+      {
+        "x": 440,
+        "y": 155,
+        "superficie_id": "arena"
+      },
+      {
+        "x": 520,
+        "y": 245,
+        "superficie_id": "roca"
+      },
+      {
+        "x": 640,
+        "y": 285,
+        "superficie_id": "grava"
+      },
+      {
+        "x": 760,
+        "y": 250,
+        "superficie_id": "arena"
+      },
+      {
+        "x": 850,
+        "y": 170,
+        "superficie_id": "arena"
+      },
+      {
+        "x": 940,
+        "y": 95,
+        "superficie_id": "grava"
+      },
+      {
+        "x": 1060,
+        "y": 80,
+        "superficie_id": "roca"
+      },
+      {
+        "x": 1170,
+        "y": 135,
+        "superficie_id": "arena"
+      },
+      {
+        "x": 1280,
+        "y": 225,
+        "superficie_id": "grava"
+      },
+      {
+        "x": 1400,
+        "y": 250,
+        "superficie_id": "grava"
+      }
+    ],
+    "indices_puntos_control": [
+      3,
+      6,
+      9,
+      11
+    ]
+  },
+  "barreras": {
+    "activadas": false,
+    "estilo": "ninguno",
+    "desplazamiento_m": 0
+  },
+  "entorno": {
+    "tematica": "dunas_rojas",
+    "color_terreno": "#B87945",
+    "elementos_decorativos": [
+      "dunas_de_arena",
+      "rocas_del_desierto",
+      "hierba_seca"
+    ],
+    "clima": "caluroso"
+  },
+  "categorias_vehiculos_recomendadas": [
+    "rally",
+    "todoterreno",
+    "camion",
+    "tractor"
+  ]
+}

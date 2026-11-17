@@ -1,0 +1,104 @@
+{
+  "id": "green_valley",
+  "nombre": "Green Valley Raceway",
+  "descripcion": "Circuito fluido de valle, con asfalto rugoso y escapatorias de hierba.",
+  "categoria": "circuito",
+  "modalidad": "vueltas",
+  "precio": 14000,
+  "requisitos_desbloqueo": {
+    "licencia_id": "license_c",
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "dificultad": 3,
+  "ruta": {
+    "cerrado": true,
+    "anchura_pista_m": 20,
+    "vueltas_por_defecto": 3,
+    "indice_salida": 0,
+    "indice_meta": 0,
+    "puntos_ruta": [
+      {
+        "x": 0,
+        "y": 0,
+        "superficie_id": "asfalto_rugoso"
+      },
+      {
+        "x": 165,
+        "y": -55,
+        "superficie_id": "asfalto"
+      },
+      {
+        "x": 310,
+        "y": -20,
+        "superficie_id": "asfalto"
+      },
+      {
+        "x": 405,
+        "y": 70,
+        "superficie_id": "asfalto_rugoso"
+      },
+      {
+        "x": 390,
+        "y": 185,
+        "superficie_id": "asfalto"
+      },
+      {
+        "x": 310,
+        "y": 275,
+        "superficie_id": "asfalto"
+      },
+      {
+        "x": 180,
+        "y": 320,
+        "superficie_id": "asfalto_rugoso"
+      },
+      {
+        "x": 40,
+        "y": 290,
+        "superficie_id": "asfalto"
+      },
+      {
+        "x": -65,
+        "y": 220,
+        "superficie_id": "hierba"
+      },
+      {
+        "x": -95,
+        "y": 110,
+        "superficie_id": "asfalto"
+      },
+      {
+        "x": -55,
+        "y": 35,
+        "superficie_id": "asfalto"
+      }
+    ],
+    "indices_puntos_control": [
+      3,
+      6,
+      8
+    ]
+  },
+  "barreras": {
+    "activadas": true,
+    "estilo": "valla_metalica",
+    "desplazamiento_m": 2.5
+  },
+  "entorno": {
+    "tematica": "colinas_verdes",
+    "color_terreno": "#4F8B50",
+    "elementos_decorativos": [
+      "colinas_suaves",
+      "arboles_caducifolios",
+      "vallas_del_circuito"
+    ],
+    "clima": "despejado"
+  },
+  "categorias_vehiculos_recomendadas": [
+    "deportivo",
+    "rally",
+    "kart",
+    "motocicleta"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "license_s",
+  "nombre": "Licencia S",
+  "rango": "S",
+  "descripcion": "La máxima categoría. Supera el puerto helado sin perder tiempo ni control.",
+  "requisitos_desbloqueo": {
+    "license_ids": [
+      "license_a"
+    ],
+    "campeonatos_ids": []
+  },
+  "pruebas": [
+    {
+      "id": "s_frostbite_trial",
+      "nombre": "El último descenso",
+      "descripcion": "Completa Frostbite Pass, una ruta punto a punto con nieve, hielo y roca.",
+      "circuito_id": "frostbite_pass",
+      "modalidad": "contrarreloj",
+      "categorias_vehiculos_permitidas": [
+        "rally",
+        "todoterreno",
+        "camion",
+        "autobus",
+        "tractor"
+      ],
+      "tiempos_medallas_ms": {
+        "bronce": 315000,
+        "plata": 288000,
+        "oro": 264000
+      },
+      "tiempo_max_fuera_pista_ms": 30000
+    }
+  ],
+  "recompensas": {
+    "monedas": 15000,
+    "desbloqueos": []
+  }
+}

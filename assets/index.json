@@ -1,36 +1,36 @@
 {
-  "schema_version": 1,
-  "content_version": 1,
-  "vehicles": [
-    "starter_comet",
-    "falcon_gt",
-    "rally_wolf",
-    "terra_4x4",
-    "neon_kart",
-    "viper_600",
+  "version_esquema": 1,
+  "version_contenido": 1,
+  "vehiculos": [
+    "agro_tractor",
     "atlas_truck",
     "cityliner_bus",
+    "falcon_gt",
+    "neon_kart",
+    "police_interceptor",
+    "rally_wolf",
+    "starter_comet",
+    "terra_4x4",
     "trail_bicycle",
-    "agro_tractor",
-    "police_interceptor"
+    "viper_600"
   ],
-  "tracks": [
+  "circuitos": [
     "copperline_park",
     "dust_canyon",
+    "frostbite_pass",
     "green_valley",
-    "red_dune_sprint",
-    "frostbite_pass"
+    "red_dune_sprint"
   ],
-  "licenses": [
-    "license_d",
-    "license_c",
-    "license_b",
+  "licencias": [
     "license_a",
+    "license_b",
+    "license_c",
+    "license_d",
     "license_s"
   ],
-  "championships": [
-    "rookie_championship",
+  "campeonatos": [
+    "chrono_world_tour",
     "dirt_masters",
-    "chrono_world_tour"
+    "rookie_championship"
   ]
 }

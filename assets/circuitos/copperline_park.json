@@ -1,0 +1,108 @@
+{
+  "id": "copperline_park",
+  "nombre": "Copperline Park",
+  "descripcion": "Circuito de iniciación rápido y legible, con curvas amplias y asfalto uniforme.",
+  "categoria": "circuito",
+  "modalidad": "vueltas",
+  "precio": 0,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "dificultad": 1,
+  "ruta": {
+    "cerrado": true,
+    "anchura_pista_m": 18,
+    "vueltas_por_defecto": 3,
+    "indice_salida": 0,
+    "indice_meta": 0,
+    "puntos_ruta": [
+      {
+        "x": 0,
+        "y": 0,
+        "superficie_id": "asfalto"
+      },
+      {
+        "x": 180,
+        "y": -8,
+        "superficie_id": "asfalto"
+      },
+      {
+        "x": 330,
+        "y": 18,
+        "superficie_id": "asfalto"
+      },
+      {
+        "x": 430,
+        "y": 100,
+        "superficie_id": "asfalto"
+      },
+      {
+        "x": 448,
+        "y": 220,
+        "superficie_id": "asfalto"
+      },
+      {
+        "x": 390,
+        "y": 330,
+        "superficie_id": "asfalto"
+      },
+      {
+        "x": 250,
+        "y": 380,
+        "superficie_id": "asfalto"
+      },
+      {
+        "x": 95,
+        "y": 370,
+        "superficie_id": "asfalto"
+      },
+      {
+        "x": -30,
+        "y": 300,
+        "superficie_id": "asfalto"
+      },
+      {
+        "x": -72,
+        "y": 190,
+        "superficie_id": "asfalto"
+      },
+      {
+        "x": -55,
+        "y": 75,
+        "superficie_id": "asfalto"
+      },
+      {
+        "x": -5,
+        "y": 18,
+        "superficie_id": "asfalto"
+      }
+    ],
+    "indices_puntos_control": [
+      3,
+      6,
+      9
+    ]
+  },
+  "barreras": {
+    "activadas": true,
+    "estilo": "valla_pintada",
+    "desplazamiento_m": 2.0
+  },
+  "entorno": {
+    "tematica": "parque_costero",
+    "color_terreno": "#477A4A",
+    "elementos_decorativos": [
+      "pinos",
+      "arbustos_bajos",
+      "gradas"
+    ],
+    "clima": "despejado"
+  },
+  "categorias_vehiculos_recomendadas": [
+    "compacto",
+    "deportivo",
+    "kart"
+  ]
+}
