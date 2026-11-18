@@ -1,0 +1,55 @@
+{
+  "id": "tempest_f1",
+  "nombre": "Tempest F1",
+  "descripcion": "Monoplaza de competición con aerodinámica extrema y una aceleración sobresaliente sobre asfalto.",
+  "categoria": "formula",
+  "fabricante": "Tempest Racing",
+  "precio": 45000,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 520,
+    "peso_kg": 690,
+    "aerodinamica": 96,
+    "resistencia_superficies": {
+      "asfalto": 0.88,
+      "asfalto_rugoso": 1.15,
+      "grava": 1.8,
+      "tierra": 1.9,
+      "arena": 2.0,
+      "hierba": 1.9,
+      "barro": 2.0,
+      "nieve": 2.0,
+      "hielo": 2.0,
+      "roca": 2.0
+    },
+    "penalizacion_fuera_pista": 0.75
+  },
+  "manejo": {
+    "respuesta_direccion": 96,
+    "multiplicador_giro": 1.2
+  },
+  "dimensiones": {
+    "longitud_m": 5.35,
+    "anchura_m": 2.0,
+    "altura_m": 0.95,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "coche",
+    "estilo": "formula",
+    "color_principal": "#1769D2",
+    "color_secundario": "#F4F6F8",
+    "color_acento": "#E63838",
+    "detalles": [
+      "aleron delantero aerodinamico",
+      "aleron trasero elevado",
+      "ruedas descubiertas",
+      "cabina abierta de competicion"
+    ]
+  }
+}

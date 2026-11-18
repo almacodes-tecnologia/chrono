@@ -1,0 +1,55 @@
+{
+  "id": "shadow_900",
+  "nombre": "Shadow 900",
+  "descripcion": "Motocicleta deportiva de gran potencia, ligera y extremadamente ágil en curvas.",
+  "categoria": "motocicleta",
+  "fabricante": "Shadow Performance",
+  "precio": 12500,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 115,
+    "peso_kg": 205,
+    "aerodinamica": 78,
+    "resistencia_superficies": {
+      "asfalto": 1.0,
+      "asfalto_rugoso": 1.18,
+      "grava": 1.55,
+      "tierra": 1.7,
+      "arena": 1.9,
+      "hierba": 1.8,
+      "barro": 1.95,
+      "nieve": 1.9,
+      "hielo": 2.0,
+      "roca": 2.0
+    },
+    "penalizacion_fuera_pista": 0.68
+  },
+  "manejo": {
+    "respuesta_direccion": 96,
+    "multiplicador_giro": 1.28
+  },
+  "dimensiones": {
+    "longitud_m": 2.1,
+    "anchura_m": 0.78,
+    "altura_m": 1.15,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "motocicleta",
+    "estilo": "deportiva",
+    "color_principal": "#D92535",
+    "color_secundario": "#20242B",
+    "color_acento": "#E8E8E8",
+    "detalles": [
+      "carenado deportivo integral",
+      "doble faro delantero",
+      "escape elevado",
+      "asiento deportivo"
+    ]
+  }
+}

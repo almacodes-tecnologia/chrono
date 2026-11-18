@@ -1,0 +1,55 @@
+{
+  "id": "agro_750",
+  "nombre": "Agro 750",
+  "descripcion": "Tractor agrícola robusto, con excelente tracción y capacidad para terrenos irregulares.",
+  "categoria": "agricola",
+  "fabricante": "AgroTech",
+  "precio": 18000,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 125,
+    "peso_kg": 5800,
+    "aerodinamica": 30,
+    "resistencia_superficies": {
+      "asfalto": 1.35,
+      "asfalto_rugoso": 1.05,
+      "grava": 0.92,
+      "tierra": 0.82,
+      "arena": 1.1,
+      "hierba": 0.78,
+      "barro": 0.76,
+      "nieve": 1.0,
+      "hielo": 1.6,
+      "roca": 1.15
+    },
+    "penalizacion_fuera_pista": 0.16
+  },
+  "manejo": {
+    "respuesta_direccion": 48,
+    "multiplicador_giro": 0.78
+  },
+  "dimensiones": {
+    "longitud_m": 4.5,
+    "anchura_m": 2.3,
+    "altura_m": 2.85,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "agricola",
+    "estilo": "tractor",
+    "color_principal": "#398C43",
+    "color_secundario": "#E8E8E8",
+    "color_acento": "#252A2E",
+    "detalles": [
+      "ruedas traseras de gran diametro",
+      "cabina acristalada",
+      "escape vertical",
+      "capo delantero alargado"
+    ]
+  }
+}

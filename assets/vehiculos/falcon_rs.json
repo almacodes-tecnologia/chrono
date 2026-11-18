@@ -1,0 +1,55 @@
+{
+  "id": "falcon_rs",
+  "nombre": "Falcon RS",
+  "descripcion": "Máquina de rally preparada para superficies difíciles, saltos y curvas cerradas.",
+  "categoria": "rally",
+  "fabricante": "Falcon Motorsport",
+  "precio": 14000,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 190,
+    "peso_kg": 1180,
+    "aerodinamica": 62,
+    "resistencia_superficies": {
+      "asfalto": 1.08,
+      "asfalto_rugoso": 1.0,
+      "grava": 0.88,
+      "tierra": 0.84,
+      "arena": 1.12,
+      "hierba": 1.05,
+      "barro": 0.96,
+      "nieve": 0.94,
+      "hielo": 1.18,
+      "roca": 1.12
+    },
+    "penalizacion_fuera_pista": 0.24
+  },
+  "manejo": {
+    "respuesta_direccion": 88,
+    "multiplicador_giro": 1.16
+  },
+  "dimensiones": {
+    "longitud_m": 4.18,
+    "anchura_m": 1.86,
+    "altura_m": 1.48,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "coche",
+    "estilo": "rally",
+    "color_principal": "#F2F2F2",
+    "color_secundario": "#1676D2",
+    "color_acento": "#E53935",
+    "detalles": [
+      "decoracion de competicion azul y roja",
+      "aleron trasero elevado",
+      "faros auxiliares de rally",
+      "pasos de rueda ensanchados"
+    ]
+  }
+}

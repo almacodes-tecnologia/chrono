@@ -1,0 +1,55 @@
+{
+  "id": "raptor_x",
+  "nombre": "Raptor X",
+  "descripcion": "Buggy ligero de competición, con suspensión elevada y gran capacidad para recorrer terrenos difíciles.",
+  "categoria": "buggy",
+  "fabricante": "Raptor Offroad",
+  "precio": 16500,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 175,
+    "peso_kg": 850,
+    "aerodinamica": 42,
+    "resistencia_superficies": {
+      "asfalto": 1.15,
+      "asfalto_rugoso": 0.95,
+      "grava": 0.82,
+      "tierra": 0.78,
+      "arena": 0.8,
+      "hierba": 0.9,
+      "barro": 0.92,
+      "nieve": 1.12,
+      "hielo": 1.5,
+      "roca": 0.92
+    },
+    "penalizacion_fuera_pista": 0.14
+  },
+  "manejo": {
+    "respuesta_direccion": 78,
+    "multiplicador_giro": 1.08
+  },
+  "dimensiones": {
+    "longitud_m": 3.6,
+    "anchura_m": 1.95,
+    "altura_m": 1.65,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "especial",
+    "estilo": "buggy",
+    "color_principal": "#F07824",
+    "color_secundario": "#252A32",
+    "color_acento": "#F4D03F",
+    "detalles": [
+      "chasis tubular descubierto",
+      "jaula antivuelco",
+      "suspension elevada",
+      "ruedas todoterreno de gran tamaño"
+    ]
+  }
+}

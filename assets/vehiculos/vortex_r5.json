@@ -1,0 +1,55 @@
+{
+  "id": "vortex_r5",
+  "nombre": "Vortex R5",
+  "descripcion": "Compacto deportivo de respuesta rápida, ideal para dominar circuitos urbanos y trazados técnicos.",
+  "categoria": "deportivo",
+  "fabricante": "Vortex Automotive",
+  "precio": 8500,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 145,
+    "peso_kg": 1120,
+    "aerodinamica": 68,
+    "resistencia_superficies": {
+      "asfalto": 1.0,
+      "asfalto_rugoso": 1.08,
+      "grava": 1.3,
+      "tierra": 1.4,
+      "arena": 1.55,
+      "hierba": 1.45,
+      "barro": 1.65,
+      "nieve": 1.55,
+      "hielo": 1.7,
+      "roca": 1.7
+    },
+    "penalizacion_fuera_pista": 0.42
+  },
+  "manejo": {
+    "respuesta_direccion": 83,
+    "multiplicador_giro": 1.12
+  },
+  "dimensiones": {
+    "longitud_m": 4.05,
+    "anchura_m": 1.82,
+    "altura_m": 1.42,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "coche",
+    "estilo": "deportivo",
+    "color_principal": "#00C9D8",
+    "color_secundario": "#E8F4FA",
+    "color_acento": "#142D43",
+    "detalles": [
+      "carroceria compacta de tres puertas",
+      "aleron trasero deportivo",
+      "paragolpes delantero agresivo",
+      "llantas deportivas de cinco radios"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "titan_hx",
+  "nombre": "Titan HX",
+  "descripcion": "Cabeza tractora de gran tamaño, potente y estable, preparada para trabajos de transporte pesado.",
+  "categoria": "camion",
+  "fabricante": "Titan Industrial",
+  "precio": 28000,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 330,
+    "peso_kg": 8200,
+    "aerodinamica": 48,
+    "resistencia_superficies": {
+      "asfalto": 1.0,
+      "asfalto_rugoso": 0.96,
+      "grava": 1.12,
+      "tierra": 1.2,
+      "arena": 1.45,
+      "hierba": 1.35,
+      "barro": 1.28,
+      "nieve": 1.3,
+      "hielo": 1.65,
+      "roca": 1.55
+    },
+    "penalizacion_fuera_pista": 0.3
+  },
+  "manejo": {
+    "respuesta_direccion": 42,
+    "multiplicador_giro": 0.72
+  },
+  "dimensiones": {
+    "longitud_m": 6.2,
+    "anchura_m": 2.5,
+    "altura_m": 3.6,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "pesado",
+    "estilo": "cabeza_tractora",
+    "color_principal": "#2367B2",
+    "color_secundario": "#DDE4EA",
+    "color_acento": "#172B43",
+    "detalles": [
+      "cabina elevada",
+      "tres ejes",
+      "parrilla frontal cromada",
+      "retrovisores exteriores grandes"
+    ]
+  }
+}
