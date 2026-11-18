@@ -1,3 +1,4 @@
+
 {
   "id": "police_interceptor",
   "nombre": "Interceptor Police",
@@ -31,7 +32,8 @@
   },
   "manejo": {
     "respuesta_direccion": 78,
-    "multiplicador_giro": 1.0
+    "multiplicador_giro": 1.0,
+    "eficacia_frenada": null
   },
   "dimensiones": {
     "longitud_m": 4.85,

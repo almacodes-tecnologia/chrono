@@ -1,0 +1,72 @@
+
+{
+  "id": "cargo_articulated",
+  "nombre": "Cargo Articulated",
+  "descripcion": "Camión articulado de transporte de larga distancia, preparado para grandes cargas.",
+  "categoria": "camion",
+  "fabricante": "Titan Industrial",
+  "precio": 52000,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 420,
+    "peso_kg": 14500,
+    "aerodinamica": 55,
+    "resistencia_superficies": {
+      "asfalto": 1.0,
+      "asfalto_rugoso": 0.98,
+      "grava": 1.2,
+      "tierra": 1.35,
+      "arena": 1.6,
+      "hierba": 1.45,
+      "barro": 1.5,
+      "nieve": 1.45,
+      "hielo": 1.75,
+      "roca": 1.7
+    },
+    "penalizacion_fuera_pista": 0.38
+  },
+  "manejo": {
+    "respuesta_direccion": 30,
+    "multiplicador_giro": 0.58
+  },
+  "dimensiones": {
+    "longitud_m": 16.5,
+    "anchura_m": 2.55,
+    "altura_m": 4.0,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "pesado",
+    "estilo": "camion_articulado",
+    "color_principal": "#E0E3E6",
+    "color_secundario": "#2367B2",
+    "color_acento": "#263238",
+    "color_cristales": "#263B50",
+    "color_neumaticos": "#17191D",
+    "color_llantas": "#AAB2B9",
+    "numero_ejes": 5,
+    "ejes_traseros": 4,
+    "rueda_longitud": null,
+    "rueda_anchura": null,
+    "proporcion_cabina_longitud": null,
+    "proporcion_cabina_anchura": null,
+    "posicion_cabina": null,
+    "proporcion_caja_longitud": null,
+    "proporcion_caja_anchura": null,
+    "posicion_caja": null,
+    "proporcion_remolque_longitud": 0.61,
+    "proporcion_remolque_anchura": 0.94,
+    "proporcion_carroceria_anchura": null,
+    "detalles": [
+      "cabeza tractora",
+      "semirremolque",
+      "quinta rueda",
+      "cinco ejes"
+    ]
+  }
+}

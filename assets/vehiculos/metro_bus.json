@@ -1,0 +1,72 @@
+
+{
+  "id": "metro_bus",
+  "nombre": "Metro Bus",
+  "descripcion": "Autobús urbano de gran capacidad, diseñado para el transporte de pasajeros en ciudad.",
+  "categoria": "autobus",
+  "fabricante": "Chrono Mobility",
+  "precio": 45000,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 240,
+    "peso_kg": 11500,
+    "aerodinamica": 50,
+    "resistencia_superficies": {
+      "asfalto": 1.0,
+      "asfalto_rugoso": 1.05,
+      "grava": 1.2,
+      "tierra": 1.35,
+      "arena": 1.55,
+      "hierba": 1.45,
+      "barro": 1.5,
+      "nieve": 1.4,
+      "hielo": 1.7,
+      "roca": 1.65
+    },
+    "penalizacion_fuera_pista": 0.35
+  },
+  "manejo": {
+    "respuesta_direccion": 45,
+    "multiplicador_giro": 0.72
+  },
+  "dimensiones": {
+    "longitud_m": 12.0,
+    "anchura_m": 2.55,
+    "altura_m": 3.2,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "pesado",
+    "estilo": "autobus_urbano",
+    "color_principal": "#E6E9EC",
+    "color_secundario": "#E0A52B",
+    "color_acento": "#263238",
+    "color_cristales": "#263B50",
+    "color_neumaticos": "#17191D",
+    "color_llantas": "#AAB2B9",
+    "numero_ejes": 2,
+    "ejes_traseros": 1,
+    "rueda_longitud": null,
+    "rueda_anchura": null,
+    "proporcion_cabina_longitud": null,
+    "proporcion_cabina_anchura": null,
+    "posicion_cabina": null,
+    "proporcion_caja_longitud": null,
+    "proporcion_caja_anchura": null,
+    "posicion_caja": null,
+    "proporcion_remolque_longitud": null,
+    "proporcion_remolque_anchura": null,
+    "proporcion_carroceria_anchura": 0.91,
+    "detalles": [
+      "ventanas laterales amplias",
+      "puertas de pasajeros",
+      "dos ejes",
+      "frontal urbano"
+    ]
+  }
+}

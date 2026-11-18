@@ -1,0 +1,72 @@
+
+{
+  "id": "cargo_rigid",
+  "nombre": "Cargo Rigid",
+  "descripcion": "Camión rígido de transporte pesado, diseñado para cargas voluminosas y recorridos industriales.",
+  "categoria": "camion",
+  "fabricante": "Titan Industrial",
+  "precio": 32000,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 280,
+    "peso_kg": 9500,
+    "aerodinamica": 42,
+    "resistencia_superficies": {
+      "asfalto": 1.0,
+      "asfalto_rugoso": 0.98,
+      "grava": 1.15,
+      "tierra": 1.25,
+      "arena": 1.5,
+      "hierba": 1.4,
+      "barro": 1.35,
+      "nieve": 1.35,
+      "hielo": 1.65,
+      "roca": 1.6
+    },
+    "penalizacion_fuera_pista": 0.32
+  },
+  "manejo": {
+    "respuesta_direccion": 38,
+    "multiplicador_giro": 0.68
+  },
+  "dimensiones": {
+    "longitud_m": 9.2,
+    "anchura_m": 2.5,
+    "altura_m": 3.7,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "pesado",
+    "estilo": "camion_rigido",
+    "color_principal": "#D9DDE1",
+    "color_secundario": "#E0A52B",
+    "color_acento": "#263238",
+    "color_cristales": "#263B50",
+    "color_neumaticos": "#17191D",
+    "color_llantas": "#AAB2B9",
+    "numero_ejes": 3,
+    "ejes_traseros": 2,
+    "rueda_longitud": null,
+    "rueda_anchura": null,
+    "proporcion_cabina_longitud": null,
+    "proporcion_cabina_anchura": null,
+    "posicion_cabina": null,
+    "proporcion_caja_longitud": 0.62,
+    "proporcion_caja_anchura": 0.91,
+    "posicion_caja": -0.12,
+    "proporcion_remolque_longitud": null,
+    "proporcion_remolque_anchura": null,
+    "proporcion_carroceria_anchura": null,
+    "detalles": [
+      "caja de carga rígida",
+      "tres ejes",
+      "cabina frontal",
+      "compartimento de carga"
+    ]
+  }
+}

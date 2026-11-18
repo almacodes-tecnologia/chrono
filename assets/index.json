@@ -21,8 +21,11 @@
 	"ambulance_rescue_van",
 	"fire_rescue_truck",
 	"fire_engine_tanker",
-	"fire_engine_ladder"
-	
+	"fire_engine_ladder",
+	"cargo_rigid",
+	"cargo_articulated",
+	"metro_bus",
+	"grand_tour",
   ],
   "circuitos": [
     "copperline_park",
