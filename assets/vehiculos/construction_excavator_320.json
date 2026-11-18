@@ -1,0 +1,67 @@
+{
+  "id": "construction_excavator_320",
+  "nombre": "Terra Excavator 320",
+  "descripcion": "Excavadora hidráulica de cadenas, diseñada para movimientos de tierra y trabajos de excavación de gran precisión.",
+  "categoria": "construccion",
+  "fabricante": "Terra Machinery",
+  "precio": 85000,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 150,
+    "peso_kg": 22000,
+    "aerodinamica": 12,
+    "resistencia_superficies": {
+      "asfalto": 0.65,
+      "asfalto_rugoso": 0.85,
+      "grava": 1.15,
+      "tierra": 1.35,
+      "arena": 1.1,
+      "hierba": 0.95,
+      "barro": 1.4,
+      "nieve": 0.85,
+      "hielo": 1.5,
+      "roca": 1.25
+    },
+    "penalizacion_fuera_pista": 0.08
+  },
+  "manejo": {
+    "respuesta_direccion": 28,
+    "multiplicador_giro": 0.55
+  },
+  "dimensiones": {
+    "longitud_m": 7.2,
+    "anchura_m": 2.8,
+    "altura_m": 3.1,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "construccion",
+    "tipo_vehiculo": "excavadora",
+    "estilo": "excavator",
+    "orugas": true,
+    "color_principal": "#E9A817",
+    "color_secundario": "#343A40",
+    "cristales": "#263B50",
+    "color_neumaticos": "#17191D",
+    "color_llantas": "#92999F",
+    "detalles": [
+      "cabina acristalada",
+      "brazo hidráulico articulado",
+      "cazo delantero",
+      "chasis inferior de orugas",
+      "contrapeso trasero",
+      "carrocería amarilla industrial"
+    ],
+    "accesorios": [
+      "cabina_cerrada",
+      "brazo_hidraulico",
+      "cazo",
+      "orugas"
+    ]
+  }
+}

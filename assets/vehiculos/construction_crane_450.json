@@ -1,0 +1,68 @@
+{
+  "id": "construction_crane_450",
+  "nombre": "Atlas Crane 450",
+  "descripcion": "Grúa móvil todoterreno con pluma telescópica y estructura reforzada para operaciones de elevación y transporte de cargas.",
+  "categoria": "construccion",
+  "fabricante": "Atlas Engineering",
+  "precio": 145000,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 260,
+    "peso_kg": 32000,
+    "aerodinamica": 16,
+    "resistencia_superficies": {
+      "asfalto": 1.15,
+      "asfalto_rugoso": 1.0,
+      "grava": 0.85,
+      "tierra": 0.7,
+      "arena": 0.65,
+      "hierba": 0.75,
+      "barro": 0.6,
+      "nieve": 0.7,
+      "hielo": 1.4,
+      "roca": 0.8
+    },
+    "penalizacion_fuera_pista": 0.22
+  },
+  "manejo": {
+    "respuesta_direccion": 35,
+    "multiplicador_giro": 0.62
+  },
+  "dimensiones": {
+    "longitud_m": 10.5,
+    "anchura_m": 2.8,
+    "altura_m": 3.8,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "construccion",
+    "tipo_vehiculo": "grua",
+    "estilo": "crane",
+    "orugas": false,
+    "color_principal": "#E5B52A",
+    "color_secundario": "#424950",
+    "cristales": "#263B50",
+    "color_neumaticos": "#17191D",
+    "color_llantas": "#A0A6AB",
+    "detalles": [
+      "pluma telescópica elevada",
+      "cable de elevación",
+      "gancho de carga",
+      "cabina de conducción",
+      "chasis de transporte pesado",
+      "estabilizadores laterales"
+    ],
+    "accesorios": [
+      "cabina_cerrada",
+      "pluma_telescopica",
+      "cable_elevacion",
+      "gancho",
+      "estabilizadores"
+    ]
+  }
+}

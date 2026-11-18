@@ -1,0 +1,67 @@
+{
+  "id": "construction_bulldozer_d9",
+  "nombre": "Ironclad D9",
+  "descripcion": "Bulldozer pesado con cadenas reforzadas y hoja frontal de gran capacidad para nivelación y desplazamiento de terrenos.",
+  "categoria": "construccion",
+  "fabricante": "Ironclad Industries",
+  "precio": 125000,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 310,
+    "peso_kg": 39000,
+    "aerodinamica": 8,
+    "resistencia_superficies": {
+      "asfalto": 0.55,
+      "asfalto_rugoso": 0.9,
+      "grava": 1.25,
+      "tierra": 1.45,
+      "arena": 1.2,
+      "hierba": 1.0,
+      "barro": 1.5,
+      "nieve": 0.9,
+      "hielo": 1.6,
+      "roca": 1.35
+    },
+    "penalizacion_fuera_pista": 0.05
+  },
+  "manejo": {
+    "respuesta_direccion": 20,
+    "multiplicador_giro": 0.42
+  },
+  "dimensiones": {
+    "longitud_m": 8.1,
+    "anchura_m": 3.4,
+    "altura_m": 3.5,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "construccion",
+    "tipo_vehiculo": "bulldozer",
+    "estilo": "bulldozer",
+    "orugas": true,
+    "color_principal": "#D99B16",
+    "color_secundario": "#41474D",
+    "cristales": "#25394B",
+    "color_neumaticos": "#17191D",
+    "color_llantas": "#92999F",
+    "detalles": [
+      "hoja frontal de empuje",
+      "cabina elevada",
+      "orugas anchas",
+      "chasis pesado",
+      "estructura reforzada",
+      "contrapeso trasero"
+    ],
+    "accesorios": [
+      "cabina_cerrada",
+      "hoja_delantera",
+      "orugas",
+      "chasis_reforzado"
+    ]
+  }
+}

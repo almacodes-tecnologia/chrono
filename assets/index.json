@@ -11,7 +11,11 @@
     "agro_750",
     "raptor_x",
 	"agro_harvest_620",
-	"agro_spray_4000"
+	"agro_spray_4000",
+	"construction_excavator_320",
+	"construction_bulldozer_d9",
+	"construction_loader_950",
+	"construction_crane_450"
   ],
   "circuitos": [
     "copperline_park",

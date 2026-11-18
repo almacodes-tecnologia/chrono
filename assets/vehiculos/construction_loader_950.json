@@ -1,0 +1,67 @@
+{
+  "id": "construction_loader_950",
+  "nombre": "Titan Loader 950",
+  "descripcion": "Pala cargadora de gran capacidad, con tracción en las cuatro ruedas y un potente sistema hidráulico frontal.",
+  "categoria": "construccion",
+  "fabricante": "Titan Heavy Equipment",
+  "precio": 72000,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 185,
+    "peso_kg": 17500,
+    "aerodinamica": 18,
+    "resistencia_superficies": {
+      "asfalto": 1.05,
+      "asfalto_rugoso": 1.15,
+      "grava": 1.2,
+      "tierra": 1.15,
+      "arena": 0.95,
+      "hierba": 0.9,
+      "barro": 1.0,
+      "nieve": 0.85,
+      "hielo": 1.45,
+      "roca": 1.1
+    },
+    "penalizacion_fuera_pista": 0.12
+  },
+  "manejo": {
+    "respuesta_direccion": 42,
+    "multiplicador_giro": 0.72
+  },
+  "dimensiones": {
+    "longitud_m": 6.8,
+    "anchura_m": 2.9,
+    "altura_m": 3.3,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "construccion",
+    "tipo_vehiculo": "cargadora",
+    "estilo": "loader",
+    "orugas": false,
+    "color_principal": "#D94B24",
+    "color_secundario": "#343A40",
+    "cristales": "#263B50",
+    "color_neumaticos": "#17191D",
+    "color_llantas": "#A0A6AB",
+    "detalles": [
+      "cazo frontal de gran capacidad",
+      "brazos hidráulicos laterales",
+      "cabina central acristalada",
+      "cuatro ruedas de gran tamaño",
+      "chasis articulado",
+      "contrapeso trasero"
+    ],
+    "accesorios": [
+      "cabina_cerrada",
+      "brazos_hidraulicos",
+      "cazo_frontal",
+      "ruedas_reforzadas"
+    ]
+  }
+}

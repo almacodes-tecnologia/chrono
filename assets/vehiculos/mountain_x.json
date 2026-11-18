@@ -1,3 +1,4 @@
+
 {
   "id": "mountain_x",
   "nombre": "Mountain X",
@@ -45,8 +46,9 @@
     "color_principal": "#F07824",
     "color_secundario": "#242A32",
     "color_acento": "#E5E8EC",
+    "color_neumaticos": "#11151A",
     "detalles": [
-      "doble suspension",
+      "suspensión delantera y trasera",
       "ruedas anchas con tacos",
       "horquilla delantera reforzada",
       "cuadro de aluminio"
