@@ -1,0 +1,103 @@
+{
+  "id": "agro_spray_4000",
+  "nombre": "AgroSpray 4000",
+  "descripcion": "Pulverizador autopropulsado de gran autonomía, equipado con depósito central y brazos extensibles para el tratamiento de cultivos.",
+  "categoria": "agricola",
+  "fabricante": "AgroTech",
+  "precio": 112000,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 190,
+    "peso_kg": 9200,
+    "aerodinamica": 24,
+    "resistencia_superficies": {
+      "asfalto": 1.30,
+      "asfalto_rugoso": 1.05,
+      "grava": 0.94,
+      "tierra": 0.86,
+      "arena": 1.12,
+      "hierba": 0.80,
+      "barro": 0.79,
+      "nieve": 1.02,
+      "hielo": 1.62,
+      "roca": 1.18
+    },
+    "penalizacion_fuera_pista": 0.18
+  },
+  "manejo": {
+    "respuesta_direccion": 40,
+    "multiplicador_giro": 0.68
+  },
+  "dimensiones": {
+    "longitud_m": 7.1,
+    "anchura_m": 3.0,
+    "altura_m": 3.6,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "agricola",
+    "tipo_vehiculo": "pulverizador",
+    "estilo": "sprayer",
+
+    "color_principal": "#D6C52B",
+    "color_secundario": "#34383B",
+    "color_acento": "#E8E8E8",
+    "color_cristales": "#263B50",
+    "color_neumaticos": "#17191D",
+    "color_llantas": "#858B8E",
+
+    "rueda_trasera_longitud": 0.17,
+    "rueda_delantera_longitud": 0.17,
+    "separacion_ruedas": 0.42,
+    "rueda_trasera_anchura": null,
+    "rueda_delantera_anchura": null,
+    "posicion_rueda_trasera": -0.34,
+    "posicion_rueda_delantera": 0.34,
+
+    "proporcion_capot_longitud": null,
+    "proporcion_capot_anchura": null,
+    "proporcion_cabina_longitud": 0.22,
+    "proporcion_cabina_anchura": 0.40,
+    "posicion_cabina": 0.27,
+
+    "forma_capot": null,
+    "forma_cabina": "cerrada",
+    "tipo_guardabarros": null,
+    "tipo_neumatico": "agricola",
+    "tipo_chasis": "alargado",
+    "tipo_escape": "vertical",
+    "tipo_faross": "delanteros",
+    "tipo_enganche": null,
+
+    "aleron": null,
+    "difusor": null,
+    "faldones": null,
+    "pasos_rueda": null,
+    "tomas_aire": null,
+    "reflejos": null,
+
+    "accesorios": [
+      "cabina_cerrada",
+      "deposito_central",
+      "brazos_pulverizacion",
+      "boquillas",
+      "escape_vertical"
+    ],
+
+    "detalles": [
+      "chasis autopropulsado alargado",
+      "depósito de pulverización central",
+      "cabina acristalada adelantada",
+      "cuatro ruedas agrícolas de tamaño similar",
+      "brazos de pulverización laterales extensibles",
+      "boquillas distribuidas por los brazos",
+      "escape vertical",
+      "faros delanteros"
+    ]
+  }
+}

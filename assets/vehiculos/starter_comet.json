@@ -42,13 +42,61 @@
   },
   "visual": {
     "tipo_renderizado": "coche",
+    "vista": "cenital",
     "estilo": "compacto",
-    "color_principal": "#28B7E8",
-    "color_secundario": "#E8F4FA",
-    "color_acento": "#102B3A",
+    "proporciones": {
+      "anchura": 0.46,
+      "altura_visual": 0.38,
+      "posicion_cabina": 0.48
+    },
+    "carroceria": {
+      "forma": "compacta",
+      "morro": "corto_redondeado",
+      "trasera": "corta_recta",
+      "aleron": "pequeno",
+      "paragolpes": "convencional",
+      "pasos_rueda": null,
+      "faldones": null
+    },
+    "cristales": {
+      "parabrisas": "convencional",
+      "luneta_trasera": "amplia",
+      "brillo": true,
+      "marco": "oscuro"
+    },
+    "ruedas": {
+      "tipo": "cinco_radios",
+      "color_neumatico": "#17191D",
+      "color_llanta": "#D5D9DE",
+      "tamano": 0.16,
+      "descubiertas": false
+    },
+    "faros": {
+      "tipo": "convencionales",
+      "forma": "cuadrada",
+      "auxiliares": false
+    },
+    "colores": {
+      "principal": "#28B7E8",
+      "secundario": "#E8F4FA",
+      "acento": "#102B3A",
+      "cristales": "#263B50",
+      "faros": "#F5F4DC",
+      "neumaticos": "#17191D",
+      "llantas": "#D5D9DE"
+    },
+    "acabado": {
+      "sombras": true,
+      "reflejos": true,
+      "contorno": true,
+      "nivel_detalle": 3
+    },
+    "accesorios": [
+      "aleron_trasero_pequeno"
+    ],
     "detalles": [
       "faros delanteros cuadrados",
-      "alerón trasero pequeño",
+      "aleron trasero pequeño",
       "llantas de cinco radios"
     ]
   }

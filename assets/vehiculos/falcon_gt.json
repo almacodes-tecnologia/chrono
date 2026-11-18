@@ -1,16 +1,17 @@
+
 {
   "id": "falcon_gt",
   "nombre": "Falcon GT",
   "descripcion": "Deportivo de altas prestaciones con gran potencia y excelente comportamiento sobre asfalto. Su menor versatilidad lo hace menos adecuado para terrenos irregulares.",
   "categoria": "deportivo",
   "fabricante": "Northstar Works",
-
   "precio": 100,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
-    "licencia_id": null
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
   },
-
   "rendimiento": {
     "potencia_kw": 165,
     "peso_kg": 1120,
@@ -29,74 +30,78 @@
     },
     "penalizacion_fuera_pista": 0.48
   },
-
   "manejo": {
     "respuesta_direccion": 78,
     "multiplicador_giro": 0.92,
     "eficacia_frenada": 82
   },
-
   "dimensiones": {
     "longitud_m": 4.42,
     "anchura_m": 1.86,
     "altura_m": 1.24,
     "escala_visual": 1.05
   },
-
   "visual": {
-    "renderizador": "coche",
+    "tipo_renderizado": "coche",
     "vista": "cenital",
-    "estilo_carroceria": "deportivo",
-
+    "estilo": "gran_turismo",
     "proporciones": {
       "anchura": 0.48,
       "altura_visual": 0.31,
       "posicion_cabina": 0.43
     },
-
     "carroceria": {
       "forma": "deportiva_alargada",
       "morro": "afilado",
       "trasera": "ancha",
       "aleron": "deportivo",
-      "paragolpes": "aerodinamico"
+      "paragolpes": "aerodinamico",
+      "pasos_rueda": "marcados",
+      "faldones": "deportivos"
     },
-
     "cristales": {
       "parabrisas": "inclinado",
       "luneta_trasera": "estrecha",
-      "brillo": true
+      "brillo": true,
+      "marco": "oscuro"
     },
-
     "ruedas": {
       "tipo": "deportivas_multirradio",
       "color_neumatico": "#17191D",
       "color_llanta": "#D5D9DE",
-      "tamano": 0.17
+      "tamano": 0.17,
+      "descubiertas": false
     },
-
     "faros": {
-      "tipo": "alargados"
+      "tipo": "alargados",
+      "forma": "afilada",
+      "auxiliares": false
     },
-
     "colores": {
       "principal": "#D83B42",
       "secundario": "#F1F1F1",
       "acento": "#252A32",
       "cristales": "#263B50",
-      "faros": "#F5F4DC"
+      "faros": "#F5F4DC",
+      "neumaticos": "#17191D",
+      "llantas": "#D5D9DE"
     },
-
     "acabado": {
       "sombras": true,
       "reflejos": true,
       "contorno": true,
       "nivel_detalle": 4
     },
-
     "accesorios": [
       "escape_trasero",
       "aleron_deportivo"
+    ],
+    "detalles": [
+      "carroceria deportiva alargada",
+      "morro afilado",
+      "trasera ancha",
+      "faros delanteros alargados",
+      "aleron deportivo"
     ]
   }
 }

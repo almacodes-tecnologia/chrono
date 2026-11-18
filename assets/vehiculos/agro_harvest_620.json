@@ -1,0 +1,103 @@
+{
+  "id": "agro_harvest_620",
+  "nombre": "AgroHarvest 620",
+  "descripcion": "Cosechadora agrícola de gran capacidad, diseñada para trabajar sobre extensas superficies de cultivo.",
+  "categoria": "agricola",
+  "fabricante": "AgroTech",
+  "precio": 145000,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 260,
+    "peso_kg": 12500,
+    "aerodinamica": 18,
+    "resistencia_superficies": {
+      "asfalto": 1.45,
+      "asfalto_rugoso": 1.10,
+      "grava": 0.95,
+      "tierra": 0.78,
+      "arena": 1.18,
+      "hierba": 0.82,
+      "barro": 0.72,
+      "nieve": 1.05,
+      "hielo": 1.65,
+      "roca": 1.20
+    },
+    "penalizacion_fuera_pista": 0.20
+  },
+  "manejo": {
+    "respuesta_direccion": 32,
+    "multiplicador_giro": 0.58
+  },
+  "dimensiones": {
+    "longitud_m": 9.2,
+    "anchura_m": 3.5,
+    "altura_m": 3.9,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "agricola",
+    "tipo_vehiculo": "cosechadora",
+    "estilo": "combine",
+
+    "color_principal": "#D6A629",
+    "color_secundario": "#34383B",
+    "color_acento": "#E8E8E8",
+    "color_cristales": "#263B50",
+    "color_neumaticos": "#17191D",
+    "color_llantas": "#858B8E",
+
+    "rueda_trasera_longitud": 0.22,
+    "rueda_delantera_longitud": 0.28,
+    "separacion_ruedas": 0.38,
+    "rueda_trasera_anchura": null,
+    "rueda_delantera_anchura": null,
+    "posicion_rueda_trasera": -0.32,
+    "posicion_rueda_delantera": 0.30,
+
+    "proporcion_capot_longitud": null,
+    "proporcion_capot_anchura": null,
+    "proporcion_cabina_longitud": 0.24,
+    "proporcion_cabina_anchura": 0.38,
+    "posicion_cabina": 0.25,
+
+    "forma_capot": null,
+    "forma_cabina": "cerrada",
+    "tipo_guardabarros": null,
+    "tipo_neumatico": "agricola",
+    "tipo_chasis": "reforzado",
+    "tipo_escape": "vertical",
+    "tipo_faross": "delanteros",
+    "tipo_enganche": null,
+
+    "aleron": null,
+    "difusor": null,
+    "faldones": null,
+    "pasos_rueda": null,
+    "tomas_aire": null,
+    "reflejos": null,
+
+    "accesorios": [
+      "cabina_cerrada",
+      "cabezal_corte",
+      "tolva_grano",
+      "escape_vertical",
+      "ruedas_agricolas"
+    ],
+
+    "detalles": [
+      "cuerpo agrícola de gran longitud",
+      "cabezal de corte frontal muy ancho",
+      "cabina acristalada adelantada",
+      "tolva de almacenamiento de grano",
+      "ruedas delanteras de gran tamaño",
+      "ruedas traseras más pequeñas",
+      "escape vertical",
+      "faros delanteros"
+    ]
+  }
+}

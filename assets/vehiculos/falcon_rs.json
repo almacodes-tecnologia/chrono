@@ -1,3 +1,4 @@
+
 {
   "id": "falcon_rs",
   "nombre": "Falcon RS",
@@ -41,10 +42,61 @@
   },
   "visual": {
     "tipo_renderizado": "coche",
+    "vista": "cenital",
     "estilo": "rally",
-    "color_principal": "#F2F2F2",
-    "color_secundario": "#1676D2",
-    "color_acento": "#E53935",
+    "proporciones": {
+      "anchura": 0.49,
+      "altura_visual": 0.37,
+      "posicion_cabina": 0.46
+    },
+    "carroceria": {
+      "forma": "rally_ensanchada",
+      "morro": "deportivo",
+      "trasera": "compacta",
+      "aleron": "elevado",
+      "paragolpes": "competicion",
+      "pasos_rueda": "ensanchados",
+      "faldones": "deportivos"
+    },
+    "cristales": {
+      "parabrisas": "inclinado",
+      "luneta_trasera": "convencional",
+      "brillo": true,
+      "marco": "oscuro"
+    },
+    "ruedas": {
+      "tipo": "rally_multirradio",
+      "color_neumatico": "#17191D",
+      "color_llanta": "#D5D9DE",
+      "tamano": 0.19,
+      "descubiertas": false
+    },
+    "faros": {
+      "tipo": "rally",
+      "forma": "rectangular",
+      "auxiliares": true
+    },
+    "colores": {
+      "principal": "#F2F2F2",
+      "secundario": "#1676D2",
+      "acento": "#E53935",
+      "cristales": "#263B50",
+      "faros": "#F5F4DC",
+      "neumaticos": "#17191D",
+      "llantas": "#D5D9DE"
+    },
+    "acabado": {
+      "sombras": true,
+      "reflejos": true,
+      "contorno": true,
+      "nivel_detalle": 4
+    },
+    "accesorios": [
+      "decoracion_competicion",
+      "aleron_trasero_elevado",
+      "faros_auxiliares",
+      "pasos_rueda_ensanchados"
+    ],
     "detalles": [
       "decoracion de competicion azul y roja",
       "aleron trasero elevado",

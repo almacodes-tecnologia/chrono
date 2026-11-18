@@ -1,3 +1,4 @@
+
 {
   "id": "tempest_f1",
   "nombre": "Tempest F1",
@@ -41,10 +42,61 @@
   },
   "visual": {
     "tipo_renderizado": "coche",
+    "vista": "cenital",
     "estilo": "formula",
-    "color_principal": "#1769D2",
-    "color_secundario": "#F4F6F8",
-    "color_acento": "#E63838",
+    "proporciones": {
+      "anchura": 0.42,
+      "altura_visual": 0.24,
+      "posicion_cabina": 0.55
+    },
+    "carroceria": {
+      "forma": "monoplaza",
+      "morro": "muy_afilado",
+      "trasera": "estrecha",
+      "aleron": "delantero_y_trasero",
+      "paragolpes": null,
+      "pasos_rueda": null,
+      "faldones": null
+    },
+    "cristales": {
+      "parabrisas": "visera_cabina",
+      "luneta_trasera": null,
+      "brillo": true,
+      "marco": "oscuro"
+    },
+    "ruedas": {
+      "tipo": "formula_descubiertas",
+      "color_neumatico": "#17191D",
+      "color_llanta": "#252A32",
+      "tamano": 0.22,
+      "descubiertas": true
+    },
+    "faros": {
+      "tipo": null,
+      "forma": null,
+      "auxiliares": false
+    },
+    "colores": {
+      "principal": "#1769D2",
+      "secundario": "#F4F6F8",
+      "acento": "#E63838",
+      "cristales": "#263B50",
+      "faros": null,
+      "neumaticos": "#17191D",
+      "llantas": "#252A32"
+    },
+    "acabado": {
+      "sombras": true,
+      "reflejos": true,
+      "contorno": true,
+      "nivel_detalle": 4
+    },
+    "accesorios": [
+      "aleron_delantero",
+      "aleron_trasero",
+      "cabina_abierta",
+      "ruedas_descubiertas"
+    ],
     "detalles": [
       "aleron delantero aerodinamico",
       "aleron trasero elevado",

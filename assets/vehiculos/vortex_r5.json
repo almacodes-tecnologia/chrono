@@ -1,3 +1,4 @@
+
 {
   "id": "vortex_r5",
   "nombre": "Vortex R5",
@@ -41,10 +42,58 @@
   },
   "visual": {
     "tipo_renderizado": "coche",
+    "vista": "cenital",
     "estilo": "deportivo",
-    "color_principal": "#00C9D8",
-    "color_secundario": "#E8F4FA",
-    "color_acento": "#142D43",
+    "proporciones": {
+      "anchura": 0.47,
+      "altura_visual": 0.34,
+      "posicion_cabina": 0.49
+    },
+    "carroceria": {
+      "forma": "compacta_deportiva",
+      "morro": "agresivo",
+      "trasera": "compacta",
+      "aleron": "deportivo",
+      "paragolpes": "agresivo",
+      "pasos_rueda": "marcados",
+      "faldones": "deportivos"
+    },
+    "cristales": {
+      "parabrisas": "inclinado",
+      "luneta_trasera": "amplia",
+      "brillo": true,
+      "marco": "oscuro"
+    },
+    "ruedas": {
+      "tipo": "deportivas_cinco_radios",
+      "color_neumatico": "#17191D",
+      "color_llanta": "#E8F4FA",
+      "tamano": 0.17,
+      "descubiertas": false
+    },
+    "faros": {
+      "tipo": "deportivos",
+      "forma": "afilada",
+      "auxiliares": false
+    },
+    "colores": {
+      "principal": "#00C9D8",
+      "secundario": "#E8F4FA",
+      "acento": "#142D43",
+      "cristales": "#263B50",
+      "faros": "#F5F4DC",
+      "neumaticos": "#17191D",
+      "llantas": "#E8F4FA"
+    },
+    "acabado": {
+      "sombras": true,
+      "reflejos": true,
+      "contorno": true,
+      "nivel_detalle": 4
+    },
+    "accesorios": [
+      "aleron_trasero_deportivo"
+    ],
     "detalles": [
       "carroceria compacta de tres puertas",
       "aleron trasero deportivo",

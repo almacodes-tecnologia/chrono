@@ -42,24 +42,64 @@
   },
   "visual": {
     "tipo_renderizado": "agricola",
+    "tipo_vehiculo": "tractor",
     "estilo": "tractor",
+
     "color_principal": "#398C43",
     "color_secundario": "#E8E8E8",
     "color_acento": "#252A2E",
     "color_cristales": "#263B50",
     "color_neumaticos": "#17191D",
+    "color_llantas": "#858B8E",
+
     "rueda_trasera_longitud": 0.19,
     "rueda_delantera_longitud": 0.135,
     "separacion_ruedas": 0.32,
+    "rueda_trasera_anchura": null,
+    "rueda_delantera_anchura": null,
+    "posicion_rueda_trasera": -0.22,
+    "posicion_rueda_delantera": 0.28,
+
+    "proporcion_capot_longitud": 0.405,
+    "proporcion_capot_anchura": 0.40,
+    "proporcion_cabina_longitud": 0.32,
+    "proporcion_cabina_anchura": 0.46,
+    "posicion_cabina": -0.205,
+
+    "forma_capot": "rectangular",
+    "forma_cabina": "cerrada",
+    "tipo_guardabarros": "compacto",
+    "tipo_neumatico": "agricola",
+    "tipo_chasis": "reforzado",
+    "tipo_escape": "vertical",
+    "tipo_faross": null,
+    "tipo_enganche": "trasero",
+
+    "aleron": null,
+    "difusor": null,
+    "faldones": null,
+    "pasos_rueda": null,
+    "tomas_aire": null,
+    "reflejos": null,
+
+    "accesorios": [
+      "cabina_cerrada",
+      "escape_vertical",
+      "enganche_trasero",
+      "guardabarros",
+      "faros_delanteros"
+    ],
+
     "detalles": [
       "cuatro ruedas agrícolas",
       "ruedas traseras de gran tamaño",
       "ruedas delanteras más pequeñas",
       "cabina central acristalada",
-      "capó delantero blanco y alargado",
+      "capó delantero blanco",
       "chasis reforzado",
       "escape vertical",
-      "faros delanteros"
+      "faros delanteros",
+      "enganche trasero"
     ]
   }
 }

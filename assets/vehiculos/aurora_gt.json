@@ -1,0 +1,115 @@
+
+{
+  "id": "aurora_gt",
+  "nombre": "Aurora GT",
+  "descripcion": "Gran turismo de altas prestaciones, diseñado para combinar velocidad, estabilidad y confort en circuitos rápidos.",
+  "categoria": "gran_turismo",
+  "fabricante": "Aurora Automotive",
+  "precio": 22000,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 245,
+    "peso_kg": 1480,
+    "aerodinamica": 88,
+    "resistencia_superficies": {
+      "asfalto": 0.96,
+      "asfalto_rugoso": 1.05,
+      "grava": 1.35,
+      "tierra": 1.48,
+      "arena": 1.62,
+      "hierba": 1.55,
+      "barro": 1.72,
+      "nieve": 1.65,
+      "hielo": 1.78,
+      "roca": 1.82
+    },
+    "penalizacion_fuera_pista": 0.48
+  },
+  "manejo": {
+    "respuesta_direccion": 76,
+    "multiplicador_giro": 0.94
+  },
+  "dimensiones": {
+    "longitud_m": 4.82,
+    "anchura_m": 1.94,
+    "altura_m": 1.32,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "coche",
+    "estilo": "gran_turismo",
+
+    "proporciones": {
+      "anchura": 0.49,
+      "altura_visual": 0.34,
+      "posicion_cabina": 0.46
+    },
+
+    "carroceria": {
+      "forma": "gran_turismo_alargado",
+      "morro": "largo_redondeado",
+      "trasera": "ancha_elevada",
+      "aleron": "integrado",
+      "paragolpes": "deportivo",
+      "pasos_rueda": "ensanchados",
+      "faldones": "laterales"
+    },
+
+    "cristales": {
+      "parabrisas": "panoramico_inclinado",
+      "luneta_trasera": "amplia",
+      "brillo": true,
+      "marco": "oscuro"
+    },
+
+    "ruedas": {
+      "tipo": "gt_multirradio",
+      "color_neumatico": "#17191D",
+      "color_llanta": "#C8CDD3",
+      "tamano": 0.18,
+      "descubiertas": false
+    },
+
+    "faros": {
+      "tipo": "gt_alargados",
+      "forma": "afilada",
+      "auxiliares": false
+    },
+
+    "colores": {
+      "principal": "#263D67",
+      "secundario": "#DDE5ED",
+      "acento": "#D5A94B",
+      "cristales": "#263B50",
+      "faros": "#F5F4DC",
+      "neumaticos": "#17191D",
+      "llantas": "#C8CDD3"
+    },
+
+    "acabado": {
+      "sombras": true,
+      "reflejos": true,
+      "contorno": true,
+      "nivel_detalle": 4
+    },
+
+    "accesorios": [
+      "escape_trasero",
+      "aleron_integrado",
+      "difusor_trasero"
+    ],
+
+    "detalles": [
+      "capo largo",
+      "cabina retrasada",
+      "trasera ancha",
+      "faros delanteros alargados",
+      "difusor trasero"
+    ]
+  }
+}
