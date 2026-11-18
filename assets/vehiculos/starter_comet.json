@@ -1,3 +1,4 @@
+
 {
   "id": "starter_comet",
   "nombre": "Comet S",
@@ -40,8 +41,8 @@
     "escala_visual": 1.0
   },
   "visual": {
-    "renderizador": "coche",
-    "estilo_carroceria": "compacto",
+    "tipo_renderizado": "coche",
+    "estilo": "compacto",
     "color_principal": "#28B7E8",
     "color_secundario": "#E8F4FA",
     "color_acento": "#102B3A",

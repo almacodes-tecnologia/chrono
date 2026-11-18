@@ -1,0 +1,522 @@
+# Manual de creación de vehículos JSON — Chrono
+
+## 1. Objetivo y filosofía
+
+Todos los vehículos de Chrono se definen mediante archivos JSON independientes.
+
+La idea es que añadir un vehículo nuevo consista únicamente en crear su JSON, incorporarlo al índice de contenido y publicarlo. No debería ser necesario modificar código Dart para añadir modelos de vehículos normales.
+
+**Distribución prevista del catálogo:**
+
+- 90 % coches: urbanos, compactos, berlinas, deportivos, superdeportivos, rally, GT, Fórmula, clásicos, muscle cars, etc.
+- 10 % vehículos especiales: motocicletas, bicicletas, camiones, autobuses, maquinaria agrícola, maquinaria de construcción, quads, buggies, vehículos de emergencia, remolques, etc.
+
+No se debe crear un renderizador para cada modelo individual. Se reutilizará el renderizador de su familia.
+
+## 2. Estructura de carpetas
+
+Cada vehículo tendrá su propio archivo:
+
+```text
+assets/
+└── vehiculos/
+    ├── starter_comet.json
+    ├── falcon_gt.json
+    ├── rally_wolf.json
+    ├── thunder_f1.json
+    ├── classic_v8.json
+    ├── urban_van.json
+    └── ...
+```
+
+El identificador del archivo debe coincidir con el campo `id` del JSON.
+
+Ejemplo:
+
+`assets/vehiculos/starter_comet.json`
+
+```json
+{
+  "id": "starter_comet"
+}
+```
+
+Los identificadores siempre estarán en inglés, en minúsculas y con guiones bajos.
+
+## 3. Estructura general obligatoria
+
+Todos los vehículos deben mantener esta estructura:
+
+```json
+{
+  "id": "vehicle_id",
+  "nombre": "Nombre del vehículo",
+  "descripcion": "Descripción del vehículo.",
+  "categoria": "compacto",
+  "fabricante": "Fabricante",
+  "precio": 0,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 100,
+    "peso_kg": 1000,
+    "aerodinamica": 60,
+    "resistencia_superficies": {
+      "asfalto": 1.0,
+      "asfalto_rugoso": 1.08,
+      "grava": 1.22,
+      "tierra": 1.28,
+      "arena": 1.42,
+      "hierba": 1.35,
+      "barro": 1.48,
+      "nieve": 1.4,
+      "hielo": 1.52,
+      "roca": 1.55
+    },
+    "penalizacion_fuera_pista": 0.4
+  },
+  "manejo": {
+    "respuesta_direccion": 70,
+    "multiplicador_giro": 1.0
+  },
+  "dimensiones": {
+    "longitud_m": 4.0,
+    "anchura_m": 1.8,
+    "altura_m": 1.5,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "coche",
+    "estilo": "compacto",
+    "color_principal": "#28B7E8",
+    "color_secundario": "#303943",
+    "color_acento": "#FFFFFF"
+  }
+}
+```
+
+Los campos y nombres deben respetarse. No se deben inventar variantes de claves sin actualizar previamente los modelos y renderizadores Dart.
+
+## 4. Identificación y descripción
+
+| Campo | Descripción |
+|---|---|
+| `id` | Identificador único e inmutable. |
+| `nombre` | Nombre comercial del vehículo. |
+| `descripcion` | Texto breve que describe su personalidad. |
+| `categoria` | Categoría funcional del vehículo. |
+| `fabricante` | Fabricante ficticio o real representado en Chrono. |
+| `precio` | Precio de compra en monedas del juego. |
+| `vehiculo_inicial` | Indica si se entrega al comenzar. |
+
+### Categorías recomendadas para coches
+
+- `urbano`
+- `compacto`
+- `berlina`
+- `familiar`
+- `deportivo`
+- `superdeportivo`
+- `hiperdeportivo`
+- `muscle`
+- `clasico`
+- `rally`
+- `gt`
+- `formula`
+- `monoplaza`
+- `todoterreno`
+- `suv`
+- `cabrio`
+
+La categoría debe describir el tipo de vehículo, no su nivel de rendimiento.
+
+## 5. Requisitos de desbloqueo
+
+```json
+"requisitos_desbloqueo": {
+  "licencia_id": "license_b",
+  "circuitos_completados_ids": [
+    "copperline_park"
+  ],
+  "campeonato_id": null
+}
+```
+
+Reglas:
+
+- `licencia_id`: licencia necesaria para desbloquear el vehículo.
+- `circuitos_completados_ids`: circuitos que deben haberse completado.
+- `campeonato_id`: campeonato requerido, si corresponde.
+- Utilizar `null` cuando no exista requisito.
+- Utilizar `[]` cuando no se necesiten circuitos.
+
+Los identificadores deben coincidir exactamente con los existentes en el contenido de Chrono.
+
+Un vehículo inicial debe tener `vehiculo_inicial: true`, precio cero y requisitos vacíos.
+
+## 6. Rendimiento
+
+Estos valores afectan al comportamiento del vehículo en carrera.
+
+| Campo | Significado | Recomendación inicial |
+|---|---|---|
+| `potencia_kw` | Potencia del motor. | 50–1000 kW |
+| `peso_kg` | Peso del vehículo. | 500–3000 kg |
+| `aerodinamica` | Valor aerodinámico utilizado por el motor. | 20–100 |
+| `penalizacion_fuera_pista` | Penalización por circular fuera de la superficie. | 0.15–0.90 |
+
+Son rangos orientativos para crear contenido, no límites técnicos obligatorios.
+
+### Resistencia a superficies
+
+Este apartado permite que cada vehículo se comporte de manera diferente según el terreno.
+
+```json
+"resistencia_superficies": {
+  "asfalto": 1.0,
+  "asfalto_rugoso": 1.08,
+  "grava": 1.22,
+  "tierra": 1.28,
+  "arena": 1.42,
+  "hierba": 1.35,
+  "barro": 1.48,
+  "nieve": 1.4,
+  "hielo": 1.52,
+  "roca": 1.55
+}
+```
+
+Como referencia:
+
+- Un deportivo debe favorecer el asfalto.
+- Un coche de rally debe desenvolverse mejor en grava y tierra.
+- Un todoterreno debe tener un comportamiento más adecuado en arena, barro y roca.
+- Un Fórmula debe estar muy especializado en asfalto.
+
+Utilizar valores coherentes con el funcionamiento del motor: no asignar bonificaciones arbitrarias sin comprobar cómo interpreta estos multiplicadores el cálculo de conducción.
+
+## 7. Manejo
+
+```json
+"manejo": {
+  "respuesta_direccion": 75,
+  "multiplicador_giro": 1.05
+}
+```
+
+- `respuesta_direccion`: capacidad de respuesta de la dirección.
+- `multiplicador_giro`: modificador del giro.
+
+Valores orientativos:
+
+| Tipo | Respuesta | Multiplicador |
+|---|---:|---:|
+| Urbano | 65–80 | 0.90–1.05 |
+| Compacto | 65–80 | 0.95–1.05 |
+| Berlina | 55–75 | 0.85–1.00 |
+| Deportivo | 75–90 | 1.00–1.15 |
+| Superdeportivo | 80–95 | 1.00–1.20 |
+| Rally | 75–90 | 1.05–1.25 |
+| GT | 75–90 | 0.95–1.10 |
+| Fórmula | 90–100 | 1.10–1.30 |
+| Todoterreno | 55–75 | 0.85–1.05 |
+
+Estos rangos son una guía de diseño. El equilibrio definitivo se realizará durante las pruebas del juego.
+
+## 8. Dimensiones
+
+```json
+"dimensiones": {
+  "longitud_m": 3.85,
+  "anchura_m": 1.72,
+  "altura_m": 1.48,
+  "escala_visual": 1.0
+}
+```
+
+Las dimensiones deben representar aproximadamente las medidas reales del vehículo.
+
+| Campo | Unidad |
+|---|---|
+| `longitud_m` | Metros |
+| `anchura_m` | Metros |
+| `altura_m` | Metros |
+| `escala_visual` | Multiplicador visual |
+
+Valores orientativos para coches:
+
+| Tipo | Longitud | Anchura |
+|---|---:|---:|
+| Urbano | 3.4–4.0 m | 1.55–1.75 m |
+| Compacto | 3.8–4.4 m | 1.65–1.85 m |
+| Berlina | 4.4–5.1 m | 1.75–1.95 m |
+| Deportivo | 4.0–4.8 m | 1.75–2.0 m |
+| Superdeportivo | 4.2–5.0 m | 1.85–2.1 m |
+| Fórmula | 5.0–5.8 m | 1.8–2.0 m |
+| Rally | 3.9–4.6 m | 1.75–1.95 m |
+
+No utilizar `escala_visual` para compensar dimensiones reales incorrectas. Primero se deben definir las medidas y después ajustar ligeramente la representación si fuera necesario.
+
+## 9. Sistema visual
+
+Este es uno de los apartados más importantes.
+
+El renderizador se selecciona automáticamente a partir de los campos visuales y la categoría.
+
+**Claves principales:**
+
+| Campo | Función |
+|---|---|
+| `tipo_renderizado` | Familia de renderizador. |
+| `estilo` | Variante visual dentro de esa familia. |
+| `color_principal` | Color dominante. |
+| `color_secundario` | Color de piezas secundarias. |
+| `color_acento` | Color complementario para detalles. |
+
+Los colores deben escribirse en hexadecimal, por ejemplo `#28B7E8`.
+
+### Familias de renderizado
+
+| `tipo_renderizado` | Renderizador | Vehículos |
+|---|---|---|
+| `coche` | CarRenderer | Coches normales, rally, GT, Fórmula, clásicos, deportivos. |
+| `motocicleta` | MotorcycleRenderer | Motos, scooters y motocicletas trail. |
+| `bicicleta` | BicycleRenderer | Carretera, montaña, BMX y gravel. |
+| `heavy` | HeavyVehicleRenderer | Camiones, autobuses y vehículos pesados. |
+| `agricultural` | AgriculturalRenderer | Tractores, cosechadoras y pulverizadores. |
+| `construction` | ConstructionRenderer | Excavadoras, bulldozers, cargadoras y grúas. |
+| `special` | SpecialVehicleRenderer | Karts, quads, buggies y ATV. |
+| `utility` | UtilityVehicleRenderer | Furgonetas, pickups y vehículos utilitarios. |
+| `emergency` | EmergencyVehicleRenderer | Policía, ambulancias y bomberos. |
+| `trailer` | TrailerRenderer | Remolques, cisternas, contenedores y caravanas. |
+
+Importante: el valor de `tipo_renderizado` debe contener una palabra que reconozca `VehicleRendererFactory`. Los valores de la tabla están preparados para ello.
+
+### 9.1. Estilos de coches
+
+El 90 % de los vehículos utilizará `tipo_renderizado: "coche"`.
+
+Los estilos recomendados son:
+
+| `estilo` | Aspecto |
+|---|---|
+| `urbano` | Carrocería pequeña y sencilla. |
+| `compacto` | Coche corto y equilibrado. |
+| `sedan` | Berlina con carrocería alargada. |
+| `familiar` | Carrocería larga. |
+| `deportivo` | Silueta baja y deportiva. |
+| `superdeportivo` | Carrocería agresiva y aerodinámica. |
+| `hiperdeportivo` | Diseño extremo. |
+| `muscle` | Capó largo y aspecto musculoso. |
+| `clasico` | Diseño retro. |
+| `rally` | Aspecto de competición y alerones. |
+| `gt` | Deportivo de competición cerrado. |
+| `formula` | Monoplaza de competición. |
+| `monoplaza` | Vehículo de un solo asiento. |
+| `todoterreno` | Carrocería elevada. |
+| `suv` | Vehículo alto y voluminoso. |
+| `cabrio` | Deportivo descapotable. |
+
+El estilo no debe confundirse con la categoría: la categoría clasifica el vehículo y el estilo orienta su representación visual.
+
+### 9.2. Estilos de otras familias
+
+Algunos ejemplos:
+
+- Motocicletas: `deportiva`, `naked`, `trail`, `touring`, `scooter`.
+- Bicicletas: `carretera`, `montana`, `bmx`, `gravel`, `urbana`.
+- Maquinaria agrícola: `tractor`, `small_tractor`, `combine`, `sprayer`.
+- Construcción: `excavator`, `bulldozer`, `loader`, `crane`.
+- Especiales: `kart`, `quad`, `buggy`, `offroad`.
+- Utilitarios: `van`, `pickup`, `camper`, `service`.
+- Remolques: `contenedor`, `cisterna`, `plataforma`, `frigorifico`, `caravana`.
+
+Los renderizadores especializados pueden utilizar campos visuales adicionales, como `tipo_remolque`, `ancho_sirena` o `numero_ejes`.
+
+## 10. Ejemplo completo: coche de rally
+
+Este sería un ejemplo de vehículo normal que utiliza `CarRenderer`, sin necesidad de crear un renderizador específico.
+
+```json
+{
+  "id": "rally_wolf",
+  "nombre": "Wolf Rally R4",
+  "descripcion": "Compacto de competición preparado para dominar los tramos de tierra y grava.",
+  "categoria": "rally",
+  "fabricante": "Wolf Motorsport",
+  "precio": 18500,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": "license_b",
+    "circuitos_completados_ids": [
+      "copperline_park"
+    ],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 220,
+    "peso_kg": 1180,
+    "aerodinamica": 68,
+    "resistencia_superficies": {
+      "asfalto": 1.0,
+      "asfalto_rugoso": 1.03,
+      "grava": 1.05,
+      "tierra": 1.08,
+      "arena": 1.18,
+      "hierba": 1.15,
+      "barro": 1.2,
+      "nieve": 1.15,
+      "hielo": 1.3,
+      "roca": 1.35
+    },
+    "penalizacion_fuera_pista": 0.24
+  },
+  "manejo": {
+    "respuesta_direccion": 86,
+    "multiplicador_giro": 1.15
+  },
+  "dimensiones": {
+    "longitud_m": 4.1,
+    "anchura_m": 1.85,
+    "altura_m": 1.48,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "coche",
+    "estilo": "rally",
+    "color_principal": "#E8E8E8",
+    "color_secundario": "#D52B35",
+    "color_acento": "#20252B"
+  }
+}
+```
+
+## 11. Ejemplo: coche de Fórmula
+
+Un Fórmula también utiliza `CarRenderer`. No necesita un renderer independiente.
+
+```json
+{
+  "id": "thunder_f1",
+  "nombre": "Thunder F1",
+  "descripcion": "Monoplaza de competición con una aceleración y una capacidad de giro excepcionales.",
+  "categoria": "formula",
+  "fabricante": "Thunder Racing",
+  "precio": 95000,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": "license_s",
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 650,
+    "peso_kg": 800,
+    "aerodinamica": 98,
+    "resistencia_superficies": {
+      "asfalto": 1.0,
+      "asfalto_rugoso": 1.25,
+      "grava": 1.6,
+      "tierra": 1.7,
+      "arena": 1.8,
+      "hierba": 1.7,
+      "barro": 1.9,
+      "nieve": 1.9,
+      "hielo": 2.0,
+      "roca": 2.0
+    },
+    "penalizacion_fuera_pista": 0.75
+  },
+  "manejo": {
+    "respuesta_direccion": 98,
+    "multiplicador_giro": 1.25
+  },
+  "dimensiones": {
+    "longitud_m": 5.5,
+    "anchura_m": 1.9,
+    "altura_m": 0.95,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "coche",
+    "estilo": "formula",
+    "color_principal": "#D92B35",
+    "color_secundario": "#17191D",
+    "color_acento": "#FFFFFF"
+  }
+}
+```
+
+## 12. Campos visuales adicionales
+
+Se pueden incorporar propiedades adicionales para modificar el aspecto sin crear otro renderer.
+
+Ejemplos de propiedades que pueden utilizar los renderizadores:
+
+```json
+{
+  "visual": {
+    "tipo_renderizado": "coche",
+    "estilo": "rally",
+    "color_principal": "#FFFFFF",
+    "color_secundario": "#D52B35",
+    "color_acento": "#20252B",
+    "aleron": true,
+    "aleron_tamano": 0.8,
+    "altura_carroceria": 0.9,
+    "ancho_ruedas": 1.1
+  }
+}
+```
+
+**Importante:** añadir una propiedad al JSON no hace que aparezca automáticamente en pantalla. El renderer correspondiente debe leerla y utilizarla. No añadir propiedades visuales como si ya estuvieran implementadas sin comprobar el código.
+
+## 13. Normas de calidad
+
+Antes de publicar un vehículo:
+
+1. El identificador debe ser único.
+2. El nombre y la descripción deben estar correctamente escritos.
+3. La categoría debe corresponder al vehículo.
+4. El precio debe ser coherente con su rendimiento y desbloqueo.
+5. Los requisitos deben apuntar a identificadores existentes.
+6. Las dimensiones deben ser realistas.
+7. La potencia y el peso deben ser coherentes entre sí.
+8. La resistencia a superficies debe reflejar el uso previsto.
+9. El renderizador debe corresponder a su familia.
+10. Los colores deben estar en hexadecimal.
+11. El JSON debe ser válido, sin comentarios ni comas sobrantes.
+12. El vehículo debe comprobarse visualmente en el garaje y en carrera.
+
+## 14. Errores que debemos evitar
+
+- Crear un renderer nuevo para cada coche.
+- Usar `renderizador` cuando el código espera `tipo_renderizado`.
+- Usar `estilo_carroceria` cuando el código espera `estilo`.
+- Escribir identificadores de circuitos, licencias o campeonatos inexistentes.
+- Confundir potencia en kW con caballos de vapor.
+- Utilizar dimensiones en centímetros en lugar de metros.
+- Asignar resistencias de todoterreno a un Fórmula.
+- Utilizar colores sin formato hexadecimal válido.
+- Añadir propiedades visuales que ningún renderer esté leyendo.
+- Duplicar identificadores de vehículos.
+
+## 15. Regla definitiva para crear contenido
+
+Para el catálogo de Chrono, seguiremos esta prioridad:
+
+1. Primero determinar qué vehículo estamos creando.
+2. Después elegir su categoría.
+3. Seleccionar el renderizador de su familia.
+4. Definir el estilo visual.
+5. Asignar rendimiento, manejo y dimensiones.
+6. Configurar precio y requisitos de desbloqueo.
+7. Comprobar que se representa correctamente.
+
+**La norma más importante:** dos coches pueden tener diseños, colores, potencia, dimensiones y comportamiento completamente diferentes y seguir utilizando el mismo `CarRenderer`.
+
+El objetivo es conseguir un catálogo amplio y variado, manteniendo el código limpio y permitiendo añadir cientos de vehículos mediante JSON.
