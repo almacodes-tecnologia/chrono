@@ -1,0 +1,82 @@
+{
+  "id": "fire_engine_ladder",
+  "nombre": "Fire Engine Ladder",
+  "descripcion": "Camión de bomberos equipado con escalera extensible para intervenciones en edificios y estructuras elevadas.",
+  "categoria": "emergencia",
+  "fabricante": "Chrono Fire Systems",
+  "precio": 59000,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 300,
+    "peso_kg": 14500,
+    "aerodinamica": 22,
+    "resistencia_superficies": {
+      "asfalto": 1.15,
+      "asfalto_rugoso": 0.98,
+      "grava": 0.92,
+      "tierra": 0.95,
+      "arena": 1.18,
+      "hierba": 1.02,
+      "barro": 1.12,
+      "nieve": 1.18,
+      "hielo": 1.8,
+      "roca": 1.4
+    },
+    "penalizacion_fuera_pista": 0.26
+  },
+  "manejo": {
+    "respuesta_direccion": 30,
+    "multiplicador_giro": 0.48
+  },
+  "dimensiones": {
+    "longitud_m": 9.2,
+    "anchura_m": 2.5,
+    "altura_m": 3.5,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "emergencia",
+    "tipo_vehiculo": "bomberos",
+    "estilo": "bomberos",
+    "tipo_carroceria": "camion",
+    "color_principal": "#D92727",
+    "color_secundario": "#F0D13B",
+    "color_acento": "#242B31",
+    "color_cristales": "#263B50",
+    "color_neumaticos": "#17191D",
+    "color_llantas": "#858B8E",
+    "color_sirena_izquierda": "#FFFFFF",
+    "color_sirena_derecha": "#FF3030",
+    "escala_sirena": 1.1,
+    "ancho_sirena": 0.95,
+    "alto_sirena": 0.19,
+    "posicion_sirena_y": -0.14,
+    "rueda_longitud": 0.25,
+    "rueda_anchura": 0.22,
+    "posicion_rueda_delantera": 0.35,
+    "posicion_rueda_trasera": -0.35,
+    "separacion_ruedas": 1.0,
+    "proporcion_cabina_longitud": 0.27,
+    "proporcion_cabina_anchura": 0.82,
+    "posicion_cabina": 0.36,
+    "proporcion_compartimento_longitud": 0.63,
+    "proporcion_compartimento_anchura": 0.92,
+    "posicion_compartimento": -0.32,
+    "tipo_equipo": "escalera",
+    "tiene_escalera": true,
+    "tiene_mangueras": true,
+    "tiene_cruz_sanitaria": false,
+    "tiene_banda_lateral": true,
+    "detalles": [
+      "barra luminosa de emergencia",
+      "banda amarilla lateral",
+      "escalera extensible central",
+      "compartimentos de herramientas"
+    ]
+  }
+}

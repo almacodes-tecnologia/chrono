@@ -1,0 +1,81 @@
+{
+  "id": "police_sentinel_suv",
+  "nombre": "Sentinel SUV Police",
+  "descripcion": "SUV policial robusto con buena estabilidad y capacidad para circular por superficies complicadas.",
+  "categoria": "emergencia",
+  "fabricante": "Chrono Public Safety",
+  "precio": 31000,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 245,
+    "peso_kg": 2450,
+    "aerodinamica": 58,
+    "resistencia_superficies": {
+      "asfalto": 1.05,
+      "asfalto_rugoso": 0.98,
+      "grava": 0.88,
+      "tierra": 0.85,
+      "arena": 1.0,
+      "hierba": 0.88,
+      "barro": 0.92,
+      "nieve": 0.95,
+      "hielo": 1.45,
+      "roca": 1.15
+    },
+    "penalizacion_fuera_pista": 0.16
+  },
+  "manejo": {
+    "respuesta_direccion": 66,
+    "multiplicador_giro": 0.88
+  },
+  "dimensiones": {
+    "longitud_m": 4.95,
+    "anchura_m": 2.02,
+    "altura_m": 1.85,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "emergencia",
+    "tipo_vehiculo": "policia",
+    "estilo": "policia",
+    "tipo_carroceria": "suv",
+    "color_principal": "#E9EBE8",
+    "color_secundario": "#173D69",
+    "color_acento": "#17232F",
+    "color_cristales": "#263B50",
+    "color_neumaticos": "#17191D",
+    "color_llantas": "#858B8E",
+    "color_sirena_izquierda": "#168BFF",
+    "color_sirena_derecha": "#FF3030",
+    "escala_sirena": 1.05,
+    "ancho_sirena": 0.82,
+    "alto_sirena": 0.17,
+    "posicion_sirena_y": -0.13,
+    "rueda_longitud": 0.22,
+    "rueda_anchura": 0.19,
+    "posicion_rueda_delantera": 0.30,
+    "posicion_rueda_trasera": -0.30,
+    "separacion_ruedas": 0.91,
+    "proporcion_cabina_longitud": 0.39,
+    "proporcion_cabina_anchura": 0.78,
+    "posicion_cabina": 0.02,
+    "proporcion_compartimento_longitud": null,
+    "proporcion_compartimento_anchura": null,
+    "posicion_compartimento": null,
+    "tipo_equipo": null,
+    "tiene_escalera": false,
+    "tiene_mangueras": false,
+    "tiene_cruz_sanitaria": false,
+    "tiene_banda_lateral": true,
+    "detalles": [
+      "barra policial azul y roja",
+      "bandas policiales laterales",
+      "carrocería SUV elevada"
+    ]
+  }
+}

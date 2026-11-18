@@ -1,0 +1,82 @@
+{
+  "id": "ambulance_rescue_van",
+  "nombre": "Rescue Medical Van",
+  "descripcion": "Ambulancia de intervención sanitaria con carrocería amplia y buena capacidad de respuesta.",
+  "categoria": "emergencia",
+  "fabricante": "Chrono Medical",
+  "precio": 28000,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 155,
+    "peso_kg": 3200,
+    "aerodinamica": 48,
+    "resistencia_superficies": {
+      "asfalto": 1.0,
+      "asfalto_rugoso": 1.04,
+      "grava": 1.18,
+      "tierra": 1.32,
+      "arena": 1.48,
+      "hierba": 1.38,
+      "barro": 1.58,
+      "nieve": 1.42,
+      "hielo": 1.7,
+      "roca": 1.55
+    },
+    "penalizacion_fuera_pista": 0.24
+  },
+  "manejo": {
+    "respuesta_direccion": 58,
+    "multiplicador_giro": 0.82
+  },
+  "dimensiones": {
+    "longitud_m": 5.65,
+    "anchura_m": 2.05,
+    "altura_m": 2.65,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "emergencia",
+    "tipo_vehiculo": "ambulancia",
+    "estilo": "ambulancia",
+    "tipo_carroceria": "furgon",
+    "color_principal": "#F2F3EE",
+    "color_secundario": "#D52D32",
+    "color_acento": "#202A33",
+    "color_cristales": "#263B50",
+    "color_neumaticos": "#17191D",
+    "color_llantas": "#858B8E",
+    "color_sirena_izquierda": "#FFFFFF",
+    "color_sirena_derecha": "#FF3030",
+    "escala_sirena": 1.0,
+    "ancho_sirena": 0.82,
+    "alto_sirena": 0.17,
+    "posicion_sirena_y": -0.14,
+    "rueda_longitud": 0.21,
+    "rueda_anchura": 0.18,
+    "posicion_rueda_delantera": 0.32,
+    "posicion_rueda_trasera": -0.34,
+    "separacion_ruedas": 0.88,
+    "proporcion_cabina_longitud": 0.30,
+    "proporcion_cabina_anchura": 0.78,
+    "posicion_cabina": 0.29,
+    "proporcion_compartimento_longitud": 0.55,
+    "proporcion_compartimento_anchura": 0.88,
+    "posicion_compartimento": -0.25,
+    "tipo_equipo": "sanitario",
+    "tiene_escalera": false,
+    "tiene_mangueras": false,
+    "tiene_cruz_sanitaria": true,
+    "tiene_banda_lateral": true,
+    "detalles": [
+      "barra luminosa de emergencia",
+      "cruz sanitaria lateral",
+      "banda roja lateral",
+      "compartimento sanitario trasero"
+    ]
+  }
+}

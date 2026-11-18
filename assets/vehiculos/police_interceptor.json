@@ -1,0 +1,81 @@
+{
+  "id": "police_interceptor",
+  "nombre": "Interceptor Police",
+  "descripcion": "Turismo policial rápido y equilibrado, preparado para patrullaje y persecuciones.",
+  "categoria": "emergencia",
+  "fabricante": "Chrono Public Safety",
+  "precio": 24000,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 210,
+    "peso_kg": 1850,
+    "aerodinamica": 72,
+    "resistencia_superficies": {
+      "asfalto": 1.0,
+      "asfalto_rugoso": 1.05,
+      "grava": 1.15,
+      "tierra": 1.3,
+      "arena": 1.45,
+      "hierba": 1.35,
+      "barro": 1.55,
+      "nieve": 1.4,
+      "hielo": 1.65,
+      "roca": 1.5
+    },
+    "penalizacion_fuera_pista": 0.22
+  },
+  "manejo": {
+    "respuesta_direccion": 78,
+    "multiplicador_giro": 1.0
+  },
+  "dimensiones": {
+    "longitud_m": 4.85,
+    "anchura_m": 1.95,
+    "altura_m": 1.48,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "emergencia",
+    "tipo_vehiculo": "policia",
+    "estilo": "policia",
+    "tipo_carroceria": "turismo",
+    "color_principal": "#F0F1ED",
+    "color_secundario": "#183D68",
+    "color_acento": "#17232F",
+    "color_cristales": "#263B50",
+    "color_neumaticos": "#17191D",
+    "color_llantas": "#858B8E",
+    "color_sirena_izquierda": "#168BFF",
+    "color_sirena_derecha": "#FF3030",
+    "escala_sirena": 1.0,
+    "ancho_sirena": 0.75,
+    "alto_sirena": 0.16,
+    "posicion_sirena_y": -0.12,
+    "rueda_longitud": 0.19,
+    "rueda_anchura": 0.16,
+    "posicion_rueda_delantera": 0.29,
+    "posicion_rueda_trasera": -0.29,
+    "separacion_ruedas": 0.84,
+    "proporcion_cabina_longitud": 0.38,
+    "proporcion_cabina_anchura": 0.76,
+    "posicion_cabina": 0.02,
+    "proporcion_compartimento_longitud": null,
+    "proporcion_compartimento_anchura": null,
+    "posicion_compartimento": null,
+    "tipo_equipo": null,
+    "tiene_escalera": false,
+    "tiene_mangueras": false,
+    "tiene_cruz_sanitaria": false,
+    "tiene_banda_lateral": true,
+    "detalles": [
+      "barra policial azul y roja",
+      "bandas policiales laterales",
+      "carrocería de turismo patrulla"
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "fire_rescue_truck",
+  "nombre": "Fire Rescue 4x4",
+  "descripcion": "Camión compacto de intervención rápida para acceder a zonas difíciles y actuar en emergencias.",
+  "categoria": "emergencia",
+  "fabricante": "Chrono Fire Systems",
+  "precio": 36000,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 230,
+    "peso_kg": 4800,
+    "aerodinamica": 38,
+    "resistencia_superficies": {
+      "asfalto": 1.08,
+      "asfalto_rugoso": 0.96,
+      "grava": 0.82,
+      "tierra": 0.78,
+      "arena": 0.95,
+      "hierba": 0.82,
+      "barro": 0.86,
+      "nieve": 0.92,
+      "hielo": 1.48,
+      "roca": 1.05
+    },
+    "penalizacion_fuera_pista": 0.14
+  },
+  "manejo": {
+    "respuesta_direccion": 54,
+    "multiplicador_giro": 0.76
+  },
+  "dimensiones": {
+    "longitud_m": 5.45,
+    "anchura_m": 2.25,
+    "altura_m": 2.85,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "emergencia",
+    "tipo_vehiculo": "bomberos",
+    "estilo": "bomberos",
+    "tipo_carroceria": "camion",
+    "color_principal": "#D92727",
+    "color_secundario": "#F0D13B",
+    "color_acento": "#242B31",
+    "color_cristales": "#263B50",
+    "color_neumaticos": "#17191D",
+    "color_llantas": "#858B8E",
+    "color_sirena_izquierda": "#FFFFFF",
+    "color_sirena_derecha": "#FF3030",
+    "escala_sirena": 1.0,
+    "ancho_sirena": 0.88,
+    "alto_sirena": 0.18,
+    "posicion_sirena_y": -0.13,
+    "rueda_longitud": 0.24,
+    "rueda_anchura": 0.21,
+    "posicion_rueda_delantera": 0.34,
+    "posicion_rueda_trasera": -0.34,
+    "separacion_ruedas": 0.96,
+    "proporcion_cabina_longitud": 0.34,
+    "proporcion_cabina_anchura": 0.82,
+    "posicion_cabina": 0.32,
+    "proporcion_compartimento_longitud": 0.52,
+    "proporcion_compartimento_anchura": 0.90,
+    "posicion_compartimento": -0.30,
+    "tipo_equipo": "intervencion",
+    "tiene_escalera": false,
+    "tiene_mangueras": true,
+    "tiene_cruz_sanitaria": false,
+    "tiene_banda_lateral": true,
+    "detalles": [
+      "barra luminosa de emergencia",
+      "banda amarilla lateral",
+      "compartimento de herramientas",
+      "equipo de intervención"
+    ]
+  }
+}

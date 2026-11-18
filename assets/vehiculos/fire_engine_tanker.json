@@ -1,0 +1,83 @@
+{
+  "id": "fire_engine_tanker",
+  "nombre": "Fire Engine Tanker",
+  "descripcion": "Camión pesado de extinción con depósito de agua y equipo de intervención contra incendios.",
+  "categoria": "emergencia",
+  "fabricante": "Chrono Fire Systems",
+  "precio": 48000,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 280,
+    "peso_kg": 10500,
+    "aerodinamica": 28,
+    "resistencia_superficies": {
+      "asfalto": 1.12,
+      "asfalto_rugoso": 0.94,
+      "grava": 0.84,
+      "tierra": 0.82,
+      "arena": 1.02,
+      "hierba": 0.9,
+      "barro": 1.0,
+      "nieve": 1.05,
+      "hielo": 1.65,
+      "roca": 1.25
+    },
+    "penalizacion_fuera_pista": 0.2
+  },
+  "manejo": {
+    "respuesta_direccion": 38,
+    "multiplicador_giro": 0.58
+  },
+  "dimensiones": {
+    "longitud_m": 7.6,
+    "anchura_m": 2.5,
+    "altura_m": 3.25,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "emergencia",
+    "tipo_vehiculo": "bomberos",
+    "estilo": "bomberos",
+    "tipo_carroceria": "camion",
+    "color_principal": "#D92727",
+    "color_secundario": "#F0D13B",
+    "color_acento": "#242B31",
+    "color_cristales": "#263B50",
+    "color_neumaticos": "#17191D",
+    "color_llantas": "#858B8E",
+    "color_sirena_izquierda": "#FFFFFF",
+    "color_sirena_derecha": "#FF3030",
+    "escala_sirena": 1.1,
+    "ancho_sirena": 0.95,
+    "alto_sirena": 0.19,
+    "posicion_sirena_y": -0.14,
+    "rueda_longitud": 0.25,
+    "rueda_anchura": 0.22,
+    "posicion_rueda_delantera": 0.35,
+    "posicion_rueda_trasera": -0.35,
+    "separacion_ruedas": 1.0,
+    "proporcion_cabina_longitud": 0.29,
+    "proporcion_cabina_anchura": 0.82,
+    "posicion_cabina": 0.34,
+    "proporcion_compartimento_longitud": 0.60,
+    "proporcion_compartimento_anchura": 0.92,
+    "posicion_compartimento": -0.32,
+    "tipo_equipo": "extincion",
+    "tiene_escalera": false,
+    "tiene_mangueras": true,
+    "tiene_cruz_sanitaria": false,
+    "tiene_banda_lateral": true,
+    "detalles": [
+      "barra luminosa de emergencia",
+      "banda amarilla lateral",
+      "depósito de agua",
+      "mangueras laterales",
+      "compartimentos de extinción"
+    ]
+  }
+}

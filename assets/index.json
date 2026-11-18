@@ -15,7 +15,14 @@
 	"construction_excavator_320",
 	"construction_bulldozer_d9",
 	"construction_loader_950",
-	"construction_crane_450"
+	"construction_crane_450",
+	"police_interceptor",
+	"police_sentinel_suv",
+	"ambulance_rescue_van",
+	"fire_rescue_truck",
+	"fire_engine_tanker",
+	"fire_engine_ladder"
+	
   ],
   "circuitos": [
     "copperline_park",
