@@ -32,7 +32,8 @@
   },
   "manejo": {
     "respuesta_direccion": 88,
-    "multiplicador_giro": 1.16
+    "multiplicador_giro": 1.16,
+    "eficacia_frenada": null
   },
   "dimensiones": {
     "longitud_m": 4.18,
@@ -46,7 +47,6 @@
     "estilo": "rally",
     "proporciones": {
       "anchura": 0.49,
-      "altura_visual": 0.37,
       "posicion_cabina": 0.46
     },
     "carroceria": {
@@ -61,7 +61,6 @@
     "cristales": {
       "parabrisas": "inclinado",
       "luneta_trasera": "convencional",
-      "brillo": true,
       "marco": "oscuro"
     },
     "ruedas": {
@@ -86,8 +85,6 @@
       "llantas": "#D5D9DE"
     },
     "acabado": {
-      "sombras": true,
-      "reflejos": true,
       "contorno": true,
       "nivel_detalle": 4
     },
@@ -96,12 +93,6 @@
       "aleron_trasero_elevado",
       "faros_auxiliares",
       "pasos_rueda_ensanchados"
-    ],
-    "detalles": [
-      "decoracion de competicion azul y roja",
-      "aleron trasero elevado",
-      "faros auxiliares de rally",
-      "pasos de rueda ensanchados"
     ]
   }
 }

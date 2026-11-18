@@ -32,7 +32,8 @@
   },
   "manejo": {
     "respuesta_direccion": 96,
-    "multiplicador_giro": 1.2
+    "multiplicador_giro": 1.2,
+    "eficacia_frenada": null
   },
   "dimensiones": {
     "longitud_m": 5.35,
@@ -46,7 +47,6 @@
     "estilo": "formula",
     "proporciones": {
       "anchura": 0.42,
-      "altura_visual": 0.24,
       "posicion_cabina": 0.55
     },
     "carroceria": {
@@ -61,13 +61,12 @@
     "cristales": {
       "parabrisas": "visera_cabina",
       "luneta_trasera": null,
-      "brillo": true,
       "marco": "oscuro"
     },
     "ruedas": {
       "tipo": "formula_descubiertas",
-      "color_neumatico": "#17191D",
-      "color_llanta": "#252A32",
+      "color_neumatico": null,
+      "color_llanta": null,
       "tamano": 0.22,
       "descubiertas": true
     },
@@ -86,8 +85,6 @@
       "llantas": "#252A32"
     },
     "acabado": {
-      "sombras": true,
-      "reflejos": true,
       "contorno": true,
       "nivel_detalle": 4
     },
@@ -96,12 +93,6 @@
       "aleron_trasero",
       "cabina_abierta",
       "ruedas_descubiertas"
-    ],
-    "detalles": [
-      "aleron delantero aerodinamico",
-      "aleron trasero elevado",
-      "ruedas descubiertas",
-      "cabina abierta de competicion"
     ]
   }
 }

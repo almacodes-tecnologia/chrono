@@ -32,7 +32,8 @@
   },
   "manejo": {
     "respuesta_direccion": 72,
-    "multiplicador_giro": 1.0
+    "multiplicador_giro": 1.0,
+    "eficacia_frenada": null
   },
   "dimensiones": {
     "longitud_m": 3.85,
@@ -46,7 +47,6 @@
     "estilo": "compacto",
     "proporciones": {
       "anchura": 0.46,
-      "altura_visual": 0.38,
       "posicion_cabina": 0.48
     },
     "carroceria": {
@@ -61,13 +61,12 @@
     "cristales": {
       "parabrisas": "convencional",
       "luneta_trasera": "amplia",
-      "brillo": true,
       "marco": "oscuro"
     },
     "ruedas": {
       "tipo": "cinco_radios",
-      "color_neumatico": "#17191D",
-      "color_llanta": "#D5D9DE",
+      "color_neumatico": null,
+      "color_llanta": null,
       "tamano": 0.16,
       "descubiertas": false
     },
@@ -86,18 +85,11 @@
       "llantas": "#D5D9DE"
     },
     "acabado": {
-      "sombras": true,
-      "reflejos": true,
       "contorno": true,
       "nivel_detalle": 3
     },
     "accesorios": [
       "aleron_trasero_pequeno"
-    ],
-    "detalles": [
-      "faros delanteros cuadrados",
-      "aleron trasero pequeño",
-      "llantas de cinco radios"
     ]
   }
 }

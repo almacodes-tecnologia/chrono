@@ -32,7 +32,8 @@
   },
   "manejo": {
     "respuesta_direccion": 76,
-    "multiplicador_giro": 0.94
+    "multiplicador_giro": 0.94,
+    "eficacia_frenada": null
   },
   "dimensiones": {
     "longitud_m": 4.82,
@@ -42,14 +43,12 @@
   },
   "visual": {
     "tipo_renderizado": "coche",
+    "vista": "cenital",
     "estilo": "gran_turismo",
-
     "proporciones": {
       "anchura": 0.49,
-      "altura_visual": 0.34,
       "posicion_cabina": 0.46
     },
-
     "carroceria": {
       "forma": "gran_turismo_alargado",
       "morro": "largo_redondeado",
@@ -59,28 +58,23 @@
       "pasos_rueda": "ensanchados",
       "faldones": "laterales"
     },
-
     "cristales": {
       "parabrisas": "panoramico_inclinado",
       "luneta_trasera": "amplia",
-      "brillo": true,
       "marco": "oscuro"
     },
-
     "ruedas": {
       "tipo": "gt_multirradio",
-      "color_neumatico": "#17191D",
-      "color_llanta": "#C8CDD3",
+      "color_neumatico": null,
+      "color_llanta": null,
       "tamano": 0.18,
       "descubiertas": false
     },
-
     "faros": {
       "tipo": "gt_alargados",
       "forma": "afilada",
       "auxiliares": false
     },
-
     "colores": {
       "principal": "#263D67",
       "secundario": "#DDE5ED",
@@ -90,26 +84,14 @@
       "neumaticos": "#17191D",
       "llantas": "#C8CDD3"
     },
-
     "acabado": {
-      "sombras": true,
-      "reflejos": true,
       "contorno": true,
       "nivel_detalle": 4
     },
-
     "accesorios": [
       "escape_trasero",
       "aleron_integrado",
       "difusor_trasero"
-    ],
-
-    "detalles": [
-      "capo largo",
-      "cabina retrasada",
-      "trasera ancha",
-      "faros delanteros alargados",
-      "difusor trasero"
     ]
   }
 }
