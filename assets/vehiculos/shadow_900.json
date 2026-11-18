@@ -1,3 +1,4 @@
+
 {
   "id": "shadow_900",
   "nombre": "Shadow 900",
@@ -45,6 +46,24 @@
     "color_principal": "#D92535",
     "color_secundario": "#20242B",
     "color_acento": "#E8E8E8",
+    "color_neumaticos": "#15191E",
+    "geometria": {
+      "carenado_delantero": "puntiagudo",
+      "carenado_lateral": "integral",
+      "deposito": "deportivo",
+      "asiento": "monoplaza",
+      "colin": "elevado",
+      "guardabarros_delantero": "deportivo"
+    },
+    "componentes": {
+      "motor": "deportivo",
+      "escape": "elevado",
+      "faro_delantero": "doble",
+      "piloto_trasero": "compacto",
+      "manillar": "semimanillares",
+      "retrovisores": true,
+      "ruedas": "deportivas"
+    },
     "detalles": [
       "carenado deportivo integral",
       "doble faro delantero",
