@@ -1,3 +1,4 @@
+
 {
   "id": "agro_750",
   "nombre": "Agro 750",
@@ -45,11 +46,20 @@
     "color_principal": "#398C43",
     "color_secundario": "#E8E8E8",
     "color_acento": "#252A2E",
+    "color_cristales": "#263B50",
+    "color_neumaticos": "#17191D",
+    "rueda_trasera_longitud": 0.19,
+    "rueda_delantera_longitud": 0.135,
+    "separacion_ruedas": 0.32,
     "detalles": [
-      "ruedas traseras de gran diametro",
-      "cabina acristalada",
+      "cuatro ruedas agrícolas",
+      "ruedas traseras de gran tamaño",
+      "ruedas delanteras más pequeñas",
+      "cabina central acristalada",
+      "capó delantero blanco y alargado",
+      "chasis reforzado",
       "escape vertical",
-      "capo delantero alargado"
+      "faros delanteros"
     ]
   }
 }
