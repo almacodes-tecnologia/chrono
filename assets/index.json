@@ -9,7 +9,9 @@
     "mountain_x",
     "titan_hx",
     "agro_750",
-    "raptor_x"
+    "raptor_x",
+	"agro_harvest_620",
+	"agro_spray_4000"
   ],
   "circuitos": [
     "copperline_park",
