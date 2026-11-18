@@ -25,7 +25,7 @@
 	"cargo_rigid",
 	"cargo_articulated",
 	"metro_bus",
-	"grand_tour",
+	"grand_tour"
   ],
   "circuitos": [
     "copperline_park",
