@@ -4,8 +4,9 @@
   "descripcion": "Circuito de iniciación rápido y legible, con curvas amplias y asfalto uniforme.",
   "categoria": "circuito",
   "modalidad": "vueltas",
-"recompensa_monedas": 100,
-  "precio": 1,
+  "cerrada": true,
+  "recompensa_monedas": 100,
+  "precio": 0,
   "requisitos_desbloqueo": {
     "licencia_id": "license_a"
   },
@@ -86,30 +87,11 @@
       }
     ]
   },
-
   "vueltas_por_defecto": 3,
-
   "zona_escape": {
-    "anchura_m": 3.0,
-    "superficie_id": "hierba",
-    "penalizacion_adicional": 0.35,
-    "permite_circular": true,
-    "limite_exterior": true
+    "anchura_m": 3.0
   },
-
-  "entorno": {
-    "tematica": "parque_costero",
-    "color_terreno": "#477A4A",
-    "clima": "despejado",
-    "iluminacion": "dia",
-    "densidad_decoracion": 3,
-    "elementos_decorativos": [
-      "pinos",
-      "arbustos_bajos",
-      "gradas"
-    ]
-  },
-
+  "entorno_id": "parque_costero",
   "categorias_vehiculos_recomendadas": [
     "compacto",
     "deportivo",

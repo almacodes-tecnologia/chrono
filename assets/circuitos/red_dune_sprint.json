@@ -4,6 +4,7 @@
   "descripcion": "Prueba punto a punto que atraviesa dunas y lechos de grava. La arena penaliza especialmente a los vehículos de carretera.",
   "categoria": "punto_a_punto",
   "modalidad": "punto_a_punto",
+  "cerrada": false,
   "recompensa_monedas": 100,
   "precio": 0,
   "requisitos_desbloqueo": {
@@ -98,28 +99,10 @@
       }
     ]
   },
-
   "zona_escape": {
-    "anchura_m": 3.0,
-    "superficie_id": "arena",
-    "penalizacion_adicional": 0.35,
-    "permite_circular": true,
-    "limite_exterior": true
+    "anchura_m": 3.0
   },
-
-  "entorno": {
-    "tematica": "dunas_rojas",
-    "color_terreno": "#B87945",
-    "clima": "caluroso",
-    "iluminacion": "dia",
-    "densidad_decoracion": 3,
-    "elementos_decorativos": [
-      "dunas_de_arena",
-      "rocas_del_desierto",
-      "hierba_seca"
-    ]
-  },
-
+  "entorno_id": "dunas_rojas",
   "categorias_vehiculos_recomendadas": [
     "rally",
     "todoterreno",
