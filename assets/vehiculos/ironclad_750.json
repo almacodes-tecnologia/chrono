@@ -1,0 +1,81 @@
+{
+  "id": "ironclad_750",
+  "nombre": "Ironclad 750 Sidecar",
+  "descripcion": "Motocicleta clásica de estilo touring equipada con un sidecar lateral. Robusta, estable y diseñada para viajes por carretera con un pasajero adicional.",
+  "categoria": "motocicleta",
+  "fabricante": "Ironclad Motorworks",
+  "precio": 8900,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 42,
+    "peso_kg": 315,
+    "aerodinamica": 38,
+    "resistencia_superficies": {
+      "asfalto": 1.0,
+      "asfalto_rugoso": 1.08,
+      "grava": 1.35,
+      "tierra": 1.55,
+      "arena": 1.8,
+      "hierba": 1.65,
+      "barro": 1.8,
+      "nieve": 1.85,
+      "hielo": 1.95,
+      "roca": 1.9
+    },
+    "penalizacion_fuera_pista": 0.62
+  },
+  "manejo": {
+    "respuesta_direccion": 64,
+    "multiplicador_giro": 0.78
+  },
+  "dimensiones": {
+    "longitud_m": 2.35,
+    "anchura_m": 1.45,
+    "altura_m": 1.35,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "motocicleta",
+    "estilo": "sidecar",
+    "color_principal": "#B94B35",
+    "color_secundario": "#30343A",
+    "color_acento": "#D5C49A",
+    "color_neumaticos": "#15191E",
+    "geometria": {
+      "carenado_delantero": "clasico",
+      "carenado_lateral": "minimalista",
+      "deposito": "ovalado",
+      "asiento": "doble",
+      "colin": "corto",
+      "sidecar": "carenado_redondeado",
+      "sidecar_posicion": "derecha",
+      "guardabarros_delantero": "curvado"
+    },
+    "componentes": {
+      "motor": "bicilindrico_expuesto",
+      "escape": "doble_lateral",
+      "faro_delantero": "circular",
+      "piloto_trasero": "compacto",
+      "manillar": "clasico",
+      "retrovisores": true,
+      "ruedas": "clasicas",
+      "plataforma_pies": false,
+      "rueda_sidecar": true,
+      "asiento_sidecar": true
+    },
+    "detalles": [
+      "deposito clasico de formas redondeadas",
+      "motor bicilindrico visible",
+      "doble escape lateral",
+      "sidecar independiente con asiento para pasajero",
+      "guardabarros envolventes",
+      "estructura tubular de union",
+      "rueda lateral independiente"
+    ]
+  }
+}
