@@ -1,0 +1,39 @@
+{
+  "id": "green_fields",
+  "nombre": "Green Fields",
+  "descripcion": "Ruta rural entre campos abiertos, caminos de tierra, zonas de hierba y tramos de barro que dificultan la conducción.",
+  "categoria": "punto_a_punto",
+  "modalidad": "punto_a_punto",
+  "cerrada": false,
+  "recompensa_monedas": 100,
+  "precio": 0,
+  "requisitos_desbloqueo": {
+    "licencia_id": null
+  },
+  "nivel": 1,
+  "ruta": {
+    "puntos_ruta": [
+      {"x": 0, "y": 0, "anchura_m": 17, "superficie_id": "tierra"},
+      {"x": 120, "y": 35, "anchura_m": 16, "superficie_id": "tierra"},
+      {"x": 230, "y": 90, "anchura_m": 16, "superficie_id": "hierba"},
+      {"x": 340, "y": 55, "anchura_m": 15, "superficie_id": "hierba"},
+      {"x": 450, "y": -30, "anchura_m": 15, "superficie_id": "barro"},
+      {"x": 560, "y": -65, "anchura_m": 14, "superficie_id": "barro"},
+      {"x": 670, "y": 15, "anchura_m": 15, "superficie_id": "tierra"},
+      {"x": 780, "y": 105, "anchura_m": 16, "superficie_id": "tierra"},
+      {"x": 900, "y": 130, "anchura_m": 15, "superficie_id": "hierba"},
+      {"x": 1010, "y": 75, "anchura_m": 15, "superficie_id": "barro"},
+      {"x": 1120, "y": 120, "anchura_m": 16, "superficie_id": "tierra"}
+    ]
+  },
+  "zona_escape": {
+    "anchura_m": 3.0
+  },
+  "entorno_id": "campo",
+  "categorias_vehiculos_recomendadas": [
+    "tractor",
+    "todoterreno",
+    "rally",
+    "camion"
+  ]
+}
