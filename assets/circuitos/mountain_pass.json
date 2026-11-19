@@ -1,0 +1,38 @@
+{
+  "id": "mountain_pass",
+  "nombre": "Mountain Pass",
+  "descripcion": "Ascenso y descenso por una carretera de montaña con curvas cerradas, firme irregular y sectores de grava y roca.",
+  "categoria": "circuito",
+  "modalidad": "vueltas",
+  "cerrada": true,
+  "recompensa_monedas": 100,
+  "precio": 0,
+  "requisitos_desbloqueo": {
+    "licencia_id": "license_a"
+  },
+  "nivel": 1,
+  "ruta": {
+    "puntos_ruta": [
+      {"x": 0, "y": 0, "anchura_m": 15, "superficie_id": "asfalto_rugoso"},
+      {"x": 100, "y": -65, "anchura_m": 14, "superficie_id": "asfalto_rugoso"},
+      {"x": 190, "y": -20, "anchura_m": 14, "superficie_id": "grava"},
+      {"x": 245, "y": 90, "anchura_m": 13, "superficie_id": "roca"},
+      {"x": 190, "y": 190, "anchura_m": 13, "superficie_id": "asfalto_rugoso"},
+      {"x": 80, "y": 235, "anchura_m": 14, "superficie_id": "asfalto_rugoso"},
+      {"x": -30, "y": 190, "anchura_m": 14, "superficie_id": "grava"},
+      {"x": -100, "y": 95, "anchura_m": 13, "superficie_id": "roca"},
+      {"x": -85, "y": 15, "anchura_m": 14, "superficie_id": "asfalto_rugoso"}
+    ]
+  },
+  "vueltas_por_defecto": 3,
+  "zona_escape": {
+    "anchura_m": 3.0
+  },
+  "entorno_id": "montana",
+  "categorias_vehiculos_recomendadas": [
+    "rally",
+    "todoterreno",
+    "deportivo",
+    "motocicleta"
+  ]
+}
