@@ -1,0 +1,56 @@
+{
+  "id": "ranger_utv",
+  "nombre": "Ranger UTV",
+  "descripcion": "Vehículo utilitario todoterreno con tracción integral, habitáculo protegido y suspensión preparada para terrenos exigentes.",
+  "categoria": "side_by_side",
+  "fabricante": "Ranger Works",
+  "precio": 19500,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 95,
+    "peso_kg": 720,
+    "aerodinamica": 35,
+    "resistencia_superficies": {
+      "asfalto": 1.18,
+      "asfalto_rugoso": 0.92,
+      "grava": 0.8,
+      "tierra": 0.82,
+      "arena": 0.88,
+      "hierba": 0.9,
+      "barro": 0.85,
+      "nieve": 1.05,
+      "hielo": 1.4,
+      "roca": 0.88
+    },
+    "penalizacion_fuera_pista": 0.13
+  },
+  "manejo": {
+    "respuesta_direccion": 70,
+    "multiplicador_giro": 0.98
+  },
+  "dimensiones": {
+    "longitud_m": 3.05,
+    "anchura_m": 1.65,
+    "altura_m": 1.85,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "especial",
+    "estilo": "side_by_side",
+    "color_principal": "#D6A52C",
+    "color_secundario": "#252A32",
+    "color_acento": "#E5E7E9",
+    "detalles": [
+      "habitaculo biplaza",
+      "jaula antivuelco",
+      "cuatro ruedas todoterreno",
+      "suspension elevada",
+      "zona de carga trasera"
+    ]
+  }
+}
