@@ -1,0 +1,56 @@
+{
+  "id": "titan_roadtrain",
+  "nombre": "Titan Roadtrain",
+  "descripcion": "Tren de carretera de gran capacidad formado por una cabeza tractora y varios remolques articulados, diseñado para transportar cargas pesadas a largas distancias.",
+  "categoria": "tren_carretera",
+  "fabricante": "Titan Heavy Industries",
+  "precio": 185000,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 520,
+    "peso_kg": 32000,
+    "aerodinamica": 72,
+    "resistencia_superficies": {
+      "asfalto": 0.88,
+      "asfalto_rugoso": 1.05,
+      "grava": 1.55,
+      "tierra": 1.85,
+      "arena": 2.1,
+      "hierba": 2.0,
+      "barro": 2.3,
+      "nieve": 1.9,
+      "hielo": 2.4,
+      "roca": 2.5
+    },
+    "penalizacion_fuera_pista": 0.3
+  },
+  "manejo": {
+    "respuesta_direccion": 32,
+    "multiplicador_giro": 0.48
+  },
+  "dimensiones": {
+    "longitud_m": 25.0,
+    "anchura_m": 2.6,
+    "altura_m": 4.2,
+    "escala_visual": 0.85
+  },
+  "visual": {
+    "tipo_renderizado": "especial",
+    "estilo": "tren_carretera",
+    "color_principal": "#C94B36",
+    "color_secundario": "#252A32",
+    "color_acento": "#E5E7E9",
+    "detalles": [
+      "cabeza tractora",
+      "tres remolques articulados",
+      "ruedas multiples",
+      "cabina elevada",
+      "quinta rueda y conexiones entre remolques"
+    ]
+  }
+}
