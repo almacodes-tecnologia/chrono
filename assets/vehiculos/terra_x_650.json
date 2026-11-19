@@ -1,0 +1,75 @@
+
+{
+  "id": "terra_x_650",
+  "nombre": "Terra X 650",
+  "descripcion": "Motocicleta trail versátil, preparada para combinar carreteras asfaltadas y terrenos irregulares.",
+  "categoria": "motocicleta",
+  "fabricante": "Terra Dynamics",
+  "precio": 9700,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 54,
+    "peso_kg": 205,
+    "aerodinamica": 55,
+    "resistencia_superficies": {
+      "asfalto": 1.0,
+      "asfalto_rugoso": 1.08,
+      "grava": 1.12,
+      "tierra": 1.1,
+      "arena": 1.35,
+      "hierba": 1.25,
+      "barro": 1.35,
+      "nieve": 1.55,
+      "hielo": 1.85,
+      "roca": 1.35
+    },
+    "penalizacion_fuera_pista": 0.32
+  },
+  "manejo": {
+    "respuesta_direccion": 83,
+    "multiplicador_giro": 1.05
+  },
+  "dimensiones": {
+    "longitud_m": 2.2,
+    "anchura_m": 0.88,
+    "altura_m": 1.38,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "motocicleta",
+    "estilo": "trail",
+    "color_principal": "#D6A52B",
+    "color_secundario": "#303B35",
+    "color_acento": "#E8E8E8",
+    "color_neumaticos": "#15191E",
+    "geometria": {
+      "carenado_delantero": "elevado",
+      "carenado_lateral": "minimalista",
+      "deposito": "elevado",
+      "asiento": "largo",
+      "colin": "recto",
+      "guardabarros_delantero": "alto"
+    },
+    "componentes": {
+      "motor": "expuesto",
+      "escape": "lateral_elevado",
+      "faro_delantero": "vertical",
+      "piloto_trasero": "compacto",
+      "manillar": "ancho",
+      "retrovisores": true,
+      "ruedas": "mixtas"
+    },
+    "detalles": [
+      "ruedas de perfil mixto",
+      "guardabarros delantero elevado",
+      "asiento largo y estrecho",
+      "protecciones laterales",
+      "suspensión de largo recorrido"
+    ]
+  }
+}

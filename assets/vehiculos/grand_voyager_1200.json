@@ -1,0 +1,77 @@
+
+{
+  "id": "grand_voyager_1200",
+  "nombre": "Grand Voyager 1200",
+  "descripcion": "Motocicleta touring de gran cilindrada, diseñada para recorrer largas distancias con estabilidad y comodidad.",
+  "categoria": "motocicleta",
+  "fabricante": "Grand Voyager Motors",
+  "precio": 18900,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 92,
+    "peso_kg": 315,
+    "aerodinamica": 88,
+    "resistencia_superficies": {
+      "asfalto": 1.0,
+      "asfalto_rugoso": 1.2,
+      "grava": 1.65,
+      "tierra": 1.85,
+      "arena": 2.0,
+      "hierba": 1.9,
+      "barro": 2.0,
+      "nieve": 2.0,
+      "hielo": 2.0,
+      "roca": 2.0
+    },
+    "penalizacion_fuera_pista": 0.85
+  },
+  "manejo": {
+    "respuesta_direccion": 70,
+    "multiplicador_giro": 0.82
+  },
+  "dimensiones": {
+    "longitud_m": 2.45,
+    "anchura_m": 1.05,
+    "altura_m": 1.42,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "motocicleta",
+    "estilo": "touring",
+    "color_principal": "#263D69",
+    "color_secundario": "#303943",
+    "color_acento": "#C7D0D9",
+    "color_neumaticos": "#15191E",
+    "geometria": {
+      "carenado_delantero": "voluminoso",
+      "carenado_lateral": "integral",
+      "deposito": "grande",
+      "asiento": "confort",
+      "colin": "ancho",
+      "guardabarros_delantero": "integrado"
+    },
+    "componentes": {
+      "motor": "parcialmente_oculto",
+      "escape": "doble_lateral",
+      "faro_delantero": "doble",
+      "piloto_trasero": "ancho",
+      "manillar": "ergonomico",
+      "retrovisores": true,
+      "ruedas": "turismo",
+      "parabrisas": true,
+      "maletas_laterales": true
+    },
+    "detalles": [
+      "carenado frontal voluminoso",
+      "parabrisas alto",
+      "maletas laterales integradas",
+      "asiento de dos plazas",
+      "doble escape lateral"
+    ]
+  }
+}

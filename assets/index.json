@@ -25,7 +25,11 @@
 	"cargo_rigid",
 	"cargo_articulated",
 	"metro_bus",
-	"grand_tour"
+	"grand_tour",
+	"vortex_750",
+	"terra_x_650",
+	"grand_voyager_1200",
+	"city_glide_300"
   ],
   "circuitos": [
     "copperline_park",

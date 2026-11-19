@@ -1,0 +1,76 @@
+
+{
+  "id": "city_glide_300",
+  "nombre": "City Glide 300",
+  "descripcion": "Scooter urbano de media cilindrada, compacto y manejable, pensado para desplazamientos rápidos por ciudad.",
+  "categoria": "motocicleta",
+  "fabricante": "City Glide Mobility",
+  "precio": 4900,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 19,
+    "peso_kg": 178,
+    "aerodinamica": 48,
+    "resistencia_superficies": {
+      "asfalto": 1.0,
+      "asfalto_rugoso": 1.15,
+      "grava": 1.65,
+      "tierra": 1.85,
+      "arena": 2.0,
+      "hierba": 1.9,
+      "barro": 2.0,
+      "nieve": 2.0,
+      "hielo": 2.0,
+      "roca": 2.0
+    },
+    "penalizacion_fuera_pista": 0.75
+  },
+  "manejo": {
+    "respuesta_direccion": 88,
+    "multiplicador_giro": 1.22
+  },
+  "dimensiones": {
+    "longitud_m": 2.05,
+    "anchura_m": 0.78,
+    "altura_m": 1.28,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "motocicleta",
+    "estilo": "scooter",
+    "color_principal": "#45A58A",
+    "color_secundario": "#303943",
+    "color_acento": "#E8E8E8",
+    "color_neumaticos": "#15191E",
+    "geometria": {
+      "carenado_delantero": "escudo",
+      "carenado_lateral": "envolvente",
+      "deposito": "integrado",
+      "asiento": "ancho",
+      "colin": "redondeado",
+      "guardabarros_delantero": "integrado"
+    },
+    "componentes": {
+      "motor": "oculto",
+      "escape": "compacto_lateral",
+      "faro_delantero": "central",
+      "piloto_trasero": "ancho",
+      "manillar": "alto",
+      "retrovisores": true,
+      "ruedas": "urbanas",
+      "plataforma_pies": true
+    },
+    "detalles": [
+      "escudo frontal envolvente",
+      "plataforma central para los pies",
+      "asiento ancho de dos plazas",
+      "ruedas compactas",
+      "carrocería urbana integral"
+    ]
+  }
+}

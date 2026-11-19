@@ -1,0 +1,74 @@
+
+{
+  "id": "vortex_750",
+  "nombre": "Vortex 750",
+  "descripcion": "Motocicleta naked de media-alta cilindrada, ágil y equilibrada, con motor y bastidor a la vista.",
+  "categoria": "motocicleta",
+  "fabricante": "Vortex Motorworks",
+  "precio": 8900,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 78,
+    "peso_kg": 195,
+    "aerodinamica": 62,
+    "resistencia_superficies": {
+      "asfalto": 1.0,
+      "asfalto_rugoso": 1.15,
+      "grava": 1.5,
+      "tierra": 1.65,
+      "arena": 1.85,
+      "hierba": 1.75,
+      "barro": 1.9,
+      "nieve": 1.9,
+      "hielo": 2.0,
+      "roca": 2.0
+    },
+    "penalizacion_fuera_pista": 0.65
+  },
+  "manejo": {
+    "respuesta_direccion": 91,
+    "multiplicador_giro": 1.18
+  },
+  "dimensiones": {
+    "longitud_m": 2.08,
+    "anchura_m": 0.82,
+    "altura_m": 1.12,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "motocicleta",
+    "estilo": "naked",
+    "color_principal": "#2878B8",
+    "color_secundario": "#303943",
+    "color_acento": "#D8DEE5",
+    "color_neumaticos": "#15191E",
+    "geometria": {
+      "carenado_delantero": "minimo",
+      "carenado_lateral": "descubierto",
+      "deposito": "musculoso",
+      "asiento": "doble",
+      "colin": "compacto",
+      "guardabarros_delantero": "corto"
+    },
+    "componentes": {
+      "motor": "expuesto",
+      "escape": "lateral",
+      "faro_delantero": "circular",
+      "piloto_trasero": "compacto",
+      "manillar": "recto",
+      "retrovisores": true,
+      "ruedas": "convencionales"
+    },
+    "detalles": [
+      "motor completamente visible",
+      "depósito musculoso",
+      "faro delantero circular",
+      "bastidor tubular visible"
+    ]
+  }
+}
