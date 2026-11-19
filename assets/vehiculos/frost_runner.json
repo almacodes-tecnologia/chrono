@@ -1,0 +1,56 @@
+{
+  "id": "frost_runner",
+  "nombre": "Frost Runner",
+  "descripcion": "Moto de nieve de altas prestaciones con oruga trasera y esquís delanteros, diseñada para desplazarse sobre nieve y superficies heladas.",
+  "categoria": "snowmobile",
+  "fabricante": "Frost Dynamics",
+  "precio": 14200,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 110,
+    "peso_kg": 285,
+    "aerodinamica": 32,
+    "resistencia_superficies": {
+      "asfalto": 2.4,
+      "asfalto_rugoso": 2.2,
+      "grava": 2.0,
+      "tierra": 2.1,
+      "arena": 2.3,
+      "hierba": 1.8,
+      "barro": 1.6,
+      "nieve": 0.72,
+      "hielo": 0.85,
+      "roca": 2.5
+    },
+    "penalizacion_fuera_pista": 0.1
+  },
+  "manejo": {
+    "respuesta_direccion": 72,
+    "multiplicador_giro": 0.92
+  },
+  "dimensiones": {
+    "longitud_m": 2.9,
+    "anchura_m": 1.2,
+    "altura_m": 1.35,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "especial",
+    "estilo": "snowmobile",
+    "color_principal": "#36A9C8",
+    "color_secundario": "#252A32",
+    "color_acento": "#E5E7E9",
+    "detalles": [
+      "dos esquis delanteros",
+      "oruga trasera",
+      "asiento alargado",
+      "manillar",
+      "motor central"
+    ]
+  }
+}

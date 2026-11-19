@@ -1,0 +1,56 @@
+{
+  "id": "trident_3",
+  "nombre": "Trident 3",
+  "descripcion": "Vehículo de tres ruedas con una rueda delantera directriz y dos ruedas traseras motrices, diseñado para ofrecer una conducción ágil y diferente.",
+  "categoria": "trike",
+  "fabricante": "Trident Motorworks",
+  "precio": 12500,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 85,
+    "peso_kg": 410,
+    "aerodinamica": 38,
+    "resistencia_superficies": {
+      "asfalto": 0.9,
+      "asfalto_rugoso": 1.05,
+      "grava": 1.35,
+      "tierra": 1.5,
+      "arena": 1.7,
+      "hierba": 1.5,
+      "barro": 1.8,
+      "nieve": 2.0,
+      "hielo": 2.2,
+      "roca": 1.9
+    },
+    "penalizacion_fuera_pista": 0.24
+  },
+  "manejo": {
+    "respuesta_direccion": 88,
+    "multiplicador_giro": 1.2
+  },
+  "dimensiones": {
+    "longitud_m": 2.8,
+    "anchura_m": 1.55,
+    "altura_m": 1.2,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "especial",
+    "estilo": "trike",
+    "color_principal": "#2878C8",
+    "color_secundario": "#252A32",
+    "color_acento": "#F4D03F",
+    "detalles": [
+      "una rueda delantera",
+      "dos ruedas traseras",
+      "carroceria deportiva",
+      "asiento individual",
+      "motor trasero"
+    ]
+  }
+}

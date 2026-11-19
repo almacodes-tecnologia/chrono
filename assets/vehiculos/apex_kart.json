@@ -1,0 +1,56 @@
+{
+  "id": "apex_kart",
+  "nombre": "Apex Kart",
+  "descripcion": "Kart de competición ligero y ágil, diseñado para ofrecer aceleración inmediata y una conducción precisa en circuitos revirados.",
+  "categoria": "kart",
+  "fabricante": "Apex Motorsport",
+  "precio": 4500,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 28,
+    "peso_kg": 165,
+    "aerodinamica": 18,
+    "resistencia_superficies": {
+      "asfalto": 0.82,
+      "asfalto_rugoso": 1.15,
+      "grava": 1.65,
+      "tierra": 1.8,
+      "arena": 2.0,
+      "hierba": 1.8,
+      "barro": 2.2,
+      "nieve": 2.5,
+      "hielo": 2.8,
+      "roca": 2.4
+    },
+    "penalizacion_fuera_pista": 0.35
+  },
+  "manejo": {
+    "respuesta_direccion": 98,
+    "multiplicador_giro": 1.45
+  },
+  "dimensiones": {
+    "longitud_m": 1.85,
+    "anchura_m": 1.35,
+    "altura_m": 0.65,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "especial",
+    "estilo": "kart",
+    "color_principal": "#D92D35",
+    "color_secundario": "#20252B",
+    "color_acento": "#F4D03F",
+    "detalles": [
+      "chasis tubular bajo",
+      "morro aerodinamico",
+      "asiento individual",
+      "motor trasero descubierto",
+      "cuatro ruedas pequeñas"
+    ]
+  }
+}

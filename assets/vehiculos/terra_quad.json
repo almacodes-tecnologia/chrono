@@ -1,0 +1,56 @@
+{
+  "id": "terra_quad",
+  "nombre": "Terra Quad",
+  "descripcion": "Quad todoterreno de gran estabilidad, preparado para recorrer caminos de tierra, grava y terrenos irregulares.",
+  "categoria": "quad",
+  "fabricante": "Terra Motors",
+  "precio": 7800,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 48,
+    "peso_kg": 320,
+    "aerodinamica": 25,
+    "resistencia_superficies": {
+      "asfalto": 1.25,
+      "asfalto_rugoso": 0.95,
+      "grava": 0.82,
+      "tierra": 0.78,
+      "arena": 0.85,
+      "hierba": 0.9,
+      "barro": 0.88,
+      "nieve": 1.1,
+      "hielo": 1.45,
+      "roca": 0.95
+    },
+    "penalizacion_fuera_pista": 0.12
+  },
+  "manejo": {
+    "respuesta_direccion": 75,
+    "multiplicador_giro": 1.12
+  },
+  "dimensiones": {
+    "longitud_m": 2.15,
+    "anchura_m": 1.25,
+    "altura_m": 1.25,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "especial",
+    "estilo": "quad",
+    "color_principal": "#238B57",
+    "color_secundario": "#252A32",
+    "color_acento": "#E5E7E9",
+    "detalles": [
+      "cuatro ruedas todoterreno",
+      "guardabarros delanteros y traseros",
+      "asiento central",
+      "manillar",
+      "carroceria compacta"
+    ]
+  }
+}
