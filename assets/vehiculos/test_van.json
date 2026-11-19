@@ -1,0 +1,59 @@
+
+{
+  "id": "test_van",
+  "nombre": "Cargo Van 350",
+  "descripcion": "Furgoneta comercial de gran capacidad con carrocería cerrada y techo elevado.",
+  "categoria": "furgoneta",
+  "fabricante": "Nordic Commercial",
+  "precio": 32000,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 125,
+    "peso_kg": 2400,
+    "aerodinamica": 42,
+    "resistencia_superficies": {
+      "asfalto": 1.0,
+      "asfalto_rugoso": 1.05,
+      "grava": 1.1,
+      "tierra": 1.25,
+      "arena": 1.5,
+      "hierba": 1.4,
+      "barro": 1.6,
+      "nieve": 1.4,
+      "hielo": 1.8,
+      "roca": 2.0
+    },
+    "penalizacion_fuera_pista": 0.25
+  },
+  "manejo": {
+    "respuesta_direccion": 52,
+    "multiplicador_giro": 0.65
+  },
+  "dimensiones": {
+    "longitud_m": 6.0,
+    "anchura_m": 2.05,
+    "altura_m": 2.65,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "utility",
+    "estilo": "van",
+    "color_principal": "#E5E5E5",
+    "color_secundario": "#303943",
+    "cristales": "#263F55",
+    "color_neumaticos": "#17191D",
+    "color_llantas": "#BFC7CE",
+    "detalles": [
+      "carroceria cerrada",
+      "techo elevado",
+      "puertas traseras",
+      "zona de carga",
+      "ventanas laterales"
+    ]
+  }
+}

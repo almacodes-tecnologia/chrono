@@ -1,0 +1,59 @@
+
+{
+  "id": "test_camper",
+  "nombre": "Horizon Adventure",
+  "descripcion": "Autocaravana compacta preparada para viajes largos y rutas por carretera.",
+  "categoria": "camper",
+  "fabricante": "Horizon Vehicles",
+  "precio": 68000,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 110,
+    "peso_kg": 3400,
+    "aerodinamica": 38,
+    "resistencia_superficies": {
+      "asfalto": 1.0,
+      "asfalto_rugoso": 1.1,
+      "grava": 1.3,
+      "tierra": 1.5,
+      "arena": 1.8,
+      "hierba": 1.6,
+      "barro": 1.9,
+      "nieve": 1.7,
+      "hielo": 2.0,
+      "roca": 2.2
+    },
+    "penalizacion_fuera_pista": 0.3
+  },
+  "manejo": {
+    "respuesta_direccion": 42,
+    "multiplicador_giro": 0.55
+  },
+  "dimensiones": {
+    "longitud_m": 6.8,
+    "anchura_m": 2.25,
+    "altura_m": 3.0,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "utility",
+    "estilo": "camper",
+    "color_principal": "#D9D2BD",
+    "color_secundario": "#52616A",
+    "cristales": "#263F55",
+    "color_neumaticos": "#17191D",
+    "color_llantas": "#BFC7CE",
+    "detalles": [
+      "habitaculo integrado",
+      "ventanas laterales",
+      "techo elevado",
+      "zona habitable",
+      "carroceria de autocaravana"
+    ]
+  }
+}

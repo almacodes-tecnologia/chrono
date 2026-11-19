@@ -1,0 +1,58 @@
+
+{
+  "id": "test_pickup",
+  "nombre": "Titan Ranger",
+  "descripcion": "Pickup todoterreno de doble cabina con caja de carga abierta.",
+  "categoria": "pickup",
+  "fabricante": "Titan Motors",
+  "precio": 28000,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 150,
+    "peso_kg": 2150,
+    "aerodinamica": 55,
+    "resistencia_superficies": {
+      "asfalto": 1.0,
+      "asfalto_rugoso": 1.05,
+      "grava": 0.85,
+      "tierra": 0.82,
+      "arena": 0.95,
+      "hierba": 0.9,
+      "barro": 0.85,
+      "nieve": 1.0,
+      "hielo": 1.3,
+      "roca": 1.1
+    },
+    "penalizacion_fuera_pista": 0.15
+  },
+  "manejo": {
+    "respuesta_direccion": 65,
+    "multiplicador_giro": 0.78
+  },
+  "dimensiones": {
+    "longitud_m": 5.4,
+    "anchura_m": 2.0,
+    "altura_m": 1.85,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "utility",
+    "estilo": "pickup",
+    "color_principal": "#C94B36",
+    "color_secundario": "#252A32",
+    "cristales": "#263F55",
+    "color_neumaticos": "#17191D",
+    "color_llantas": "#BFC7CE",
+    "detalles": [
+      "doble cabina",
+      "caja de carga abierta",
+      "porton trasero",
+      "parrilla frontal"
+    ]
+  }
+}

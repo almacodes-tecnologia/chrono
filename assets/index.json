@@ -36,7 +36,11 @@
 	"vortex_750",
 	"terra_x_650",
 	"grand_voyager_1200",
-	"city_glide_300"
+	"city_glide_300",
+	"test_pickup",
+	"test_van",
+	"test_camper",
+	"test_service"
   ],
   "circuitos": [
     "copperline_park",

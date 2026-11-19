@@ -1,0 +1,58 @@
+
+{
+  "id": "test_service",
+  "nombre": "Municipal Works",
+  "descripcion": "Furgoneta de mantenimiento municipal equipada para intervenciones y trabajos de servicio.",
+  "categoria": "servicio",
+  "fabricante": "Municipal Fleet",
+  "precio": 24500,
+  "vehiculo_inicial": false,
+  "requisitos_desbloqueo": {
+    "licencia_id": null,
+    "circuitos_completados_ids": [],
+    "campeonato_id": null
+  },
+  "rendimiento": {
+    "potencia_kw": 105,
+    "peso_kg": 2250,
+    "aerodinamica": 45,
+    "resistencia_superficies": {
+      "asfalto": 1.0,
+      "asfalto_rugoso": 1.05,
+      "grava": 1.1,
+      "tierra": 1.2,
+      "arena": 1.45,
+      "hierba": 1.35,
+      "barro": 1.5,
+      "nieve": 1.4,
+      "hielo": 1.7,
+      "roca": 1.9
+    },
+    "penalizacion_fuera_pista": 0.25
+  },
+  "manejo": {
+    "respuesta_direccion": 55,
+    "multiplicador_giro": 0.68
+  },
+  "dimensiones": {
+    "longitud_m": 5.2,
+    "anchura_m": 2.0,
+    "altura_m": 2.3,
+    "escala_visual": 1.0
+  },
+  "visual": {
+    "tipo_renderizado": "utility",
+    "estilo": "servicio",
+    "color_principal": "#E5D64A",
+    "color_secundario": "#303943",
+    "cristales": "#263F55",
+    "color_neumaticos": "#17191D",
+    "color_llantas": "#BFC7CE",
+    "detalles": [
+      "vehiculo de mantenimiento",
+      "banda lateral identificativa",
+      "carroceria cerrada",
+      "zona de herramientas"
+    ]
+  }
+}
