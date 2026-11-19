@@ -1,0 +1,39 @@
+{
+  "id": "coastal_circuit",
+  "nombre": "Coastal Circuit",
+  "descripcion": "Circuito costero de trazado fluido, rodeado de vegetación y con algunas curvas técnicas sobre asfalto rugoso.",
+  "categoria": "circuito",
+  "modalidad": "vueltas",
+  "cerrada": true,
+  "recompensa_monedas": 100,
+  "precio": 0,
+  "requisitos_desbloqueo": {
+    "licencia_id": "license_a"
+  },
+  "nivel": 1,
+  "ruta": {
+    "puntos_ruta": [
+      {"x": 0, "y": 0, "anchura_m": 18, "superficie_id": "asfalto"},
+      {"x": 150, "y": -40, "anchura_m": 18, "superficie_id": "asfalto"},
+      {"x": 290, "y": -15, "anchura_m": 17, "superficie_id": "asfalto"},
+      {"x": 390, "y": 75, "anchura_m": 17, "superficie_id": "asfalto_rugoso"},
+      {"x": 420, "y": 200, "anchura_m": 16, "superficie_id": "asfalto_rugoso"},
+      {"x": 340, "y": 310, "anchura_m": 17, "superficie_id": "asfalto"},
+      {"x": 200, "y": 360, "anchura_m": 18, "superficie_id": "asfalto"},
+      {"x": 60, "y": 320, "anchura_m": 18, "superficie_id": "asfalto"},
+      {"x": -55, "y": 230, "anchura_m": 17, "superficie_id": "asfalto_rugoso"},
+      {"x": -75, "y": 100, "anchura_m": 17, "superficie_id": "asfalto"},
+      {"x": -5, "y": 20, "anchura_m": 18, "superficie_id": "asfalto"}
+    ]
+  },
+  "vueltas_por_defecto": 3,
+  "zona_escape": {
+    "anchura_m": 3.0
+  },
+  "entorno_id": "parque_costero",
+  "categorias_vehiculos_recomendadas": [
+    "compacto",
+    "deportivo",
+    "kart"
+  ]
+}

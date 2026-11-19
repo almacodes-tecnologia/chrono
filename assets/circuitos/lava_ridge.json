@@ -1,0 +1,38 @@
+{
+  "id": "lava_ridge",
+  "nombre": "Lava Ridge",
+  "descripcion": "Recorrido por un paisaje volcánico de roca negra y ceniza. Las curvas entre formaciones de basalto exigen vehículos resistentes.",
+  "categoria": "punto_a_punto",
+  "modalidad": "punto_a_punto",
+  "cerrada": false,
+  "recompensa_monedas": 100,
+  "precio": 0,
+  "requisitos_desbloqueo": {
+    "licencia_id": null
+  },
+  "nivel": 1,
+  "ruta": {
+    "puntos_ruta": [
+      {"x": 0, "y": 0, "anchura_m": 17, "superficie_id": "roca"},
+      {"x": 130, "y": 25, "anchura_m": 16, "superficie_id": "roca"},
+      {"x": 240, "y": 90, "anchura_m": 15, "superficie_id": "grava"},
+      {"x": 330, "y": 180, "anchura_m": 15, "superficie_id": "roca"},
+      {"x": 450, "y": 220, "anchura_m": 14, "superficie_id": "roca"},
+      {"x": 550, "y": 160, "anchura_m": 15, "superficie_id": "grava"},
+      {"x": 660, "y": 70, "anchura_m": 15, "superficie_id": "roca"},
+      {"x": 790, "y": 45, "anchura_m": 16, "superficie_id": "grava"},
+      {"x": 900, "y": 120, "anchura_m": 15, "superficie_id": "roca"},
+      {"x": 1010, "y": 215, "anchura_m": 16, "superficie_id": "grava"},
+      {"x": 1140, "y": 240, "anchura_m": 17, "superficie_id": "roca"}
+    ]
+  },
+  "zona_escape": {
+    "anchura_m": 3.0
+  },
+  "entorno_id": "volcanico",
+  "categorias_vehiculos_recomendadas": [
+    "todoterreno",
+    "rally",
+    "camion"
+  ]
+}

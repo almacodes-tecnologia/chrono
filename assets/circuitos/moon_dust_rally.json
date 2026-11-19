@@ -1,0 +1,38 @@
+{
+  "id": "moon_dust_rally",
+  "nombre": "Moon Dust Rally",
+  "descripcion": "Ruta lunar que atraviesa cráteres y extensiones de regolito. La grava y las zonas rocosas ponen a prueba la tracción.",
+  "categoria": "punto_a_punto",
+  "modalidad": "punto_a_punto",
+  "cerrada": false,
+  "recompensa_monedas": 100,
+  "precio": 0,
+  "requisitos_desbloqueo": {
+    "licencia_id": null
+  },
+  "nivel": 1,
+  "ruta": {
+    "puntos_ruta": [
+      {"x": 0, "y": 0, "anchura_m": 17, "superficie_id": "grava"},
+      {"x": 120, "y": -35, "anchura_m": 16, "superficie_id": "grava"},
+      {"x": 240, "y": -80, "anchura_m": 15, "superficie_id": "roca"},
+      {"x": 350, "y": -30, "anchura_m": 15, "superficie_id": "grava"},
+      {"x": 440, "y": 65, "anchura_m": 14, "superficie_id": "roca"},
+      {"x": 560, "y": 110, "anchura_m": 16, "superficie_id": "grava"},
+      {"x": 680, "y": 70, "anchura_m": 15, "superficie_id": "grava"},
+      {"x": 790, "y": 140, "anchura_m": 14, "superficie_id": "roca"},
+      {"x": 900, "y": 230, "anchura_m": 15, "superficie_id": "grava"},
+      {"x": 1030, "y": 210, "anchura_m": 16, "superficie_id": "roca"},
+      {"x": 1150, "y": 280, "anchura_m": 17, "superficie_id": "grava"}
+    ]
+  },
+  "zona_escape": {
+    "anchura_m": 3.0
+  },
+  "entorno_id": "lunar",
+  "categorias_vehiculos_recomendadas": [
+    "todoterreno",
+    "rally",
+    "buggy"
+  ]
+}

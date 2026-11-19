@@ -1,0 +1,39 @@
+{
+  "id": "metro_city_circuit",
+  "nombre": "Metro City Circuit",
+  "descripcion": "Circuito urbano entre avenidas, edificios y zonas comerciales. Combina largas rectas de asfalto con curvas técnicas.",
+  "categoria": "circuito",
+  "modalidad": "vueltas",
+  "cerrada": true,
+  "recompensa_monedas": 100,
+  "precio": 0,
+  "requisitos_desbloqueo": {
+    "licencia_id": "license_a"
+  },
+  "nivel": 1,
+  "ruta": {
+    "puntos_ruta": [
+      {"x": 0, "y": 0, "anchura_m": 18, "superficie_id": "asfalto"},
+      {"x": 150, "y": 0, "anchura_m": 18, "superficie_id": "asfalto"},
+      {"x": 270, "y": 65, "anchura_m": 17, "superficie_id": "asfalto_rugoso"},
+      {"x": 320, "y": 180, "anchura_m": 16, "superficie_id": "asfalto"},
+      {"x": 280, "y": 300, "anchura_m": 16, "superficie_id": "asfalto"},
+      {"x": 160, "y": 360, "anchura_m": 17, "superficie_id": "asfalto_rugoso"},
+      {"x": 20, "y": 340, "anchura_m": 18, "superficie_id": "asfalto"},
+      {"x": -100, "y": 270, "anchura_m": 17, "superficie_id": "asfalto"},
+      {"x": -130, "y": 150, "anchura_m": 16, "superficie_id": "asfalto_rugoso"},
+      {"x": -90, "y": 55, "anchura_m": 17, "superficie_id": "asfalto"},
+      {"x": -5, "y": 18, "anchura_m": 18, "superficie_id": "asfalto"}
+    ]
+  },
+  "vueltas_por_defecto": 3,
+  "zona_escape": {
+    "anchura_m": 3.0
+  },
+  "entorno_id": "urbano",
+  "categorias_vehiculos_recomendadas": [
+    "compacto",
+    "deportivo",
+    "motocicleta"
+  ]
+}

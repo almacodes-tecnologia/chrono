@@ -1,0 +1,39 @@
+{
+  "id": "neon_grid",
+  "nombre": "Neon Grid",
+  "descripcion": "Circuito tecnológico construido sobre una plataforma digital. Trazado rápido con curvas enlazadas y superficies artificiales.",
+  "categoria": "circuito",
+  "modalidad": "vueltas",
+  "cerrada": true,
+  "recompensa_monedas": 100,
+  "precio": 0,
+  "requisitos_desbloqueo": {
+    "licencia_id": "license_a"
+  },
+  "nivel": 1,
+  "ruta": {
+    "puntos_ruta": [
+      {"x": 0, "y": 0, "anchura_m": 18, "superficie_id": "asfalto"},
+      {"x": 160, "y": -10, "anchura_m": 18, "superficie_id": "asfalto"},
+      {"x": 290, "y": 45, "anchura_m": 17, "superficie_id": "asfalto_rugoso"},
+      {"x": 350, "y": 160, "anchura_m": 16, "superficie_id": "asfalto"},
+      {"x": 320, "y": 280, "anchura_m": 16, "superficie_id": "asfalto"},
+      {"x": 210, "y": 350, "anchura_m": 17, "superficie_id": "asfalto_rugoso"},
+      {"x": 60, "y": 355, "anchura_m": 18, "superficie_id": "asfalto"},
+      {"x": -70, "y": 290, "anchura_m": 17, "superficie_id": "asfalto"},
+      {"x": -120, "y": 180, "anchura_m": 16, "superficie_id": "asfalto_rugoso"},
+      {"x": -85, "y": 65, "anchura_m": 17, "superficie_id": "asfalto"},
+      {"x": -5, "y": 18, "anchura_m": 18, "superficie_id": "asfalto"}
+    ]
+  },
+  "vueltas_por_defecto": 3,
+  "zona_escape": {
+    "anchura_m": 3.0
+  },
+  "entorno_id": "futurista",
+  "categorias_vehiculos_recomendadas": [
+    "deportivo",
+    "superdeportivo",
+    "kart"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "deep_cavern",
+  "nombre": "Deep Cavern",
+  "descripcion": "Ruta subterránea entre galerías naturales y formaciones rocosas. Un recorrido irregular donde la roca y la tierra dominan el trazado.",
+  "categoria": "punto_a_punto",
+  "modalidad": "punto_a_punto",
+  "cerrada": false,
+  "recompensa_monedas": 100,
+  "precio": 0,
+  "requisitos_desbloqueo": {
+    "licencia_id": null
+  },
+  "nivel": 1,
+  "ruta": {
+    "puntos_ruta": [
+      {"x": 0, "y": 0, "anchura_m": 16, "superficie_id": "roca"},
+      {"x": 110, "y": -45, "anchura_m": 15, "superficie_id": "tierra"},
+      {"x": 220, "y": -20, "anchura_m": 14, "superficie_id": "roca"},
+      {"x": 300, "y": 70, "anchura_m": 14, "superficie_id": "grava"},
+      {"x": 410, "y": 120, "anchura_m": 15, "superficie_id": "roca"},
+      {"x": 520, "y": 80, "anchura_m": 14, "superficie_id": "tierra"},
+      {"x": 620, "y": -10, "anchura_m": 13, "superficie_id": "roca"},
+      {"x": 740, "y": -65, "anchura_m": 14, "superficie_id": "grava"},
+      {"x": 850, "y": -15, "anchura_m": 15, "superficie_id": "roca"},
+      {"x": 960, "y": 85, "anchura_m": 15, "superficie_id": "tierra"},
+      {"x": 1080, "y": 110, "anchura_m": 16, "superficie_id": "roca"}
+    ]
+  },
+  "zona_escape": {
+    "anchura_m": 3.0
+  },
+  "entorno_id": "cuevas",
+  "categorias_vehiculos_recomendadas": [
+    "todoterreno",
+    "buggy",
+    "rally"
+  ]
+}

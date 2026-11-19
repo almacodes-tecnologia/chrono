@@ -1,0 +1,39 @@
+{
+  "id": "toxic_wasteland",
+  "nombre": "Toxic Wasteland",
+  "descripcion": "Recorrido por una zona contaminada con residuos industriales y terrenos degradados. El barro y la roca hacen que la conducción sea impredecible.",
+  "categoria": "punto_a_punto",
+  "modalidad": "punto_a_punto",
+  "cerrada": false,
+  "recompensa_monedas": 100,
+  "precio": 0,
+  "requisitos_desbloqueo": {
+    "licencia_id": null
+  },
+  "nivel": 1,
+  "ruta": {
+    "puntos_ruta": [
+      {"x": 0, "y": 0, "anchura_m": 17, "superficie_id": "tierra"},
+      {"x": 125, "y": -35, "anchura_m": 16, "superficie_id": "barro"},
+      {"x": 245, "y": 15, "anchura_m": 15, "superficie_id": "roca"},
+      {"x": 350, "y": 100, "anchura_m": 14, "superficie_id": "barro"},
+      {"x": 465, "y": 155, "anchura_m": 15, "superficie_id": "grava"},
+      {"x": 580, "y": 105, "anchura_m": 14, "superficie_id": "barro"},
+      {"x": 690, "y": 20, "anchura_m": 15, "superficie_id": "roca"},
+      {"x": 810, "y": -20, "anchura_m": 14, "superficie_id": "barro"},
+      {"x": 925, "y": 50, "anchura_m": 15, "superficie_id": "grava"},
+      {"x": 1040, "y": 135, "anchura_m": 16, "superficie_id": "barro"},
+      {"x": 1160, "y": 170, "anchura_m": 17, "superficie_id": "tierra"}
+    ]
+  },
+  "zona_escape": {
+    "anchura_m": 3.0
+  },
+  "entorno_id": "toxico",
+  "categorias_vehiculos_recomendadas": [
+    "todoterreno",
+    "rally",
+    "camion",
+    "tractor"
+  ]
+}

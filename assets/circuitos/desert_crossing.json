@@ -1,0 +1,40 @@
+{
+  "id": "desert_crossing",
+  "nombre": "Desert Crossing",
+  "descripcion": "Travesía por un desierto abierto con grandes extensiones de arena, zonas de grava y pasos rocosos.",
+  "categoria": "punto_a_punto",
+  "modalidad": "punto_a_punto",
+  "cerrada": false,
+  "recompensa_monedas": 100,
+  "precio": 0,
+  "requisitos_desbloqueo": {
+    "licencia_id": null
+  },
+  "nivel": 1,
+  "ruta": {
+    "puntos_ruta": [
+      {"x": 0, "y": 0, "anchura_m": 17, "superficie_id": "grava"},
+      {"x": 120, "y": -20, "anchura_m": 16, "superficie_id": "arena"},
+      {"x": 240, "y": 35, "anchura_m": 15, "superficie_id": "arena"},
+      {"x": 350, "y": 110, "anchura_m": 15, "superficie_id": "arena"},
+      {"x": 460, "y": 90, "anchura_m": 14, "superficie_id": "roca"},
+      {"x": 570, "y": 15, "anchura_m": 15, "superficie_id": "roca"},
+      {"x": 680, "y": -45, "anchura_m": 16, "superficie_id": "grava"},
+      {"x": 800, "y": 10, "anchura_m": 15, "superficie_id": "arena"},
+      {"x": 900, "y": 115, "anchura_m": 14, "superficie_id": "arena"},
+      {"x": 1010, "y": 180, "anchura_m": 15, "superficie_id": "grava"},
+      {"x": 1130, "y": 140, "anchura_m": 16, "superficie_id": "roca"},
+      {"x": 1250, "y": 200, "anchura_m": 17, "superficie_id": "grava"}
+    ]
+  },
+  "zona_escape": {
+    "anchura_m": 3.0
+  },
+  "entorno_id": "desierto",
+  "categorias_vehiculos_recomendadas": [
+    "todoterreno",
+    "rally",
+    "camion",
+    "tractor"
+  ]
+}

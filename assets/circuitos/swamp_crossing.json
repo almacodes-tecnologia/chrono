@@ -1,0 +1,38 @@
+{
+  "id": "swamp_crossing",
+  "nombre": "Swamp Crossing",
+  "descripcion": "Travesía por un pantano de terreno húmedo y fangoso. El barro y la tierra blanda convierten la tracción en el factor decisivo.",
+  "categoria": "punto_a_punto",
+  "modalidad": "punto_a_punto",
+  "cerrada": false,
+  "recompensa_monedas": 100,
+  "precio": 0,
+  "requisitos_desbloqueo": {
+    "licencia_id": null
+  },
+  "nivel": 1,
+  "ruta": {
+    "puntos_ruta": [
+      {"x": 0, "y": 0, "anchura_m": 17, "superficie_id": "tierra"},
+      {"x": 120, "y": -40, "anchura_m": 16, "superficie_id": "barro"},
+      {"x": 240, "y": -15, "anchura_m": 15, "superficie_id": "barro"},
+      {"x": 340, "y": 70, "anchura_m": 14, "superficie_id": "tierra"},
+      {"x": 450, "y": 130, "anchura_m": 15, "superficie_id": "barro"},
+      {"x": 560, "y": 90, "anchura_m": 14, "superficie_id": "barro"},
+      {"x": 670, "y": 10, "anchura_m": 15, "superficie_id": "tierra"},
+      {"x": 780, "y": 60, "anchura_m": 14, "superficie_id": "barro"},
+      {"x": 890, "y": 155, "anchura_m": 15, "superficie_id": "barro"},
+      {"x": 1010, "y": 180, "anchura_m": 16, "superficie_id": "tierra"},
+      {"x": 1140, "y": 120, "anchura_m": 17, "superficie_id": "barro"}
+    ]
+  },
+  "zona_escape": {
+    "anchura_m": 3.0
+  },
+  "entorno_id": "pantano",
+  "categorias_vehiculos_recomendadas": [
+    "todoterreno",
+    "tractor",
+    "camion"
+  ]
+}

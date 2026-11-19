@@ -1,0 +1,39 @@
+{
+  "id": "jungle_trail",
+  "nombre": "Jungle Trail",
+  "descripcion": "Ruta tropical entre vegetación densa y terrenos húmedos. Alterna caminos de tierra, barro y grava en un recorrido sinuoso.",
+  "categoria": "punto_a_punto",
+  "modalidad": "punto_a_punto",
+  "cerrada": false,
+  "recompensa_monedas": 100,
+  "precio": 0,
+  "requisitos_desbloqueo": {
+    "licencia_id": null
+  },
+  "nivel": 1,
+  "ruta": {
+    "puntos_ruta": [
+      {"x": 0, "y": 0, "anchura_m": 17, "superficie_id": "tierra"},
+      {"x": 110, "y": 55, "anchura_m": 16, "superficie_id": "tierra"},
+      {"x": 220, "y": 100, "anchura_m": 15, "superficie_id": "barro"},
+      {"x": 330, "y": 55, "anchura_m": 15, "superficie_id": "grava"},
+      {"x": 430, "y": -25, "anchura_m": 14, "superficie_id": "tierra"},
+      {"x": 540, "y": -75, "anchura_m": 15, "superficie_id": "barro"},
+      {"x": 650, "y": -20, "anchura_m": 14, "superficie_id": "tierra"},
+      {"x": 760, "y": 70, "anchura_m": 15, "superficie_id": "grava"},
+      {"x": 870, "y": 120, "anchura_m": 14, "superficie_id": "barro"},
+      {"x": 990, "y": 75, "anchura_m": 15, "superficie_id": "tierra"},
+      {"x": 1110, "y": 140, "anchura_m": 17, "superficie_id": "tierra"}
+    ]
+  },
+  "zona_escape": {
+    "anchura_m": 3.0
+  },
+  "entorno_id": "tropical",
+  "categorias_vehiculos_recomendadas": [
+    "todoterreno",
+    "buggy",
+    "rally",
+    "tractor"
+  ]
+}

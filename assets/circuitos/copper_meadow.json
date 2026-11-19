@@ -1,0 +1,38 @@
+{
+  "id": "copper_meadow",
+  "nombre": "Copper Meadow",
+  "descripcion": "Circuito rápido entre praderas abiertas, con curvas amplias y algunas secciones de asfalto rugoso.",
+  "categoria": "circuito",
+  "modalidad": "vueltas",
+  "cerrada": true,
+  "recompensa_monedas": 100,
+  "precio": 0,
+  "requisitos_desbloqueo": {
+    "licencia_id": "license_a"
+  },
+  "nivel": 1,
+  "ruta": {
+    "puntos_ruta": [
+      {"x": 0, "y": 0, "anchura_m": 18, "superficie_id": "asfalto"},
+      {"x": 160, "y": -15, "anchura_m": 18, "superficie_id": "asfalto"},
+      {"x": 300, "y": 20, "anchura_m": 17, "superficie_id": "asfalto"},
+      {"x": 390, "y": 110, "anchura_m": 17, "superficie_id": "asfalto_rugoso"},
+      {"x": 370, "y": 250, "anchura_m": 17, "superficie_id": "asfalto_rugoso"},
+      {"x": 250, "y": 340, "anchura_m": 18, "superficie_id": "asfalto"},
+      {"x": 100, "y": 350, "anchura_m": 18, "superficie_id": "asfalto"},
+      {"x": -35, "y": 270, "anchura_m": 17, "superficie_id": "asfalto"},
+      {"x": -65, "y": 130, "anchura_m": 17, "superficie_id": "asfalto"},
+      {"x": -5, "y": 20, "anchura_m": 18, "superficie_id": "asfalto"}
+    ]
+  },
+  "vueltas_por_defecto": 3,
+  "zona_escape": {
+    "anchura_m": 3.0
+  },
+  "entorno_id": "pradera",
+  "categorias_vehiculos_recomendadas": [
+    "compacto",
+    "deportivo",
+    "kart"
+  ]
+}

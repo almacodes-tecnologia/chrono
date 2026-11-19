@@ -1,0 +1,39 @@
+{
+  "id": "forest_run",
+  "nombre": "Forest Run",
+  "descripcion": "Ruta sinuosa que atraviesa un bosque frondoso, con caminos de tierra compactada y tramos de grava.",
+  "categoria": "punto_a_punto",
+  "modalidad": "punto_a_punto",
+  "cerrada": false,
+  "recompensa_monedas": 100,
+  "precio": 0,
+  "requisitos_desbloqueo": {
+    "licencia_id": null
+  },
+  "nivel": 1,
+  "ruta": {
+    "puntos_ruta": [
+      {"x": 0, "y": 0, "anchura_m": 16, "superficie_id": "tierra"},
+      {"x": 110, "y": 45, "anchura_m": 16, "superficie_id": "tierra"},
+      {"x": 220, "y": 20, "anchura_m": 15, "superficie_id": "grava"},
+      {"x": 300, "y": -70, "anchura_m": 15, "superficie_id": "grava"},
+      {"x": 390, "y": -115, "anchura_m": 14, "superficie_id": "tierra"},
+      {"x": 490, "y": -55, "anchura_m": 14, "superficie_id": "tierra"},
+      {"x": 570, "y": 55, "anchura_m": 15, "superficie_id": "grava"},
+      {"x": 680, "y": 90, "anchura_m": 15, "superficie_id": "grava"},
+      {"x": 790, "y": 30, "anchura_m": 16, "superficie_id": "tierra"},
+      {"x": 900, "y": 110, "anchura_m": 16, "superficie_id": "tierra"},
+      {"x": 1010, "y": 190, "anchura_m": 15, "superficie_id": "grava"},
+      {"x": 1130, "y": 160, "anchura_m": 16, "superficie_id": "tierra"}
+    ]
+  },
+  "zona_escape": {
+    "anchura_m": 3.0
+  },
+  "entorno_id": "bosque",
+  "categorias_vehiculos_recomendadas": [
+    "rally",
+    "todoterreno",
+    "motocicleta"
+  ]
+}

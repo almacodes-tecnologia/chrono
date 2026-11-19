@@ -1,0 +1,38 @@
+{
+  "id": "frozen_trail",
+  "nombre": "Frozen Trail",
+  "descripcion": "Recorrido invernal entre paisajes nevados, con tramos de nieve compactada y peligrosas placas de hielo.",
+  "categoria": "punto_a_punto",
+  "modalidad": "punto_a_punto",
+  "cerrada": false,
+  "recompensa_monedas": 100,
+  "precio": 0,
+  "requisitos_desbloqueo": {
+    "licencia_id": null
+  },
+  "nivel": 1,
+  "ruta": {
+    "puntos_ruta": [
+      {"x": 0, "y": 0, "anchura_m": 16, "superficie_id": "nieve"},
+      {"x": 120, "y": -45, "anchura_m": 16, "superficie_id": "nieve"},
+      {"x": 230, "y": -15, "anchura_m": 15, "superficie_id": "hielo"},
+      {"x": 330, "y": 65, "anchura_m": 14, "superficie_id": "hielo"},
+      {"x": 440, "y": 110, "anchura_m": 15, "superficie_id": "nieve"},
+      {"x": 550, "y": 65, "anchura_m": 15, "superficie_id": "nieve"},
+      {"x": 650, "y": -35, "anchura_m": 14, "superficie_id": "hielo"},
+      {"x": 750, "y": -100, "anchura_m": 14, "superficie_id": "hielo"},
+      {"x": 860, "y": -65, "anchura_m": 15, "superficie_id": "nieve"},
+      {"x": 970, "y": 25, "anchura_m": 16, "superficie_id": "nieve"},
+      {"x": 1080, "y": 70, "anchura_m": 16, "superficie_id": "nieve"}
+    ]
+  },
+  "zona_escape": {
+    "anchura_m": 3.0
+  },
+  "entorno_id": "nieve",
+  "categorias_vehiculos_recomendadas": [
+    "rally",
+    "todoterreno",
+    "motocicleta"
+  ]
+}

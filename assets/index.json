@@ -44,7 +44,24 @@
   ],
   "circuitos": [
     "copperline_park",
-    "red_dune_sprint"
+    "red_dune_sprint",
+	"copper_meadow",
+	"forest_run",
+	"desert_crossing",
+	"mountain_pass",
+	"frozen_trail",
+	"coastal_circuit",
+	"green_fields",
+	"metro_city_circuit",
+	"moon_dust_rally",
+	"lava_ridge",
+	"deep_cavern",
+	"neon_grid",
+	"swamp_crossing",
+	"factory_loop",
+	"jungle_trail",
+	"toxic_wasteland"
+	
   ],
   "licencias": [
     "license_a",
