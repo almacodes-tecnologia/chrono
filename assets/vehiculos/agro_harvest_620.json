@@ -4,7 +4,7 @@
   "descripcion": "Cosechadora agrícola de gran capacidad, diseñada para trabajar sobre extensas superficies de cultivo.",
   "categoria": "agricola",
   "fabricante": "AgroTech",
-  "precio": 145000,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

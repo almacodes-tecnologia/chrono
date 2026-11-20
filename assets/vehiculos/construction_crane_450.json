@@ -4,7 +4,7 @@
   "descripcion": "Grúa móvil todoterreno con pluma telescópica y estructura reforzada para operaciones de elevación y transporte de cargas.",
   "categoria": "construccion",
   "fabricante": "Atlas Engineering",
-  "precio": 145000,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

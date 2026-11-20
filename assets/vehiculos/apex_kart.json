@@ -4,7 +4,7 @@
   "descripcion": "Kart de competición ligero y ágil, diseñado para ofrecer aceleración inmediata y una conducción precisa en circuitos revirados.",
   "categoria": "kart",
   "fabricante": "Apex Motorsport",
-  "precio": 4500,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

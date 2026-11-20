@@ -5,7 +5,7 @@
   "descripcion": "Autocar de larga distancia, diseñado para ofrecer comodidad y estabilidad en grandes recorridos.",
   "categoria": "autobus",
   "fabricante": "Chrono Mobility",
-  "precio": 68000,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

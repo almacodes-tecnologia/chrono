@@ -5,7 +5,7 @@
   "descripcion": "Turismo policial rápido y equilibrado, preparado para patrullaje y persecuciones.",
   "categoria": "emergencia",
   "fabricante": "Chrono Public Safety",
-  "precio": 24000,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

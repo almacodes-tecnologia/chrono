@@ -5,7 +5,7 @@
   "descripcion": "Furgoneta comercial de gran capacidad con carrocería cerrada y techo elevado.",
   "categoria": "furgoneta",
   "fabricante": "Nordic Commercial",
-  "precio": 32000,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

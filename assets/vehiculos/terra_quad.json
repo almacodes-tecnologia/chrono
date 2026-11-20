@@ -4,7 +4,7 @@
   "descripcion": "Quad todoterreno de gran estabilidad, preparado para recorrer caminos de tierra, grava y terrenos irregulares.",
   "categoria": "quad",
   "fabricante": "Terra Motors",
-  "precio": 7800,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

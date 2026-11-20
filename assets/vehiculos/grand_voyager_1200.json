@@ -5,7 +5,7 @@
   "descripcion": "Motocicleta touring de gran cilindrada, diseñada para recorrer largas distancias con estabilidad y comodidad.",
   "categoria": "motocicleta",
   "fabricante": "Grand Voyager Motors",
-  "precio": 18900,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

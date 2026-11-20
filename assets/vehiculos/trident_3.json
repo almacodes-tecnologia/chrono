@@ -4,7 +4,7 @@
   "descripcion": "Vehículo de tres ruedas con una rueda delantera directriz y dos ruedas traseras motrices, diseñado para ofrecer una conducción ágil y diferente.",
   "categoria": "trike",
   "fabricante": "Trident Motorworks",
-  "precio": 12500,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

@@ -5,7 +5,7 @@
   "descripcion": "Motocicleta deportiva de gran potencia, ligera y extremadamente ágil en curvas.",
   "categoria": "motocicleta",
   "fabricante": "Shadow Performance",
-  "precio": 12500,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

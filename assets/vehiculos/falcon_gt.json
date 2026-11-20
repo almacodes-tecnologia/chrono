@@ -5,7 +5,7 @@
   "descripcion": "Deportivo de altas prestaciones con gran potencia y excelente comportamiento sobre asfalto. Su menor versatilidad lo hace menos adecuado para terrenos irregulares.",
   "categoria": "deportivo",
   "fabricante": "Northstar Works",
-  "precio": 100,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

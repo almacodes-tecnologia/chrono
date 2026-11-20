@@ -5,7 +5,7 @@
   "descripcion": "Autobús urbano de gran capacidad, diseñado para el transporte de pasajeros en ciudad.",
   "categoria": "autobus",
   "fabricante": "Chrono Mobility",
-  "precio": 45000,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

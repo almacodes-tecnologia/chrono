@@ -5,7 +5,7 @@
   "descripcion": "Motocicleta naked de media-alta cilindrada, ágil y equilibrada, con motor y bastidor a la vista.",
   "categoria": "motocicleta",
   "fabricante": "Vortex Motorworks",
-  "precio": 8900,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

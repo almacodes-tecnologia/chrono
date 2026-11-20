@@ -4,7 +4,7 @@
   "descripcion": "Pala cargadora de gran capacidad, con tracción en las cuatro ruedas y un potente sistema hidráulico frontal.",
   "categoria": "construccion",
   "fabricante": "Titan Heavy Equipment",
-  "precio": 72000,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

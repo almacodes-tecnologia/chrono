@@ -5,7 +5,7 @@
   "descripcion": "Scooter urbano de media cilindrada, compacto y manejable, pensado para desplazamientos rápidos por ciudad.",
   "categoria": "motocicleta",
   "fabricante": "City Glide Mobility",
-  "precio": 4900,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

@@ -4,7 +4,7 @@
   "descripcion": "Moto de nieve de altas prestaciones con oruga trasera y esquís delanteros, diseñada para desplazarse sobre nieve y superficies heladas.",
   "categoria": "snowmobile",
   "fabricante": "Frost Dynamics",
-  "precio": 14200,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

@@ -4,7 +4,7 @@
   "descripcion": "Camión pesado de extinción con depósito de agua y equipo de intervención contra incendios.",
   "categoria": "emergencia",
   "fabricante": "Chrono Fire Systems",
-  "precio": 48000,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

@@ -4,7 +4,7 @@
   "descripcion": "Tren de carretera de gran capacidad formado por una cabeza tractora y varios remolques articulados, diseñado para transportar cargas pesadas a largas distancias.",
   "categoria": "tren_carretera",
   "fabricante": "Titan Heavy Industries",
-  "precio": 185000,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

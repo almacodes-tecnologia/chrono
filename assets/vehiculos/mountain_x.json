@@ -5,7 +5,7 @@
   "descripcion": "Bicicleta de montaña con suspensión completa, diseñada para senderos y terrenos accidentados.",
   "categoria": "bicicleta",
   "fabricante": "Terra Cycles",
-  "precio": 3500,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

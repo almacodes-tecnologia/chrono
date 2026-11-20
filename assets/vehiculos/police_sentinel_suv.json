@@ -4,7 +4,7 @@
   "descripcion": "SUV policial robusto con buena estabilidad y capacidad para circular por superficies complicadas.",
   "categoria": "emergencia",
   "fabricante": "Chrono Public Safety",
-  "precio": 31000,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

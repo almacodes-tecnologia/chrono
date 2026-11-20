@@ -4,7 +4,7 @@
   "descripcion": "Camión de bomberos equipado con escalera extensible para intervenciones en edificios y estructuras elevadas.",
   "categoria": "emergencia",
   "fabricante": "Chrono Fire Systems",
-  "precio": 59000,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

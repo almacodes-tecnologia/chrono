@@ -4,7 +4,7 @@
   "descripcion": "Motocicleta clásica de estilo touring equipada con un sidecar lateral. Robusta, estable y diseñada para viajes por carretera con un pasajero adicional.",
   "categoria": "motocicleta",
   "fabricante": "Ironclad Motorworks",
-  "precio": 8900,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

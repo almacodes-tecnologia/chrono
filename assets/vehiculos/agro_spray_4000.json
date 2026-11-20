@@ -4,7 +4,7 @@
   "descripcion": "Pulverizador autopropulsado de gran autonomía, equipado con depósito central y brazos extensibles para el tratamiento de cultivos.",
   "categoria": "agricola",
   "fabricante": "AgroTech",
-  "precio": 112000,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

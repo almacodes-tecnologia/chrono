@@ -5,7 +5,7 @@
   "descripcion": "Máquina de rally preparada para superficies difíciles, saltos y curvas cerradas.",
   "categoria": "rally",
   "fabricante": "Falcon Motorsport",
-  "precio": 14000,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

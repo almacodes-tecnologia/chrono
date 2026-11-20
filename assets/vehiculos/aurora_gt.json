@@ -5,7 +5,7 @@
   "descripcion": "Gran turismo de altas prestaciones, diseñado para combinar velocidad, estabilidad y confort en circuitos rápidos.",
   "categoria": "gran_turismo",
   "fabricante": "Aurora Automotive",
-  "precio": 22000,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

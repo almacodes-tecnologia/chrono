@@ -5,7 +5,7 @@
   "descripcion": "Camión articulado de transporte de larga distancia, preparado para grandes cargas.",
   "categoria": "camion",
   "fabricante": "Titan Industrial",
-  "precio": 52000,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

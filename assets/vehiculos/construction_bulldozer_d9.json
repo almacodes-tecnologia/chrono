@@ -4,7 +4,7 @@
   "descripcion": "Bulldozer pesado con cadenas reforzadas y hoja frontal de gran capacidad para nivelación y desplazamiento de terrenos.",
   "categoria": "construccion",
   "fabricante": "Ironclad Industries",
-  "precio": 125000,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

@@ -4,7 +4,7 @@
   "descripcion": "Camión compacto de intervención rápida para acceder a zonas difíciles y actuar en emergencias.",
   "categoria": "emergencia",
   "fabricante": "Chrono Fire Systems",
-  "precio": 36000,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

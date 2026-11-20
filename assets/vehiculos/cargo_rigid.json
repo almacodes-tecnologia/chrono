@@ -5,7 +5,7 @@
   "descripcion": "Camión rígido de transporte pesado, diseñado para cargas voluminosas y recorridos industriales.",
   "categoria": "camion",
   "fabricante": "Titan Industrial",
-  "precio": 32000,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

@@ -4,7 +4,7 @@
   "descripcion": "Excavadora hidráulica de cadenas, diseñada para movimientos de tierra y trabajos de excavación de gran precisión.",
   "categoria": "construccion",
   "fabricante": "Terra Machinery",
-  "precio": 85000,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

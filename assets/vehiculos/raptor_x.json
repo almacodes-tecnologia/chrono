@@ -4,7 +4,7 @@
   "descripcion": "Buggy ligero de competición con chasis tubular, suspensión de largo recorrido y tracción optimizada para terrenos difíciles.",
   "categoria": "buggy",
   "fabricante": "Raptor Offroad",
-  "precio": 16500,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

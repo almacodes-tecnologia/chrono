@@ -5,7 +5,7 @@
   "descripcion": "Monoplaza de competición con aerodinámica extrema y una aceleración sobresaliente sobre asfalto.",
   "categoria": "formula",
   "fabricante": "Tempest Racing",
-  "precio": 45000,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

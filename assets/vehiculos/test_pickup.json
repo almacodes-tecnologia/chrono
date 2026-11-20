@@ -5,7 +5,7 @@
   "descripcion": "Pickup todoterreno de doble cabina con caja de carga abierta.",
   "categoria": "pickup",
   "fabricante": "Titan Motors",
-  "precio": 28000,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

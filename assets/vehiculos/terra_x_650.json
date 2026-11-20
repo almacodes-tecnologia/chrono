@@ -5,7 +5,7 @@
   "descripcion": "Motocicleta trail versátil, preparada para combinar carreteras asfaltadas y terrenos irregulares.",
   "categoria": "motocicleta",
   "fabricante": "Terra Dynamics",
-  "precio": 9700,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

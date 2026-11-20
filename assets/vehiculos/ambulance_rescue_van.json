@@ -4,7 +4,7 @@
   "descripcion": "Ambulancia de intervención sanitaria con carrocería amplia y buena capacidad de respuesta.",
   "categoria": "emergencia",
   "fabricante": "Chrono Medical",
-  "precio": 28000,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

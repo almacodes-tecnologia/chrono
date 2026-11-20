@@ -5,7 +5,7 @@
   "descripcion": "Autocaravana compacta preparada para viajes largos y rutas por carretera.",
   "categoria": "camper",
   "fabricante": "Horizon Vehicles",
-  "precio": 68000,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

@@ -5,7 +5,7 @@
   "descripcion": "Cabeza tractora de gran tamaño, potente y estable, preparada para trabajos de transporte pesado.",
   "categoria": "camion",
   "fabricante": "Titan Industrial",
-  "precio": 28000,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,

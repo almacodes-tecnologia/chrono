@@ -4,7 +4,7 @@
   "descripcion": "Vehículo utilitario todoterreno con tracción integral, habitáculo protegido y suspensión preparada para terrenos exigentes.",
   "categoria": "side_by_side",
   "fabricante": "Ranger Works",
-  "precio": 19500,
+  "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
     "licencia_id": null,
