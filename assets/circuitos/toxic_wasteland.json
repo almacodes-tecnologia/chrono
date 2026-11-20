@@ -6,7 +6,7 @@
   "modalidad": "punto_a_punto",
   "cerrada": false,
   "recompensa_monedas": 100,
-  "precio": 0,
+  "precio": 100,
   "requisitos_desbloqueo": {
     "licencia_id": null
   },
