@@ -19,15 +19,15 @@
       "asfalto": 1.0,
       "asfalto_rugoso": 1.10,
       "grava": 1.75,
-      "tierra": 1.3,
-      "arena": 2.0,
-      "hierba": 1.6,
-      "barro": 2.0,
-      "nieve": 2.5,
+      "tierra": 1.2,
+      "arena": 2.5,
+      "hierba": 1.8,
+      "barro": 2.4,
+      "nieve": 2.7,
       "hielo": 2.8,
-      "roca": 2.5
+      "roca": 1.35
     },
-    "penalizacion_fuera_pista": 0.35
+    "penalizacion_fuera_pista": 0.15
   },
   "manejo": {
     "respuesta_direccion": 98,
