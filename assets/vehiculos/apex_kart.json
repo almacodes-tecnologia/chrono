@@ -14,18 +14,18 @@
   "rendimiento": {
     "potencia_kw": 28,
     "peso_kg": 165,
-    "aerodinamica": 18,
+    "aerodinamica": 35,
     "resistencia_superficies": {
-      "asfalto": 0.82,
-      "asfalto_rugoso": 1.15,
-      "grava": 1.65,
-      "tierra": 1.8,
+      "asfalto": 1.0,
+      "asfalto_rugoso": 1.10,
+      "grava": 1.75,
+      "tierra": 1.3,
       "arena": 2.0,
-      "hierba": 1.8,
-      "barro": 2.2,
+      "hierba": 1.6,
+      "barro": 2.0,
       "nieve": 2.5,
       "hielo": 2.8,
-      "roca": 2.4
+      "roca": 2.5
     },
     "penalizacion_fuera_pista": 0.35
   },
