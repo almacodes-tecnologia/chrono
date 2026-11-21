@@ -2,15 +2,8 @@
   "id": "chrono_world_tour",
   "nombre": "Chrono World Tour",
   "descripcion": "La competición principal. Tres escenarios muy distintos en un mismo intento de campeonato.",
-
-  "precio": 0,
-  "requisitos_desbloqueo": {
-    "licencia_id": "license_a"
-  },
-
   "recompensa_monedas": 200,
   "nivel": 5,
-
   "rondas": [
     {
       "ronda": 1,
