@@ -4,7 +4,7 @@
   "descripcion": "Una prueba de resistencia en la que tendrás que completar una larga distancia sin abandonar.",
 
   "circuito_id": "copperline_park",
-  "vueltas": 80,
+  "vueltas": 4,
 
   "precio": 0,
   "requisitos_desbloqueo": {
