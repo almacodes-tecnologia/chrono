@@ -13,8 +13,8 @@
     "campeonato_id": null
   },
   "rendimiento": {
-    "potencia_kw": 125,
-    "peso_kg": 5800,
+    "potencia_kw": 90,
+    "peso_kg": 5900,
     "aerodinamica": 30,
     "resistencia_superficies": {
       "asfalto": 1.0,
