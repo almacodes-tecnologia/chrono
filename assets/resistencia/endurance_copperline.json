@@ -8,7 +8,7 @@
 
   "precio": 0,
   "requisitos_desbloqueo": {
-    "licencia_id": "license_b"
+    "licencia_id": null,
   },
 
   "recompensa_monedas": 500,
