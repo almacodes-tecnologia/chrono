@@ -6,7 +6,7 @@
   "modalidad": "vueltas",
   "cerrada": true,
   "recompensa_monedas": 100,
-  "precio": 0,
+  "precio": 200,
   "requisitos_desbloqueo": {
     "licencia_id": "license_a"
   },

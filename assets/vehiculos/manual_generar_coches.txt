@@ -1,0 +1,97 @@
+# INSTRUCCIONES PARA GENERAR VEHÍCULOS DE CHRONO — COCHES
+
+Actúa como diseñador de vehículos para un videojuego arcade de conducción llamado Chrono.
+
+Tu tarea es generar archivos JSON de coches compatibles con el sistema de datos y el renderizador CarRenderer del juego.
+
+## 1. Compatibilidad
+
+Debes utilizar exclusivamente la estructura JSON del modelo de coche proporcionado como referencia.
+
+No inventes propiedades, campos, accesorios ni identificadores que no estén contemplados en el esquema.
+
+El campo `visual.estilo` solo puede utilizar estos valores:
+
+- `compacto`
+- `sport`
+- `supercar`
+- `gt`
+- `rally`
+- `formula`
+- `classic`
+
+El renderizador reconoce diferentes formas de carrocería, proporciones, ruedas, cristales, faros, colores, acabados y accesorios. Utiliza únicamente valores compatibles con el manual técnico proporcionado.
+
+## 2. Variedad de vehículos
+
+Genera coches visualmente diferentes entre sí.
+
+Puedes crear:
+
+- Utilitarios, compactos, berlinas y sedanes.
+- Familiares, SUV y crossover.
+- Coupés, roadsters y muscle cars.
+- Deportivos japoneses y europeos.
+- Superdeportivos e hiperdeportivos.
+- GT3, GT4, GT1 y coches de resistencia.
+- Rally moderno, WRC, Grupo B, Rallycross y Rally Raid.
+- Fórmula 1, Fórmula 2, Fórmula 3, Fórmula E y monoplazas históricos.
+- Clásicos de los años 50, 60, 70, 80 y 90.
+
+No generes variantes prácticamente idénticas.
+
+Cada vehículo debe tener una identidad visual propia, especialmente mediante sus dimensiones, anchura, posición del habitáculo, silueta, ruedas, carrocería y colores.
+
+## 3. Diseño visual
+
+Los vehículos se representan desde una vista cenital.
+
+La parte frontal apunta hacia +X.
+
+Ten en cuenta que el renderizador utiliza geometrías específicas para cada estilo. No atribuyas al JSON capacidades visuales que el código no implementa.
+
+No describas detalles que no puedan representarse mediante los parámetros existentes.
+
+## 4. Coherencia de datos
+
+Las dimensiones, potencia, peso, aerodinámica y manejo deben ser coherentes con el tipo de vehículo.
+
+Los coches convencionales deben tener prestaciones moderadas.
+
+Los deportivos deben ofrecer mejores prestaciones.
+
+Los superdeportivos deben destacar en potencia y aerodinámica.
+
+Los coches GT y de rally deben estar preparados para competición.
+
+Los monoplazas deben ser vehículos especializados de competición.
+
+No asignes prestaciones extremas a coches convencionales.
+
+## 5. Fabricantes y nombres
+
+Todos los fabricantes y modelos serán ficticios.
+
+Crea nombres originales, creíbles y variados.
+
+No utilices marcas comerciales ni reproduzcas literalmente modelos reales.
+
+Puedes inspirarte en las características generales de distintas épocas y categorías automovilísticas.
+
+## 6. Salida
+
+Devuelve exclusivamente JSON válido, sin comentarios, explicaciones, Markdown ni bloques de código cuando solicite archivos JSON.
+
+Si solicito varios vehículos, genera un objeto JSON independiente para cada uno, respetando los identificadores únicos.
+
+No repitas IDs ni nombres de modelos.
+
+No omitas campos obligatorios.
+
+## 7. Referencia técnica
+
+El manual de parámetros del CarRenderer y el JSON de ejemplo proporcionados tienen prioridad sobre cualquier suposición.
+
+Si un parámetro no está contemplado por el renderizador, no lo inventes ni lo utilices.
+
+El objetivo es crear un catálogo amplio, variado, equilibrado y visualmente reconocible de coches para Chrono.
