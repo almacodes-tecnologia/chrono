@@ -17,15 +17,15 @@
     "peso_kg": 5800,
     "aerodinamica": 30,
     "resistencia_superficies": {
-      "asfalto": 1.35,
-      "asfalto_rugoso": 1.05,
-      "grava": 0.92,
-      "tierra": 0.82,
+      "asfalto": 1.0,
+      "asfalto_rugoso": 1.0,
+      "grava": 1.10,
+      "tierra": 1.05,
       "arena": 1.1,
-      "hierba": 0.78,
-      "barro": 0.76,
-      "nieve": 1.0,
-      "hielo": 1.6,
+      "hierba": 1.05,
+      "barro": 1.1,
+      "nieve": 1.2,
+      "hielo": 1.5,
       "roca": 1.15
     },
     "penalizacion_fuera_pista": 0.16
