@@ -1,7 +1,7 @@
 {
   "id": "copper_meadow",
   "nombre": "Copper Meadow",
-  "descripcion": "Circuito rápido entre praderas abiertas, con curvas amplias y algunas secciones de asfalto rugoso.",
+  "descripcion": "Circuito entre praderas abiertas, con curvas amplias y algunas secciones de asfalto rugoso.",
   "categoria": "circuito",
   "modalidad": "vueltas",
   "cerrada": true,
