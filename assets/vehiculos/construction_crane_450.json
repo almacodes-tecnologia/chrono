@@ -14,20 +14,20 @@
   "rendimiento": {
     "potencia_kw": 260,
     "peso_kg": 32000,
-    "aerodinamica": 16,
+    "aerodinamica": 1,
     "resistencia_superficies": {
-      "asfalto": 1.15,
-      "asfalto_rugoso": 1.0,
-      "grava": 0.85,
-      "tierra": 0.7,
-      "arena": 0.65,
-      "hierba": 0.75,
-      "barro": 0.6,
-      "nieve": 0.7,
-      "hielo": 1.4,
-      "roca": 0.8
+      "asfalto": 1.0,
+      "asfalto_rugoso": 1.1,
+      "grava": 1.6,
+      "tierra": 1.2,
+      "arena": 3.3,
+      "hierba": 1.9,
+      "barro": 3.2,
+      "nieve": 2.5,
+      "hielo": 2.7,
+      "roca": 2.1
     },
-    "penalizacion_fuera_pista": 0.22
+    "penalizacion_fuera_pista": 0.15
   },
   "manejo": {
     "respuesta_direccion": 35,
