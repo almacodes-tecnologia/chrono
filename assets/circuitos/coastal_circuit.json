@@ -14,9 +14,9 @@
   "ruta": {
     "puntos_ruta": [
       {"x": 0, "y": 0, "anchura_m": 18, "superficie_id": "asfalto"},
-      {"x": 120, "y": -40, "anchura_m": 16, "superficie_id": "asfalto"},
-      {"x": 320, "y": -15, "anchura_m": 12, "superficie_id": "asfalto"},
-      {"x": 390, "y": 75, "anchura_m": 11, "superficie_id": "asfalto_rugoso"},
+      {"x": -25, "y": -40, "anchura_m": 16, "superficie_id": "asfalto"},
+      {"x": 150, "y": -15, "anchura_m": 12, "superficie_id": "asfalto"},
+      {"x": 300, "y": 75, "anchura_m": 11, "superficie_id": "asfalto_rugoso"},
       {"x": 420, "y": 200, "anchura_m": 12, "superficie_id": "asfalto_rugoso"},
       {"x": 340, "y": 310, "anchura_m": 16, "superficie_id": "asfalto"},
       {"x": 200, "y": 360, "anchura_m": 18, "superficie_id": "asfalto"},
