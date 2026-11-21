@@ -12,20 +12,20 @@
     "campeonato_id": null
   },
   "rendimiento": {
-    "potencia_kw": 190,
+    "potencia_kw": 182,
     "peso_kg": 9200,
-    "aerodinamica": 24,
+    "aerodinamica": 3,
     "resistencia_superficies": {
-      "asfalto": 1.30,
-      "asfalto_rugoso": 1.05,
-      "grava": 0.94,
-      "tierra": 0.86,
-      "arena": 1.12,
-      "hierba": 0.80,
-      "barro": 0.79,
-      "nieve": 1.02,
-      "hielo": 1.62,
-      "roca": 1.18
+      "asfalto": 1.0,
+      "asfalto_rugoso": 1.15,
+      "grava": 1.6,
+      "tierra": 1.15,
+      "arena": 1.42,
+      "hierba": 1.20,
+      "barro": 1.30,
+      "nieve": 1.32,
+      "hielo": 1.72,
+      "roca": 1.38
     },
     "penalizacion_fuera_pista": 0.18
   },
