@@ -17,13 +17,13 @@
       {"x": -25, "y": -40, "anchura_m": 16, "superficie_id": "asfalto"},
       {"x": 150, "y": -15, "anchura_m": 12, "superficie_id": "asfalto"},
       {"x": 300, "y": 75, "anchura_m": 11, "superficie_id": "asfalto_rugoso"},
-      {"x": 420, "y": 200, "anchura_m": 12, "superficie_id": "asfalto_rugoso"},
-      {"x": 340, "y": 310, "anchura_m": 16, "superficie_id": "asfalto"},
+      {"x": 620, "y": 300, "anchura_m": 12, "superficie_id": "asfalto_rugoso"},
+      {"x": 340, "y": 210, "anchura_m": 16, "superficie_id": "asfalto"},
       {"x": 200, "y": 360, "anchura_m": 18, "superficie_id": "asfalto"},
-      {"x": 60, "y": 320, "anchura_m": 18, "superficie_id": "asfalto"},
-      {"x": -55, "y": 230, "anchura_m": 17, "superficie_id": "asfalto_rugoso"},
+      {"x": 60, "y": 220, "anchura_m": 18, "superficie_id": "asfalto"},
+      {"x": -55, "y": 290, "anchura_m": 17, "superficie_id": "asfalto_rugoso"},
       {"x": -75, "y": 100, "anchura_m": 17, "superficie_id": "asfalto"},
-      {"x": -1, "y": 5, "anchura_m": 18, "superficie_id": "asfalto"}
+      {"x": 25, "y": -25, "anchura_m": 18, "superficie_id": "asfalto"}
     ]
   },
   "vueltas_por_defecto": 3,
