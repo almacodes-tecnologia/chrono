@@ -1,10 +1,10 @@
 
 {
   "id": "starter_comet",
-  "nombre": "Comet S",
+  "nombre": "Aurene S",
   "descripcion": "Compacto ligero y equilibrado, pensado para aprender los fundamentos de Chrono.",
   "categoria": "compacto",
-  "fabricante": "Northstar Works",
+  "fabricante": "Aurene",
   "precio": 0,
   "vehiculo_inicial": true,
   "requisitos_desbloqueo": {
