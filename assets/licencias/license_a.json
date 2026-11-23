@@ -21,10 +21,10 @@
 
       "configuracion": {
         "numero_carriles": 3,
-        "velocidad_inicial": 80,
+        "velocidad_inicial": 90,
         "velocidad_maxima": 100,
         "densidad_trafico": 1,
-        "velocidad_trafico_min": 40,
+        "velocidad_trafico_min": 60,
         "velocidad_trafico_max": 75,
         "frecuencia_generacion": 1.5
       }

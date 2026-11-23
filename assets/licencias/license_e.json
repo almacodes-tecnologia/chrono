@@ -21,11 +21,11 @@
 
       "configuracion": {
         "numero_carriles": 4,
-        "velocidad_inicial": 165,
-        "velocidad_maxima": 200,
+        "velocidad_inicial": 175,
+        "velocidad_maxima": 210,
         "densidad_trafico": 5,
-        "velocidad_trafico_min": 85,
-        "velocidad_trafico_max": 150,
+        "velocidad_trafico_min": 100,
+        "velocidad_trafico_max": 160,
         "frecuencia_generacion": 0.7
       }
     }
