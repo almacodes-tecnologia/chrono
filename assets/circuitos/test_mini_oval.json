@@ -1,0 +1,47 @@
+
+{
+  "id": "test_mini_oval",
+  "nombre": "Test Mini Oval",
+  "descripcion": "Circuito ovalado mínimo para probar el registro de vueltas y la línea de meta.",
+  "categoria": "circuito",
+  "modalidad": "vueltas",
+  "cerrada": true,
+  "recompensa_monedas": 10,
+  "precio": 0,
+  "requisitos_desbloqueo": {
+    "licencia_id": null
+  },
+  "nivel": 1,
+  "ruta": {
+    "puntos_ruta": [
+      {
+        "x": 0,
+        "y": 0,
+        "anchura_m": 24,
+        "superficie_id": "asfalto"
+      },
+      {
+        "x": 100,
+        "y": 0,
+        "anchura_m": 24,
+        "superficie_id": "asfalto"
+      },
+      {
+        "x": 50,
+        "y": 60,
+        "anchura_m": 24,
+        "superficie_id": "asfalto"
+      }
+    ]
+  },
+  "vueltas_por_defecto": 2,
+  "zona_escape": {
+    "anchura_m": 10.0
+  },
+  "entorno_id": "parque_costero",
+  "categorias_vehiculos_recomendadas": [
+    "compacto",
+    "deportivo",
+    "kart"
+  ]
+}
