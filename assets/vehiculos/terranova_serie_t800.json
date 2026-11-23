@@ -4,7 +4,7 @@
   "nombre": "Terranova Serie T-800",
   "descripcion": "Tractor agrícola robusto, con excelente tracción y capacidad para terrenos irregulares.",
   "categoria": "agricola",
-  "fabricante": "AgroTech",
+  "fabricante": "Terranova",
   "precio": 0,
   "vehiculo_inicial": false,
   "requisitos_desbloqueo": {
