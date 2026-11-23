@@ -89,7 +89,7 @@
   },
   "vueltas_por_defecto": 3,
   "zona_escape": {
-    "anchura_m": 3.0
+    "anchura_m": 20.0
   },
   "entorno_id": "parque_costero",
   "categorias_vehiculos_recomendadas": [
