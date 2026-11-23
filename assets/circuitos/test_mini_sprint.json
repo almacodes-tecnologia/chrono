@@ -1,0 +1,46 @@
+
+{
+  "id": "test_mini_sprint",
+  "nombre": "Test Mini Sprint",
+  "descripcion": "Recorrido recto mínimo para probar los checkpoints y la finalización de carreras punto a punto.",
+  "categoria": "punto_a_punto",
+  "modalidad": "punto_a_punto",
+  "cerrada": false,
+  "recompensa_monedas": 10,
+  "precio": 0,
+  "requisitos_desbloqueo": {
+    "licencia_id": null
+  },
+  "nivel": 1,
+  "ruta": {
+    "puntos_ruta": [
+      {
+        "x": 0,
+        "y": 0,
+        "anchura_m": 24,
+        "superficie_id": "asfalto"
+      },
+      {
+        "x": 100,
+        "y": 0,
+        "anchura_m": 24,
+        "superficie_id": "asfalto"
+      },
+      {
+        "x": 200,
+        "y": 0,
+        "anchura_m": 24,
+        "superficie_id": "asfalto"
+      }
+    ]
+  },
+  "zona_escape": {
+    "anchura_m": 10.0
+  },
+  "entorno_id": "parque_costero",
+  "categorias_vehiculos_recomendadas": [
+    "compacto",
+    "deportivo",
+    "kart"
+  ]
+}

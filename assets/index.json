@@ -60,7 +60,9 @@
 	"swamp_crossing",
 	"factory_loop",
 	"jungle_trail",
-	"toxic_wasteland"
+	"toxic_wasteland",
+	"test_mini_sprint",
+	"test_mini_oval"
 	
   ],
   "licencias": [
